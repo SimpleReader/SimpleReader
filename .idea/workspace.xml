@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49337346-c9d9-487e-bddd-4f2cea021d3a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/.gitignore" afterPath="$PROJECT_DIR$/simplereader/.gitignore" />
     </list>
     <ignored path="SimpleReader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -2365,7 +2364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488786970786</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="忽略文件&#10;">
+      <created>1488787093978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488787093978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2414,7 +2420,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="buchong" />
     <MESSAGE value="buchongww" />
-    <option name="LAST_COMMIT_MESSAGE" value="buchongww" />
+    <MESSAGE value="忽略文件&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略文件&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
