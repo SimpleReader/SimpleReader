@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import com.simplereader.graduation.ui.fragment.HomeFragment;
 import com.simplereader.simplereader.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -80,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
-        adapter.addFragment(DemoFragment.newInstance("拨号"));
+        adapter.addFragment(HomeFragment.newInstance());
         adapter.addFragment(DemoFragment.newInstance("信息"));
         adapter.addFragment(DemoFragment.newInstance("我的"));
         viewPager.setAdapter(adapter);
