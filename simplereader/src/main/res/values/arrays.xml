@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_menu">
+        <item>新闻</item>
+        <item>军事</item>
+        <item>娱乐</item>
+        <item>热点</item>
+        <item>喜欢</item>
+        <item>房价</item>
+        <item>综艺</item>
+        <item>关注</item>
+        <item>喜欢</item>
+        <item>热点</item>
+    </string-array>
+</resources>
