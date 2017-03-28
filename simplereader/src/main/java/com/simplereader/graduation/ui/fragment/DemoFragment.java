@@ -1,4 +1,4 @@
-package com.simplereader.graduation.ui;
+package com.simplereader.graduation.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

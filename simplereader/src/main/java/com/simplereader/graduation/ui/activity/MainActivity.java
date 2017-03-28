@@ -1,4 +1,4 @@
-package com.simplereader.graduation.ui;
+package com.simplereader.graduation.ui.activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -7,7 +7,11 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import com.simplereader.graduation.ui.adapter.ViewPagerAdapter;
+import com.simplereader.graduation.ui.fragment.AttentionFragment;
 import com.simplereader.graduation.ui.fragment.HomeFragment;
+import com.simplereader.graduation.ui.fragment.MeFragment;
+import com.simplereader.graduation.ui.fragment.VideoFragment;
 import com.simplereader.simplereader.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,8 +39,11 @@ public class MainActivity extends AppCompatActivity {
                             case R.id.item_mail:
                                 viewPager.setCurrentItem(1);
                                 break;
-                            case R.id.item_person:
+                            case R.id.item_attention:
                                 viewPager.setCurrentItem(2);
+                                break;
+                            case R.id.item_person:
+                                viewPager.setCurrentItem(3);
                                 break;
                         }
                         return false;
@@ -81,87 +88,10 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
-        adapter.addFragment(HomeFragment.newInstance());
-        adapter.addFragment(DemoFragment.newInstance("信息"));
-        adapter.addFragment(DemoFragment.newInstance("我的"));
+        adapter.addFragment(new HomeFragment());
+        adapter.addFragment(new VideoFragment());
+        adapter.addFragment(new AttentionFragment());
+        adapter.addFragment(new MeFragment());
         viewPager.setAdapter(adapter);
     }
-
-   /* private static final String TAG = MainActivity.class.getSimpleName();
-
-    private ProgressDialog mDialog;
-    private Toolbar mToolbar;
-    private FloatingActionButton mFab;
-    private TextView mTextView;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(mToolbar);
-
-        mTextView = (TextView) findViewById(R.id.tv);
-        mFab = (FloatingActionButton) findViewById(R.id.fab);
-
-        mDialog = new ProgressDialog(this);
-        mDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-        mDialog.setCancelable(false);
-        mDialog.setMessage("正在加载...");
-
-        mFab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mPresenter.getGank();
-            }
-        });
-    }
-
-    @Override
-    protected MainPresenter onCreatePresenter() {
-        return new MainPresenter(this);
-    }
-
-    @Override
-    public void showDialog() {
-        mDialog.show();
-    }
-
-    @Override
-    public void onSucceed(Gank data) {
-
-        Toast.makeText(this, "请求成功", Toast.LENGTH_SHORT).show();
-        List<Gank.Result> results = data.getResults();
-        mTextView.setText(results.get(new Random().nextInt(10)).toString());
-
-        for (Gank.Result result : results) {
-            Log.e(TAG, result.toString());
-        }
-    }
-
-    @Override
-    public void onFail(String err) {
-        Log.e(TAG, err);
-        Toast.makeText(this, "请求失败", Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
-    public void hideDialog() {
-        mDialog.dismiss();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }*/
 }

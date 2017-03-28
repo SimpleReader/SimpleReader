@@ -1,4 +1,4 @@
-package com.simplereader.graduation.ui;
+package com.simplereader.graduation.ui.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -17,6 +17,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     public ViewPagerAdapter(FragmentManager manager) {
         super(manager);
     }
+
     @Override
     public Fragment getItem(int position) {
         return mFragmentList.get(position);

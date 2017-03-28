@@ -4,11 +4,11 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.simplereader.graduation.base.BaseFragment;
 import com.simplereader.simplereader.R;
 import com.simplereader.simplereader.databinding.FragmentHomeBinding;
 
@@ -16,8 +16,9 @@ import com.simplereader.simplereader.databinding.FragmentHomeBinding;
  * Created by gxj on 2017/3/6.
  */
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends BaseFragment {
     private FragmentHomeBinding mBinding;
+
     public HomeFragment() {
     }
 
@@ -38,5 +39,25 @@ public class HomeFragment extends Fragment {
         mBinding.tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);//tablayout的滑动模式
         mBinding.tabLayout.setupWithViewPager(mBinding.viewpager);
         return mBinding.getRoot();
+    }
+
+    @Override
+    protected View loadViewLayout(LayoutInflater inflater, ViewGroup container) {
+        return null;
+    }
+
+    @Override
+    protected void bindViews(View view) {
+
+    }
+
+    @Override
+    protected void processLogic() {
+
+    }
+
+    @Override
+    protected void setListener() {
+
     }
 }
