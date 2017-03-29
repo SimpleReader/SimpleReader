@@ -29,26 +29,26 @@ public class News {
      * is_diversion_page : false
      * media_url : http://toutiao.com/m50282400523/
      */
-    private String chinese_tag;
-    private String media_avatar_url;
-    private String article_genre;
-    private String tag_url;
-    private String title;
-    private boolean middle_mode;
-    private int gallary_image_count;
+    public String chinese_tag;
+    public String media_avatar_url;
+    public String article_genre;
+    public String tag_url;
+    public String title;
+    public boolean middle_mode;
+    public int gallary_image_count;
     public List<ImageUrl> iamge_list;
-    private long behot_time;
-    private String source_url;
-    private String source;
-    private boolean more_mode;
-    private boolean is_feed_ad;
-    private int comment_counts;
-    private boolean has_gallery;
-    private boolean single_mode;
-    private String image_url;
-    private String group_id;
-    private boolean is_diversion_page;
-    private String media_url;
+    public long behot_time;
+    public String source_url;
+    public String source;
+    public boolean more_mode;
+    public boolean is_feed_ad;
+    public int comment_counts;
+    public boolean has_gallery;
+    public boolean single_mode;
+    public String image_url;
+    public String group_id;
+    public boolean is_diversion_page;
+    public String media_url;
 
     @Override
     public String toString() {
