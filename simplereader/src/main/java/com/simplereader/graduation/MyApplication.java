@@ -7,15 +7,16 @@ import android.app.Application;
  */
 
 public class MyApplication extends Application {
-    private static MyApplication mContext;
+    private static MyApplication instance;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        mContext = this;
+        instance = this;
+//        SharedPreferencesMgr.init(this, "simpleread");
     }
 
     public static MyApplication getContext() {
-        return mContext;
+        return instance;
     }
 }

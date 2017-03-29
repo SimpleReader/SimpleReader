@@ -22,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.simplereader.graduation.ui.activity.VideoDetailActivity" />
+        <activity android:name="com.simplereader.graduation.presenter.NewsDetailActivity"></activity>
     </application>
 
 </manifest>
