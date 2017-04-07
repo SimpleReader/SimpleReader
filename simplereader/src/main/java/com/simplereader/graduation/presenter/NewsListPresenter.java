@@ -23,7 +23,7 @@ public class NewsListPresenter extends BasePresenter<INewsListView> {
 
             @Override
             protected void onSuccess(List<News> response) {
-                Logger.i(response.toString());
+                Logger.e("response" + response.toString());
                 mvpView.onGetNewsListSuccess(response);
             }
         });

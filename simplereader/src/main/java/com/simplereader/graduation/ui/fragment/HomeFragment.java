@@ -33,12 +33,6 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
     private String[] titles = new String[]{};
     private String[] titlesCode = new String[]{};
 
-    //需要的参数通过setArguments解决
-    public static HomeFragment newInstance() {
-        HomeFragment homeFragment = new HomeFragment();
-        return homeFragment;
-    }
-
     @Override
     protected HomePresenter createPresenter() {
         return new HomePresenter(this);
@@ -62,7 +56,7 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
         for (int i = 0; i < titles.length; i++) {
             NewsListFragment fragment = new NewsListFragment();
             Bundle bundle = new Bundle();
-            bundle.putString(ConstanceValue.Data, titlesCode[i]);
+            bundle.putString(ConstanceValue.DATA, titlesCode[i]);
             fragment.setArguments(bundle);
             fragments.add(fragment);
         }
@@ -81,43 +75,6 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
     }
 }
 /*public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHomeView {
-    @BindView(R.id.feed_top_search_hint)
-    TextView feedTopSearchHint;
-    @BindView(R.id.tab)
-    ColorTrackTabViewIndicator tab;
-    @BindView(R.id.icon_category)
-    ImageView iconCategory;
-
-    @Override
-    protected void processLogic() {
-        List<BaseFragment> fragments = new ArrayList<>();
-        for (int i = 0; i < titles.length; i++) {
-            NewsListFragment fragment = new NewsListFragment();
-            Bundle bundle = new Bundle();
-            bundle.putString(ConstanceValue.DATA, titlesCode[i]);
-            fragment.setArguments(bundle);
-            fragments.add(fragment);
-        }
-        vp.setAdapter(new TitlePagerAdapter(getChildFragmentManager(), fragments, titles));
-        tab.setTitles(titles, new ColorTrackTabViewIndicator.CorlorTrackTabBack() {
-            @Override
-            public void onClickButton(Integer position, ColorTrackView colorTrackView) {
-                vp.setCurrentItem(position, false);
-            }
-        });
-        final View tabChild = tab.getChildAt(0);
-        int w = View.MeasureSpec.makeMeasureSpec(0,
-                View.MeasureSpec.UNSPECIFIED);
-        int h = View.MeasureSpec.makeMeasureSpec(0,
-                View.MeasureSpec.UNSPECIFIED);
-        //重新测量
-        tabChild.measure(w, h);
-        //设置最小宽度，使其可以在滑动一部分距离
-        tabChild.setMinimumWidth(tabChild.getMeasuredWidth() + tab.getTabWidth());
-
-        vp.setOffscreenPageLimit(titles.length);
-        tab.setupViewPager(vp);
-    }
 
     static final int REQUEST_CHANNEL = 111;
 
