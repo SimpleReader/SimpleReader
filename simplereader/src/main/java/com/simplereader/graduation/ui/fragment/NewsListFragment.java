@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
+import com.orhanobut.logger.Logger;
 import com.simplereader.graduation.base.BaseMvpFragment;
 import com.simplereader.graduation.model.News;
 import com.simplereader.graduation.presenter.NewsDetailActivity;
@@ -32,7 +33,7 @@ import butterknife.ButterKnife;
  */
 public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> implements INewsListView {
     @BindView(R.id.recycleView)
-    RecyclerView recyclerView;
+    public RecyclerView recyclerView;
     @BindView(R.id.srl)
     SwipeRefreshLayout srl;
     private String mTitleCode = "";
@@ -58,13 +59,14 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
 
     @Override
     protected void processLogic() {
-        initCommonRecyclerView(createAdaper(), null);
-        mTitleCode = getArguments().getString(ConstanceValue.Data);
+        initCommonRecyclerView(createAdapter(), null);
+        mTitleCode = getArguments().getString(ConstanceValue.DATA);
+        Logger.e("mTitleCode", mTitleCode);
         srl.measure(0, 0);
         srl.setRefreshing(true);
     }
 
-    protected BaseQuickAdapter createAdaper() {
+    protected BaseQuickAdapter createAdapter() {
         return mAdapter = new NewsAdapter(mDatas);
     }
 
@@ -72,7 +74,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
     protected void lazyLoad() {
         super.lazyLoad();
         if (TextUtils.isEmpty(mTitleCode)) {
-            mTitleCode = getArguments().getString(ConstanceValue.Data);
+            mTitleCode = getArguments().getString(ConstanceValue.DATA);
         }
         mvpPresenter.getNesList(mTitleCode);
     }

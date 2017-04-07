@@ -36,7 +36,7 @@ public class News {
     public String title;
     public boolean middle_mode;
     public int gallary_image_count;
-    public List<ImageUrl> iamge_list;
+    public List<ImageUrl> image_list;
     public long behot_time;
     public String source_url;
     public String source;
@@ -60,7 +60,7 @@ public class News {
                 ", title='" + title + '\'' +
                 ", middle_mode=" + middle_mode +
                 ", gallary_image_count=" + gallary_image_count +
-                ", iamge_list=" + iamge_list +
+                ", iamge_list=" + image_list +
                 ", behot_time=" + behot_time +
                 ", source_url='" + source_url + '\'' +
                 ", source='" + source + '\'' +

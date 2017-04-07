@@ -5,7 +5,7 @@ package com.simplereader.graduation.util;
  */
 
 public interface ConstanceValue {
-    String Data = "data";
+    String DATA = "data";
     String ARTICLE_GENRE_GALLERY = "gallery";
     String ARTICLE_GENRE_VIDEO = "video";
     String ARTICLE_GENRE_ARTICLE = "article";

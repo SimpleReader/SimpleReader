@@ -17,7 +17,8 @@ import rx.Observable;
  */
 
 public interface ApiService {
-    String HOST = "http://192.168.0.116:88/";    //baseUrl
+//    String HOST = "http://192.168.0.116:88/";    //baseUrl
+    String HOST = "http://www.toutiao.com/";    //baseUrl
     String API_SERVICE_URL = HOST + "api/";
     String ARTICLE_FEED = "article/feed/";
     String COMMENT_LIST = "comment/list";

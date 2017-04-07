@@ -3,12 +3,48 @@
 
     <item
         is-multidex="true"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.2_cbfa1f8edd38f22095cb082634d7d26c0a99cf4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
         <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_dc6ae452df902bdb0a33d66ddb3e9b58c42fc801/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_1fa96be6fcb89551fea66963ec88b58923da20bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_6546a8fe67fb92a56b5477e9aa2c91bcb28f85f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_ce9775a7b21454f887c2c20e4b3232024cb8c678/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,12 +57,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_eab1b0a4ddf460284334cf4cb5930470e3682861/classes.dex" />
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_476c6bb7f32182638e4cc01df483663b889e547f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_47ce315b055015c80632828abd4eb9067abc1a69/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,6 +84,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a475b0f37873ca1adc55a8babd223b660da9652e">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_820b36670dfb55eaa301c37ad988e167b1bc50dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -48,12 +102,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.orhanobut/logger/1.3/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="cb9cf5fedb75612477723f65f31c25358740be68">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a1980489a7e04d255f3ba8e2eb39512fa8d7d3a4/classes.dex" />
+        revision="25.0.2"
+        sha1="2c40111d8d404cf9a7c25789676a41661d2651b0">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.orhanobut-logger-1.3_cc72a8f856e58d93f5dbe7bdfba746cf388e205e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -63,6 +117,33 @@
         revision="25.0.2"
         sha1="d38084015027549951cbaea5d5f6fb795cc81151">
         <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_0418d32ece1c00553683136dbcb963c370df0aa5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_dbc12be046e40f9471eb7a238d2740e3399a5ba6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_5530a4b7414b3596ee0034c73b85862ee6084981/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_a8126c28a5ba58bda59decfb01b276f27fe7acb1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,21 +165,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.5.2/ecf534dba3a8446ce84cbb797d314763be212a68/glide-3.5.2.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_dc6ae452df902bdb0a33d66ddb3e9b58c42fc801/classes.dex" />
+        revision="25.0.2"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.5.2_540f3aaa32a5e00ca577ab4e7581c630db677567/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_8dcef4ab41bf552137ab9376222d09662c6e6235/classes.dex" />
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_03016ba7126db2e2b1570f0a8c65faec1bef40a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_5ddb4210800be9fa56fa360fd5a1dab68ec400d0/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,21 +210,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.2.3/baseLibrary-2.2.3.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="05a5b9e53f4e4be2a714786ae0c9eb444e50e7ee">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_820b36670dfb55eaa301c37ad988e167b1bc50dd/classes.dex" />
+        revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.3_474e89972d5faa940568625dac87a46c353c6a04/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_ce9775a7b21454f887c2c20e4b3232024cb8c678/classes.dex" />
+        revision="25.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.0_337c51a2bb5f251f5694661d0ac18f46c900c7b7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,6 +237,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_8dcef4ab41bf552137ab9376222d09662c6e6235/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19d183b2cec47b06f45ead03cf3351cf425cfcb2">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a1980489a7e04d255f3ba8e2eb39512fa8d7d3a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.5/442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375/universal-image-loader-1.9.5.jar"
         jumboMode="true"
         optimize="true"
@@ -156,12 +264,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.2/a60c039ba54c73d1133b72178e1b04133c73d13d/adapter-rxjava-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.0.2_9b708f485b825bd9bc4226b1da4de23823278992/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
         <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_eab1b0a4ddf460284334cf4cb5930470e3682861/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.github.CymChad/BaseRecyclerViewAdapterHelper/v1.8.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce0711772b297998d8a32b3d49c6ecf603fc60e9">
+        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.CymChad-BaseRecyclerViewAdapterHelper-v1.8.5_1175cf30b35a9054a3cce5f11e592121030d8833/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -198,258 +324,6 @@
         revision="25.0.2"
         sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
         <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_e58a5bb293037487b063c77dea4931847daea3a7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_92c820929960e5160bc4705f9ae652d6f633fa44/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_03016ba7126db2e2b1570f0a8c65faec1bef40a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.2_cbfa1f8edd38f22095cb082634d7d26c0a99cf4e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_1fa96be6fcb89551fea66963ec88b58923da20bb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_6546a8fe67fb92a56b5477e9aa2c91bcb28f85f8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_b2fbe287b7ede7f9afe9b6982c0ab29f2211d802/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_ce9775a7b21454f887c2c20e4b3232024cb8c678/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_5530a4b7414b3596ee0034c73b85862ee6084981/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_476c6bb7f32182638e4cc01df483663b889e547f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_47ce315b055015c80632828abd4eb9067abc1a69/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="39dc3a75c7407a44f9a289fc89e762d0b45d43f8">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_820b36670dfb55eaa301c37ad988e167b1bc50dd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.orhanobut/logger/1.3/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2c40111d8d404cf9a7c25789676a41661d2651b0">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.orhanobut-logger-1.3_cc72a8f856e58d93f5dbe7bdfba746cf388e205e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_dbc12be046e40f9471eb7a238d2740e3399a5ba6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_5530a4b7414b3596ee0034c73b85862ee6084981/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_6546a8fe67fb92a56b5477e9aa2c91bcb28f85f8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_a8126c28a5ba58bda59decfb01b276f27fe7acb1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_e58a5bb293037487b063c77dea4931847daea3a7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_03016ba7126db2e2b1570f0a8c65faec1bef40a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_5ddb4210800be9fa56fa360fd5a1dab68ec400d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.2.3/baseLibrary-2.2.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.3_474e89972d5faa940568625dac87a46c353c6a04/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.0_337c51a2bb5f251f5694661d0ac18f46c900c7b7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_0418d32ece1c00553683136dbcb963c370df0aa5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_8dcef4ab41bf552137ab9376222d09662c6e6235/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a319822f1aa7aff9c5f32ba9f7867d606efbddc8">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a1980489a7e04d255f3ba8e2eb39512fa8d7d3a4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.2/a60c039ba54c73d1133b72178e1b04133c73d13d/adapter-rxjava-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.0.2_9b708f485b825bd9bc4226b1da4de23823278992/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_bb8c271e14bc3f9a92c31f592ef654c364783090/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_47ce315b055015c80632828abd4eb9067abc1a69/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/exploded-aar/com.github.CymChad/BaseRecyclerViewAdapterHelper/v1.8.5/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ce0711772b297998d8a32b3d49c6ecf603fc60e9">
-        <dex dex="/Users/Apple/Desktop/Android/SimpleReader/simplereader/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.CymChad-BaseRecyclerViewAdapterHelper-v1.8.5_1175cf30b35a9054a3cce5f11e592121030d8833/classes.dex" />
     </item>
 
 </items>

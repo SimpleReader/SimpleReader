@@ -5,5 +5,5 @@ package com.simplereader.graduation.model;
  */
 
 public class ImageUrl {
-    private String image_url;
+    public String url;
 }

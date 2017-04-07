@@ -27,7 +27,7 @@ public abstract class BaseFragment extends Fragment {
     protected Activity mContext;
     protected boolean isFirst = true;
     protected View rootView;
-    protected Subscription mSubScription;
+    protected Subscription mSubscription;
 
     @Nullable
     @Override
@@ -41,7 +41,7 @@ public abstract class BaseFragment extends Fragment {
         mContext = getActivity();
         rootView = view;
         initView(view);
-        mSubScription = toObservable().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<Notice>() {
+        mSubscription = toObservable().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<Notice>() {
             @Override
             public void call(Notice notice) {
 
@@ -52,8 +52,8 @@ public abstract class BaseFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        if (mSubScription != null) {
-            mSubScription.unsubscribe();
+        if (mSubscription != null) {
+            mSubscription.unsubscribe();
         }
     }
 
