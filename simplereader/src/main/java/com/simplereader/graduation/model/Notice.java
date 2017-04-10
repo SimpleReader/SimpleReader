@@ -5,8 +5,8 @@ package com.simplereader.graduation.model;
  */
 
 public class Notice {
-    private int type;
-    private Object content;
+    public int type;
+    public Object content;
 
     public Notice() {
     }

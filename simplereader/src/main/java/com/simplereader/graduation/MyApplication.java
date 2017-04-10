@@ -2,6 +2,8 @@ package com.simplereader.graduation;
 
 import android.app.Application;
 
+import com.simplereader.graduation.theme.util.util.SharedPreferencesMgr;
+
 /**
  * Created by gxj on 2017/2/28.
  */
@@ -13,7 +15,7 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         instance = this;
-//        SharedPreferencesMgr.init(this, "simpleread");
+        SharedPreferencesMgr.init(this, "simpleread");
     }
 
     public static MyApplication getContext() {

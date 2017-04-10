@@ -11,113 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03e0ba94-2c3b-44a0-ac07-b25d6db15cd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/add_channels_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/add_channels_close_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/add_channels_close_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/add_channels_close_press_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/add_channels_close_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/add_channels_close_small_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/addred_channel_titlbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/addred_channel_titlbar_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/addred_channel_titlbar_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/addred_channel_titlbar_press_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/arrow_ad_spalsh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/arrow_ad_spalsh_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/comment_like_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/comment_like_icon_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/comment_like_icon_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/comment_like_icon_press_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/dislikeicon_textpage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/dislikeicon_textpage_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/leftbackicon_titlebar_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/leftbackicon_titlebar_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/log_in_register.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/log_in_register_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/more_video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/more_video_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/more_video_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/more_video_press_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/name_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/name_arrow_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_more_titlebar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_more_titlebar_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_more_titlebar_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_more_titlebar_press_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_review_tabbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_review_tabbar_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_review_tabbar_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_review_tabbar_press_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_share_tabbar_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_share_tabbar_normal_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_share_tabbar_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_share_tabbar_pressed_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_top_tabbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/new_top_tabbar_press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/newtoutiaohao_details1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/newtoutiaohao_details1_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/picture_group_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/picture_group_icon_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/playicon_video_textpage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/right_arrow_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/right_arrow_icon_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/search_background.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/search_background_night.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/setting_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/setting_arrow_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/shadow_add_titlebar_new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/shadow_add_titlebar_new_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/share_black_tipic_details_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/share_black_tipic_details_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/splash_banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/glide_3_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/ColorUiInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/ColorUiUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/SharedPreferencesMgr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/ViewAttributeUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/VideoAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/BasePagerFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoListFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/ColorTrackTabViewIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/colortrackview/ColorTrackTabLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/colortrackview/ColorTrackView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/DateUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ImageLoadUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/ic_new_category_tip_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/shape_rectangle_black.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_video.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/item_video_list.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/attrs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplereader/src/main/res/values/attr.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/SkinFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/build.gradle" afterPath="$PROJECT_DIR$/simplereader/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/simplereader.iml" afterPath="$PROJECT_DIR$/simplereader/simplereader.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/api/ApiService.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/api/ApiService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/ImageUrl.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/ImageUrl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/News.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/News.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/NewsListPresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/NewsListPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/MyApplication.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/MyApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Notice.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Notice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/VideoDetailActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/VideoDetailActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/HomeFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/HomeFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ConstanceValue.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ConstanceValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_video_detail.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_video_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ToastUtils.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ToastUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_demo.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_demo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/item_news.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/item_news.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_recycerview.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_recycerview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/values/arrays.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/arrays.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/styles.xml" />
     </list>
     <ignored path="SimpleReader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,36 +62,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NewsListFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+            <state relative-caret-position="1476">
+              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding>
-                <element signature="docComment;class#NewsListFragment#0" expanded="false" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout_recycerview.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/layout_recycerview.xml">
+      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="1728">
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#toObservable#0;class#BaseActivity#0" expanded="false" />
+                <element signature="method#toObservable#0;class#BaseActivity#0" expanded="false" />
+                <element signature="docComment;method#post#0;class#BaseActivity#0" expanded="false" />
+              </folding>
             </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/values/styles.xml">
+      <file leaf-file-name="ConstanceValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ConstanceValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="234">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -188,23 +105,13 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+            <state relative-caret-position="234">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-manifest">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simplereader/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -216,8 +123,8 @@
         <option value="valueResourceFile" />
         <option value="resourceFile" />
         <option value="ASInterface" />
-        <option value="ASClass" />
         <option value="layoutResourceFile_vertical" />
+        <option value="ASClass" />
       </list>
     </option>
   </component>
@@ -2002,12 +1909,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/ResultResponse.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/SubscriberCallBack.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BasePresenter.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseMvpFragment.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/NewsDetailActivity.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/right_arrow_icon.xml" />
         <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/picture_group_icon.xml" />
@@ -2025,8 +1926,6 @@
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/NewsListPresenter.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/VideoDetailActivity.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/ColorUiUtil.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_news.xml" />
         <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_recycerview.xml" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/colortrackview/ColorTrackTabViewIndicator.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/colortrackview/ColorTrackTabLayout.java" />
@@ -2035,24 +1934,32 @@
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/ColorUiUtil.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/ColorUiInterface.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/ColorTrackTabViewIndicator.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/SharedPreferencesMgr.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/ViewAttributeUtil.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BasePagerFragment.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ConstanceValue.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoFragment.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_video.xml" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoListFragment.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/BasePagerFragment.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/VideoAdapter.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_video.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/simplereader/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/simplereader/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/simplereader/build.gradle" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_demo.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_news.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Notice.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ToastUtils.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/SkinFactory.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/SharedPreferencesMgr.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/MyApplication.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseActivity.java" />
       </list>
     </option>
   </component>
@@ -2156,11 +2063,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane />
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2364,128 +2272,6 @@
               <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colortrackview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2561,7 +2347,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2569,7 +2354,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="7321a623" />
+    <property name="device.picker.selection" value="6ffdc8b4" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_4s-7321a623" />
     <property name="DEBUGGABLE_PROCESS" value="com.simplereader.simplereader" />
@@ -2915,7 +2700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490785431601</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2017 04 07 新闻页面&#10;">
+      <created>1491571048388</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491571048388</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2925,7 +2717,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49402985" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68358207" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2940,7 +2732,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29297996" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47164178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
@@ -3011,7 +2803,8 @@
     <MESSAGE value="2017 03 28" />
     <MESSAGE value="2017 03 28 改正大小写&#10;" />
     <MESSAGE value="2017 03 29  首页编写&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017 03 29  首页编写&#10;" />
+    <MESSAGE value="2017 04 07 新闻页面&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017 04 07 新闻页面&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3020,93 +2813,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="348" column="17" selection-start-line="348" selection-start-column="17" selection-end-line="348" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/simplereader.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="174" column="48" selection-start-line="174" selection-start-column="48" selection-end-line="174" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/api/ApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable/ic_person_black_24dp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_demo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/build/intermediates/data-binding-layout-out/debug/layout/item_news.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="193" column="10" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/SubscriberCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/api/AppClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable/ic_new_category_tip_dark.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable/ic_mail_outline_black_24dp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-25/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2931">
           <caret line="646" column="16" selection-start-line="646" selection-start-column="16" selection-end-line="646" selection-end-column="16" />
-          <folding>
-            <element signature="e#22992#22993#0" expanded="true" />
-            <element signature="e#23043#23044#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3114,7 +2824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3151,7 +2860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="494" column="5" selection-start-line="494" selection-start-column="5" selection-end-line="494" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3161,33 +2869,6 @@
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-          <folding>
-            <element signature="e#698#699#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/item_news.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="192" selection-end-column="19" />
-          <folding>
-            <marker date="1491558132000" expanded="false" signature="14128:14168" ph="&quot;11.0dip&quot;" />
-            <marker date="1491558132000" expanded="false" signature="14594:14634" ph="&quot;11.0dip&quot;" />
-            <marker date="1491558132000" expanded="false" signature="15118:15158" ph="&quot;11.0dip&quot;" />
-            <marker date="1491558132000" expanded="false" signature="15632:15672" ph="&quot;11.0dip&quot;" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simplereader/build/generated/source/r/debug/com/simplereader/simplereader/R.java">
@@ -3218,7 +2899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3266,14 +2946,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util.java" />
     <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/ColorUiUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -3282,21 +2955,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/SharedPreferencesMgr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/ColorUiInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3304,9 +2966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3322,14 +2981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ConstanceValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -3428,28 +3079,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="90" column="46" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-          <folding>
-            <element signature="docComment;class#NewsListFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -3465,26 +3113,141 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_demo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="144">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="213">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/403c0215220d990f2856904658185a7b5ba8b521/rxjava-1.1.1-sources.jar!/rx/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="6071" column="35" selection-start-line="6071" selection-start-column="35" selection-end-line="6071" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ToastUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/SkinFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#698#699#0" expanded="false" />
+            <element signature="e#745#746#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Notice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/RxBus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#417#418#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#NewsListFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/item_news.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="43" selection-start-line="1" selection-start-column="0" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="e#1482#3048#0" expanded="false" />
+            <element signature="e#3066#4828#0" expanded="false" />
+            <element signature="e#7003#7352#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+        <state relative-caret-position="234">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -3492,11 +3255,42 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/build.gradle">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ConstanceValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        <state relative-caret-position="234">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/SharedPreferencesMgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#toObservable#0;class#BaseActivity#0" expanded="false" />
+            <element signature="method#toObservable#0;class#BaseActivity#0" expanded="false" />
+            <element signature="docComment;method#post#0;class#BaseActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
