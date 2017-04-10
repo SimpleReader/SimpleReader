@@ -20,7 +20,7 @@ import java.util.List;
 
 public class NewsAdapter extends BaseQuickAdapter<News>{
     public NewsAdapter(List<News> data) {
-        super(R.layout.item_news,data);
+        super(R.layout.item_news, data);
     }
 
     @Override

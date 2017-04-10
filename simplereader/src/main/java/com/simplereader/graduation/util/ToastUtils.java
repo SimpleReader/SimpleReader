@@ -1,5 +1,6 @@
 package com.simplereader.graduation.util;
 
+import android.content.Context;
 import android.widget.Toast;
 
 import com.simplereader.graduation.MyApplication;
@@ -17,6 +18,15 @@ public class ToastUtils {
     public static void showToast(CharSequence text) {
         if (mToast == null) {
             mToast = Toast.makeText(MyApplication.getContext(), text, Toast.LENGTH_SHORT);
+        } else {
+            mToast.setText(text);
+        }
+        mToast.show();
+    }
+
+    public static void showToast(Context context, CharSequence text) {
+        if (mToast == null) {
+            mToast = Toast.makeText(context, text, Toast.LENGTH_SHORT);
         } else {
             mToast.setText(text);
         }

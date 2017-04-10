@@ -4,29 +4,37 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import com.simplereader.graduation.base.BaseActivity;
 import com.simplereader.graduation.ui.adapter.ViewPagerAdapter;
 import com.simplereader.graduation.ui.fragment.AttentionFragment;
 import com.simplereader.graduation.ui.fragment.HomeFragment;
 import com.simplereader.graduation.ui.fragment.MeFragment;
 import com.simplereader.simplereader.R;
 
-public class MainActivity extends AppCompatActivity {
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
-    BottomNavigationView bottomNavigationView;
+public class MainActivity extends BaseActivity {
+    @BindView(R.id.viewpager)
     ViewPager viewPager;
+    @BindView(R.id.bottom_navigation)
+    BottomNavigationView bottomNavigationView;
     MenuItem prevMenuItem;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void loadViewLayout() {
         setContentView(R.layout.activity_main);
+    }
 
-        viewPager = (ViewPager) findViewById(R.id.viewpager);
-        bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+    @Override
+    protected void bindViews() {
+        ButterKnife.bind(this);
+    }
 
+    @Override
+    protected void processLogic(Bundle savedInstanceState) {
         bottomNavigationView.setOnNavigationItemSelectedListener(
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
                     @Override
@@ -84,9 +92,13 @@ public class MainActivity extends AppCompatActivity {
         setupViewPager(viewPager);
     }
 
+    @Override
+    protected void setListener() {
+
+    }
+
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-
         adapter.addFragment(new HomeFragment());
         adapter.addFragment(new HomeFragment());
         adapter.addFragment(new AttentionFragment());
