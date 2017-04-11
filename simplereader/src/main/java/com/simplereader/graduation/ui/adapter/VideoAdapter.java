@@ -51,6 +51,7 @@ public class VideoAdapter extends BaseQuickAdapter<News> {
                 }
             };
             decoder.decodePath(news.source_url);
+            Logger.e("source_url : " + news.source_url);
         } else {
             setPlayer(spVideoPlayer, news);
         }

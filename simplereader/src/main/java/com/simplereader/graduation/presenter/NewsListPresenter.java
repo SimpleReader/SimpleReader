@@ -18,7 +18,7 @@ public class NewsListPresenter extends BasePresenter<INewsListView> {
         super(mvpView);
     }
 
-    public void getNesList(String titleCode) {
+    public void getNewsList(String titleCode) {
         addSubscription(AppClient.getApiService().getNews(titleCode), new SubscriberCallBack<List<News>>() {
 
             @Override

@@ -96,12 +96,12 @@ public abstract class VideoPathDecoder {
 
                     @Override
                     public void onError(Throwable e) {
-
+                        onDecodeError(e);
                     }
 
                     @Override
                     public void onNext(Video video) {
-
+                        onSuccess(video);
                     }
                 });
 

@@ -74,7 +74,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
         if (TextUtils.isEmpty(mTitleCode)) {
             mTitleCode = getArguments().getString(ConstanceValue.DATA);
         }
-        mvpPresenter.getNesList(mTitleCode);
+        mvpPresenter.getNewsList(mTitleCode);
     }
 
     @Override
@@ -82,7 +82,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
         srl.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                mvpPresenter.getNesList(mTitleCode);
+                mvpPresenter.getNewsList(mTitleCode);
             }
         });
         mAdapter.setOnRecyclerViewItemClickListener(new BaseQuickAdapter.OnRecyclerViewItemClickListener() {
