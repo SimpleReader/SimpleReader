@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.orhanobut.logger.Logger;
 import com.simplereader.graduation.base.BaseMvpFragment;
 import com.simplereader.graduation.model.News;
 import com.simplereader.graduation.presenter.NewsDetailActivity;
@@ -36,7 +35,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
     public RecyclerView recyclerView;
     @BindView(R.id.srl)
     SwipeRefreshLayout srl;
-    private String mTitleCode = "__all__";
+    private String mTitleCode = "";
     protected List<News> mDatas = new ArrayList<>();
     protected BaseQuickAdapter mAdapter;
 
@@ -60,8 +59,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
     @Override
     protected void processLogic() {
         initCommonRecyclerView(createAdapter(), null);
-//        mTitleCode = getArguments().getString(ConstanceValue.DATA);
-        Logger.e("mTitleCode", mTitleCode);
+        mTitleCode = getArguments().getString(ConstanceValue.DATA);
         srl.measure(0, 0);
         srl.setRefreshing(true);
     }
@@ -74,7 +72,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
     protected void lazyLoad() {
         super.lazyLoad();
         if (TextUtils.isEmpty(mTitleCode)) {
-//            mTitleCode = getArguments().getString(ConstanceValue.DATA);
+            mTitleCode = getArguments().getString(ConstanceValue.DATA);
         }
         mvpPresenter.getNesList(mTitleCode);
     }

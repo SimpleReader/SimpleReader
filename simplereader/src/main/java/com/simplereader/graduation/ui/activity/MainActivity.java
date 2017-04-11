@@ -11,6 +11,7 @@ import com.simplereader.graduation.ui.adapter.ViewPagerAdapter;
 import com.simplereader.graduation.ui.fragment.AttentionFragment;
 import com.simplereader.graduation.ui.fragment.HomeFragment;
 import com.simplereader.graduation.ui.fragment.MeFragment;
+import com.simplereader.graduation.ui.fragment.VideoFragment;
 import com.simplereader.simplereader.R;
 
 import butterknife.BindView;
@@ -100,7 +101,7 @@ public class MainActivity extends BaseActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new HomeFragment());
-        adapter.addFragment(new HomeFragment());
+        adapter.addFragment(new VideoFragment());
         adapter.addFragment(new AttentionFragment());
         adapter.addFragment(new MeFragment());
         viewPager.setAdapter(adapter);

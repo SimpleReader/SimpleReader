@@ -1,6 +1,7 @@
 package com.simplereader.graduation.ui.fragment;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,8 +9,6 @@ import android.view.ViewGroup;
 
 import com.simplereader.graduation.base.BaseFragment;
 import com.simplereader.graduation.ui.adapter.TitlePagerAdapter;
-import com.simplereader.graduation.ui.view.ColorTrackTabViewIndicator;
-import com.simplereader.graduation.ui.view.colortrackview.ColorTrackView;
 import com.simplereader.simplereader.R;
 
 import java.util.ArrayList;
@@ -22,8 +21,8 @@ import butterknife.ButterKnife;
  * Created by gxj on 2017/4/7.
  */
 public abstract class BasePagerFragment extends BaseFragment {
-    @BindView(R.id.tab)
-    ColorTrackTabViewIndicator tab;
+    @BindView(R.id.tab_layout)
+    TabLayout tabLayout;
     @BindView(R.id.vp)
     ViewPager vp;
 
@@ -53,14 +52,9 @@ public abstract class BasePagerFragment extends BaseFragment {
                 fragments.add(fragment);
             }
             vp.setAdapter(new TitlePagerAdapter(getChildFragmentManager(), fragments, getTitles()));
-            tab.setTitles(getTitles(), new ColorTrackTabViewIndicator.CorlorTrackTabBack() {
-                @Override
-                public void onClickButton(Integer position, ColorTrackView colorTrackView) {
-                    vp.setCurrentItem(position, false);
-                }
-            });
+            tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
             vp.setOffscreenPageLimit(getTitles().length);
-            tab.setupViewPager(vp);
+            tabLayout.setupWithViewPager(vp);
         } catch (java.lang.InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
