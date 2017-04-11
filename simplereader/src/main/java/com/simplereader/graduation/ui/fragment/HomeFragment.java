@@ -32,6 +32,7 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
     TabLayout tabLayout;
     private String[] titles = new String[]{};
     private String[] titlesCode = new String[]{};
+    private static final int REQUEST_CHANNEL = 111;
 
     @Override
     protected HomePresenter createPresenter() {
@@ -61,9 +62,6 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
             fragments.add(fragment);
         }
         viewPager.setAdapter(new TitlePagerAdapter(getChildFragmentManager(), fragments, titles));
-        for (int i = 0; i < titles.length; i++) {
-            tabLayout.addTab(tabLayout.newTab().setText(titles[i]));
-        }
         viewPager.setOffscreenPageLimit(titles.length);
         tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);//tablayout的滑动模式
         tabLayout.setupWithViewPager(viewPager);
@@ -75,8 +73,6 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
     }
 }
 /*public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHomeView {
-
-    static final int REQUEST_CHANNEL = 111;
 
     @OnClick({R.id.feed_top_search_hint, R.id.icon_category})
     public void onClick(View v) {

@@ -49,6 +49,8 @@ public class News {
     public String group_id;
     public boolean is_diversion_page;
     public String media_url;
+    public String video_duration_str;
+    public Video video;
 
     @Override
     public String toString() {
@@ -60,7 +62,7 @@ public class News {
                 ", title='" + title + '\'' +
                 ", middle_mode=" + middle_mode +
                 ", gallary_image_count=" + gallary_image_count +
-                ", iamge_list=" + image_list +
+                ", image_list=" + image_list +
                 ", behot_time=" + behot_time +
                 ", source_url='" + source_url + '\'' +
                 ", source='" + source + '\'' +
@@ -73,6 +75,7 @@ public class News {
                 ", group_id='" + group_id + '\'' +
                 ", is_diversion_page=" + is_diversion_page +
                 ", media_url='" + media_url + '\'' +
+                ", video_duration_str='" + video_duration_str + '\'' +
                 '}';
     }
 }

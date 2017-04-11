@@ -21,20 +21,20 @@ public class Video {
      * vtype : mp4
      * vwidth : 640
      */
-    private String backup_url_1;
-    private int bitrate;
-    private String definition;
-    private String main_url;
-    private int preload_interval;
-    private int preload_max_step;
-    private int preload_main_step;
-    private int preload_size;
-    private double size;
-    private double socket_buffer;
-    private int user_video_proxy;
-    private int vheight;
-    private String vtype;
-    private int vwdith;
+    public String backup_url_1;
+    public int bitrate;
+    public String definition;
+    public String main_url;
+    public int preload_interval;
+    public int preload_max_step;
+    public int preload_main_step;
+    public int preload_size;
+    public double size;
+    public double socket_buffer;
+    public int user_video_proxy;
+    public int vheight;
+    public String vtype;
+    public int vwdith;
 
     @Override
     public String toString() {
