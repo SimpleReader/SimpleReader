@@ -1,15 +1,18 @@
 package com.simplereader.graduation.ui.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.simplereader.graduation.base.BaseFragment;
 import com.simplereader.graduation.base.BaseMvpFragment;
 import com.simplereader.graduation.presenter.HomePresenter;
+import com.simplereader.graduation.ui.activity.ChannelActivity;
 import com.simplereader.graduation.ui.adapter.TitlePagerAdapter;
 import com.simplereader.graduation.util.ConstanceValue;
 import com.simplereader.graduation.view.IHomeView;
@@ -20,6 +23,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * Created by gxj on 2017/3/28.
@@ -30,6 +34,8 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
     ViewPager viewPager;
     @BindView(R.id.tab_layout)
     TabLayout tabLayout;
+    @BindView(R.id.icon_category)
+    ImageView iconCatrgory;
     private String[] titles = new String[]{};
     private String[] titlesCode = new String[]{};
     private static final int REQUEST_CHANNEL = 111;
@@ -71,17 +77,14 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
     protected void setListener() {
 
     }
-}
-/*public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHomeView {
 
-    @OnClick({R.id.feed_top_search_hint, R.id.icon_category})
-    public void onClick(View v) {
-        switch (v.getId()) {
+    @OnClick({R.id.icon_category})
+    public void onClick(View view) {
+        switch (view.getId()) {
             case R.id.icon_category:
-//                intent2Activity(ChannelActivity.class);
                 Intent intent = new Intent(mContext, ChannelActivity.class);
-                startActivityForResult(intent,REQUEST_CHANNEL);
+                startActivityForResult(intent, REQUEST_CHANNEL);
                 break;
         }
     }
-}*/
+}

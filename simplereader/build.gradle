@@ -19,10 +19,6 @@ android {
         }
     }
 
-    dataBinding {
-        enabled true;
-    }
-
     repositories {
         flatDir {
             dirs 'libs'
