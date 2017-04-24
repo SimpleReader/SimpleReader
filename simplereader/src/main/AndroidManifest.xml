@@ -20,8 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.simplereader.graduation.ui.activity.VideoDetailActivity" />
-        <activity android:name="com.simplereader.graduation.presenter.NewsDetailActivity" />
-        <activity android:name="com.simplereader.graduation.ui.activity.ChannelActivity"></activity>
+        <activity android:name="com.simplereader.graduation.ui.activity.ChannelActivity" />
+        <activity android:name="com.simplereader.graduation.ui.activity.NewsDetailActivity"></activity>
     </application>
 
 </manifest>

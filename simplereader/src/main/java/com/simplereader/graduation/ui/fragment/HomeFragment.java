@@ -35,7 +35,7 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
     @BindView(R.id.tab_layout)
     TabLayout tabLayout;
     @BindView(R.id.icon_category)
-    ImageView iconCatrgory;
+    ImageView iconCategory;
     private String[] titles = new String[]{};
     private String[] titlesCode = new String[]{};
     private static final int REQUEST_CHANNEL = 111;
