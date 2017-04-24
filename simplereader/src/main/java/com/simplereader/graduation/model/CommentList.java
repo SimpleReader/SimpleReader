@@ -8,7 +8,7 @@ import java.util.List;
  */
 
 public class CommentList {
-    private boolean has_more;
-    private int total;
-    private List<Comment> comments;
+    public boolean has_more;
+    public int total;
+    public List<Comment> comments;
 }

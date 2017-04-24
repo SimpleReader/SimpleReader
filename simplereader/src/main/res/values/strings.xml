@@ -7,4 +7,9 @@
     <string name="edit">编辑</string>
     <string name="my_tv">我的频道</string>
     <string name="done">完成</string>
+    <string name="forum_introduce">话题介绍</string>
+    <string name="empty_comment_hint">暂无评论，点击抢沙发</string>
+    <string name="subscribe_hint_text_2"> 从这些头条号开始吧！</string>
+    <string name="add_pgc_subscribe">添加订阅</string>
+    <string name="detail_write_comment">写评论…</string>
 </resources>
