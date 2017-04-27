@@ -13,7 +13,6 @@ import android.widget.TextView;
 
 import com.simplereader.graduation.base.BaseFragment;
 import com.simplereader.graduation.model.Notice;
-import com.simplereader.graduation.theme.util.util.ColorUiUtil;
 import com.simplereader.graduation.theme.util.util.SharedPreferencesMgr;
 import com.simplereader.graduation.ui.view.HeaderZoomLayout;
 import com.simplereader.graduation.util.ConstanceValue;
