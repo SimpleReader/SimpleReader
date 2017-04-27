@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/main_bg"
+    android:orientation="vertical"
+    app:isColorUi="true">
+
+    <com.simplereader.graduation.ui.view.HeaderZoomLayout
+        android:id="@+id/zoomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/mine_fragment_header" />
+
+            <include layout="@layout/mine_fragment_content" />
+
+        </LinearLayout>
+    </com.simplereader.graduation.ui.view.HeaderZoomLayout>
+
+</LinearLayout>

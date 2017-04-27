@@ -12,4 +12,16 @@
     <string name="subscribe_hint_text_2"> 从这些头条号开始吧！</string>
     <string name="add_pgc_subscribe">添加订阅</string>
     <string name="detail_write_comment">写评论…</string>
+    <string name="mine_tab_followings_title">关注</string>
+    <string name="mine_tab_followers_title">粉丝</string>
+    <string name="mine_tab_visitors_title">7天访客</string>
+    <string name="mine_login_hint">登录推荐更精准</string>
+    <string name="mine_item_favorite">收藏</string>
+    <string name="mine_item_night_mode">夜间</string>
+    <string name="mine_item_settings">设置</string>
+    <string name="mine_item_notification">消息通知</string>
+    <string name="mine_item_offline">离 线</string>
+    <string name="mine_item_activity">活 动</string>
+    <string name="mine_item_sell">商 城</string>
+    <string name="mine_item_sell_introduce">特卖、头彩、电影</string>
 </resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    app:isColorUi="true">
+
+    <LinearLayout
+        android:id="@+id/tool_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="?attr/main_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:isColorUi="true">
+
+
+        <LinearLayout
+            android:id="@+id/ll_favorite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/my_page_favorite_selector"
+                app:isColorUi="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="@string/mine_item_favorite"
+                android:textColor="?attr/font_color"
+                app:isColorUi="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llNightMode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/my_page_nightmode_selector"
+                app:isColorUi="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="@string/mine_item_night_mode"
+                android:textColor="?attr/font_color"
+                app:isColorUi="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_settings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/my_page_settings_selector"
+                app:isColorUi="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:text="@string/mine_item_settings"
+                android:textColor="?attr/font_color"
+                app:isColorUi="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/horizontal_divider_one"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_page_item_divider_height"
+        android:background="?attr/divider_black"
+        app:isColorUi="true" />
+
+    <RelativeLayout
+        android:id="@+id/layout_my_page_message"
+        style="@style/my_page_item_root"
+        android:background="?attr/main_bg"
+        app:isColorUi="true">
+
+        <TextView
+            android:id="@+id/txt_my_page_message"
+            style="@style/my_page_item_tv"
+            android:text="@string/mine_item_notification"
+            android:textColor="?attr/font_color"
+            app:isColorUi="true" />
+
+
+        <ImageView
+            android:id="@+id/img_my_page_message_right_arrow"
+            style="@style/my_page_item_right_arrow" />
+
+        <View
+            android:id="@+id/my_page_message_divider"
+            style="@style/my_page_item_divider"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/divider_light_grey"
+            app:isColorUi="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_my_page_offline"
+        style="@style/my_page_item_root"
+        android:background="?attr/main_bg"
+        app:isColorUi="true">
+
+        <TextView
+            android:id="@+id/txt_my_page_offline"
+            style="@style/my_page_item_tv"
+            android:text="@string/mine_item_offline"
+            android:textColor="?attr/font_color"
+            app:isColorUi="true" />
+
+        <TextView
+            android:id="@+id/txt_my_page_offline_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="9.0dip"
+            android:layout_toLeftOf="@+id/img_my_page_offline_right_arrow"
+            android:textColor="@color/ssxinzi3"
+            android:textSize="14.0sp" />
+
+        <ImageView
+            android:id="@+id/img_my_page_offline_right_arrow"
+            style="@style/my_page_item_right_arrow" />
+
+        <View
+            android:id="@+id/my_page_offline_divider"
+            style="@style/my_page_item_divider"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/divider_light_grey"
+            app:isColorUi="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_my_page_activity"
+        style="@style/my_page_item_root"
+        android:background="?attr/main_bg"
+        app:isColorUi="true">
+
+        <TextView
+            android:id="@+id/txt_my_page_activity"
+            style="@style/my_page_item_tv"
+            android:text="@string/mine_item_activity"
+            android:textColor="?attr/font_color"
+            app:isColorUi="true" />
+
+
+        <ImageView
+            android:id="@+id/img_my_page_activity_right_arrow"
+            style="@style/my_page_item_right_arrow" />
+
+        <View
+            android:id="@+id/my_page_activity_divider"
+            style="@style/my_page_item_divider"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/divider_light_grey"
+            app:isColorUi="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_my_page_sell"
+        style="@style/my_page_item_root"
+        android:background="?attr/main_bg"
+        app:isColorUi="true">
+
+        <TextView
+            android:id="@+id/txt_my_page_sell"
+            style="@style/my_page_item_tv"
+            android:text="@string/mine_item_sell"
+            android:textColor="?attr/font_color"
+            app:isColorUi="true" />
+
+        <ImageView
+            android:id="@+id/img_my_page_sell_right_arrow"
+            style="@style/my_page_item_right_arrow" />
+
+        <View
+            android:id="@+id/my_page_sell_divider"
+            style="@style/my_page_item_divider"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/divider_light_grey"
+            app:isColorUi="true" />
+
+        <TextView
+            android:id="@+id/txt_my_page_sell_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.0dip"
+            android:layout_toLeftOf="@+id/img_my_page_sell_right_arrow"
+            android:text="@string/mine_item_sell_introduce"
+            android:textColor="@color/ssxinzi3"
+            android:textSize="12.0sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_dynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+</LinearLayout>
