@@ -8,6 +8,7 @@ import android.view.MenuItem;
 
 import com.simplereader.graduation.base.BaseActivity;
 import com.simplereader.graduation.ui.adapter.ViewPagerAdapter;
+import com.simplereader.graduation.ui.fragment.ArticleFragment;
 import com.simplereader.graduation.ui.fragment.AttentionFragment;
 import com.simplereader.graduation.ui.fragment.HomeFragment;
 import com.simplereader.graduation.ui.fragment.MeFragment;
@@ -41,17 +42,22 @@ public class MainActivity extends BaseActivity {
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         switch (item.getItemId()) {
-                            case R.id.item_call:
+                            case R.id.item_news:
                                 viewPager.setCurrentItem(0);
                                 break;
-                            case R.id.item_mail:
+                            case R.id.item_vedio:
                                 viewPager.setCurrentItem(1);
                                 break;
-                            case R.id.item_attention:
+                            case R.id.item_article:
                                 viewPager.setCurrentItem(2);
                                 break;
-                            case R.id.item_person:
+                            case R.id.item_weather:
                                 viewPager.setCurrentItem(3);
+                                break;
+                            case R.id.item_person:
+                                viewPager.setCurrentItem(4);
+                                break;
+                            default:
                                 break;
                         }
                         return false;
@@ -100,10 +106,11 @@ public class MainActivity extends BaseActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new HomeFragment());
-        adapter.addFragment(new VideoFragment());
-        adapter.addFragment(new AttentionFragment());
-        adapter.addFragment(new MeFragment());
+        adapter.addFragment(new HomeFragment()); //新闻页面
+        adapter.addFragment(new VideoFragment()); //视频页面
+        adapter.addFragment(new ArticleFragment()); //文章页面
+        adapter.addFragment(new AttentionFragment()); //天气页面
+        adapter.addFragment(new MeFragment()); //个人页面
         viewPager.setAdapter(adapter);
     }
 }

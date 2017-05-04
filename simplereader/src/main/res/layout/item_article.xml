@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <com.simplereader.graduation.ui.view.CircleImageView
+            android:id="@+id/image_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/head"/>
+        <TextView
+            android:id="@+id/text_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="北方以北"
+            android:textSize="@dimen/article_author_textSize"
+            android:layout_marginLeft="@dimen/article_author2head"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/article_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/article_title_title"
+        android:text="读和写，一个都不能少——尹沽城读写训练营有感"/>
+
+    <TextView
+        android:id="@+id/article_sketch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/article_sketch_textSize"
+        android:maxEms="25"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginTop="3dp"
+        android:lineSpacingMultiplier="1.5"
+        android:text="4月的简书上，我极少更文。懒病犯了吗？不是，我看书去了。 如果说在简书上开始码字，是我重新扬起“写”的热情，那么参加读写训练营则是“读”的起航。如今人人一机在手的时代，谁人不"/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_height"
+    android:layout_marginTop="3dp"
+    android:background="@color/detail_divider">
+
+</View>
+</LinearLayout>

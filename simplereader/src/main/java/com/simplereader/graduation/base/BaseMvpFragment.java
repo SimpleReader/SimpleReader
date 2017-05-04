@@ -53,6 +53,16 @@ public abstract class BaseMvpFragment<P extends BasePresenter> extends BaseFragm
         return recyclerView;
     }
 
+    public RecyclerView initArticleRecyclerView(BaseQuickAdapter adapter, RecyclerView.ItemDecoration decoration) {
+        RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recycleView_article);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        if (decoration != null) {
+            recyclerView.addItemDecoration(decoration);
+        }
+        recyclerView.setAdapter(adapter);
+        return recyclerView;
+    }
+
     public RecyclerView initHorizontalRecyclerView(BaseQuickAdapter adapter, RecyclerView.ItemDecoration decoration) {
         return initHorizontalRecyclerView(null, adapter, decoration);
     }

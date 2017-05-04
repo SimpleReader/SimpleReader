@@ -1,6 +1,7 @@
 package com.simplereader.graduation.api;
 
 import com.simplereader.graduation.base.ResultResponse;
+import com.simplereader.graduation.model.Article;
 import com.simplereader.graduation.model.CommentList;
 import com.simplereader.graduation.model.News;
 import com.simplereader.graduation.model.VideoModel;
@@ -17,13 +18,14 @@ import rx.Observable;
  */
 
 public interface ApiService {
-//    String HOST = "http://192.168.0.116:88/";    //baseUrl
     String HOST = "http://www.toutiao.com/";    //baseUrl
     String API_SERVICE_URL = HOST + "api/";
     String ARTICLE_FEED = "article/feed/";
     String COMMENT_LIST = "comment/list";
     String HOST_VIDEO = "http://i.snssdk.com";
     String URL_VIDEO = "/video/urls/v/1/toutiao/mp4/%s?r=%s";
+    //阿里云的服务器地址
+    String HOST_MINE = "http://120.24.185.87:8080/graduate/";
 
     /**
      * 获取新闻数据列表
@@ -61,5 +63,8 @@ public interface ApiService {
      */
     @GET
     Observable<ResultResponse<VideoModel>> getVideoData(@Url String url);
+
+    @GET(HOST_MINE+"article/list.do")
+    Observable<ResultResponse<Article>> getArticleData();
 
 }

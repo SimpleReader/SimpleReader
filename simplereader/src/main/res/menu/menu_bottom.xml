@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+      xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/item_call"
-        android:icon="@drawable/ic_call_black_24dp"
-        android:title="拨号" />
+        android:id="@+id/item_news"
+        android:icon="@mipmap/icon_news"
+        android:title="新闻"/>
     <item
-        android:id="@+id/item_mail"
-        android:icon="@drawable/ic_mail_outline_black_24dp"
-        android:title="信息" />
+        android:id="@+id/item_vedio"
+        android:icon="@mipmap/vedio_icon"
+        android:title="视频"/>
 
     <item
-        android:id="@+id/item_attention"
-        android:icon="@drawable/ic_mail_outline_black_24dp"
-        android:title="信息" />
+        android:id="@+id/item_article"
+        android:icon="@mipmap/article_icon"
+        android:title="文章"/>
+
+    <item
+        android:id="@+id/item_weather"
+        android:icon="@mipmap/icon_weather"
+        android:title="天气"/>
 
     <item
         android:id="@+id/item_person"
-        android:icon="@drawable/ic_person_black_24dp"
-        android:title="我的" />
+        android:icon="@mipmap/mine_icon"
+        android:title="我的"/>
+
 </menu>
