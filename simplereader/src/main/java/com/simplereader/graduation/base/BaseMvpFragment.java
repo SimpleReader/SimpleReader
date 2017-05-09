@@ -38,9 +38,9 @@ public abstract class BaseMvpFragment<P extends BasePresenter> extends BaseFragm
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        if (mvpPresenter != null) {
+        /*if (mvpPresenter != null) {
             mvpPresenter.detachView();
-        }
+        }*/
     }
 
     public RecyclerView initCommonRecyclerView(BaseQuickAdapter adapter, RecyclerView.ItemDecoration decoration) {

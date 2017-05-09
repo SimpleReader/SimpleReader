@@ -1,5 +1,6 @@
 package com.simplereader.graduation.presenter;
 
+import com.simplereader.graduation.api.ApiService;
 import com.simplereader.graduation.api.AppClient;
 import com.simplereader.graduation.base.BasePresenter;
 import com.simplereader.graduation.base.SubscriberCallBack;
@@ -17,7 +18,7 @@ public class BaseDetailPresenter extends BasePresenter<IBaseDetailView> {
 
     public void getComment(String group_id, String item_id, int pageNow) {
         int offset = (pageNow - 1) * 10;
-        addSubscription(AppClient.getApiService().getComment(group_id, item_id, offset + "", "10"), new SubscriberCallBack<CommentList>() {
+        addSubscription(AppClient.getApiService(ApiService.API_SERVICE_URL).getComment(group_id, item_id, offset + "", "10"), new SubscriberCallBack<CommentList>() {
                     @Override
                     protected void onSuccess(CommentList response) {
                         mvpView.onGetCommentSuccess(response);

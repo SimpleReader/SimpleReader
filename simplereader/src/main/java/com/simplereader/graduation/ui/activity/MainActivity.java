@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.view.MenuItem;
 
 import com.simplereader.graduation.base.BaseActivity;
+import com.simplereader.graduation.theme.util.util.SharedPreferencesMgr;
 import com.simplereader.graduation.ui.adapter.ViewPagerAdapter;
 import com.simplereader.graduation.ui.fragment.ArticleFragment;
 import com.simplereader.graduation.ui.fragment.AttentionFragment;
@@ -37,6 +38,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void processLogic(Bundle savedInstanceState) {
+        initIcon();
         bottomNavigationView.setOnNavigationItemSelectedListener(
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
                     @Override
@@ -88,13 +90,13 @@ public class MainActivity extends BaseActivity {
             }
         });
 
-        // 如果想禁止滑动，可以把下面的代码取消注释
-//        viewPager.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View v, MotionEvent event) {
-//                return true;
-//            }
-//        });
+         //如果想禁止滑动，可以把下面的代码取消注释
+       /* viewPager.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                return true;
+            }
+        });*/
 
         setupViewPager(viewPager);
     }
@@ -113,4 +115,24 @@ public class MainActivity extends BaseActivity {
         adapter.addFragment(new MeFragment()); //个人页面
         viewPager.setAdapter(adapter);
     }
+
+    /**
+     * 初始化图标信息
+     */
+    private void initIcon(){
+        SharedPreferencesMgr.setInt("未知", R.mipmap.none);
+        SharedPreferencesMgr.setInt("晴", R.mipmap.type_one_sunny);
+        SharedPreferencesMgr.setInt("阴", R.mipmap.type_one_cloudy);
+        SharedPreferencesMgr.setInt("多云", R.mipmap.type_one_cloudy);
+        SharedPreferencesMgr.setInt("少云", R.mipmap.type_one_cloudy);
+        SharedPreferencesMgr.setInt("晴间多云", R.mipmap.type_one_cloudytosunny);
+        SharedPreferencesMgr.setInt("小雨", R.mipmap.type_one_light_rain);
+        SharedPreferencesMgr.setInt("中雨", R.mipmap.type_one_light_rain);
+        SharedPreferencesMgr.setInt("大雨", R.mipmap.type_one_heavy_rain);
+        SharedPreferencesMgr.setInt("阵雨", R.mipmap.type_one_thunderstorm);
+        SharedPreferencesMgr.setInt("雷阵雨", R.mipmap.type_one_thunder_rain);
+        SharedPreferencesMgr.setInt("霾", R.mipmap.type_one_fog);
+        SharedPreferencesMgr.setInt("雾", R.mipmap.type_one_fog);
+    }
+
 }

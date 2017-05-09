@@ -1,13 +1,12 @@
 package com.simplereader.graduation.presenter;
 
 import com.orhanobut.logger.Logger;
+import com.simplereader.graduation.api.ApiService;
 import com.simplereader.graduation.api.AppClient;
+import com.simplereader.graduation.base.BaseCallBack;
 import com.simplereader.graduation.base.BasePresenter;
-import com.simplereader.graduation.base.SubscriberCallBack;
-import com.simplereader.graduation.model.Article;
+import com.simplereader.graduation.model.ArticleResponse;
 import com.simplereader.graduation.view.IArticleView;
-
-import java.util.List;
 
 /**
  * Description:
@@ -21,10 +20,11 @@ public class ArticleListPresenter extends BasePresenter<IArticleView> {
     }
 
     public void getArticleList(){
-        addSubscription(AppClient.getApiService().getArticleData(), new SubscriberCallBack<List<Article>>() {
+        addSubscription(AppClient.getApiService(ApiService.HOST_MINE).getArticleData(ApiService.URL_ARTICLE), new BaseCallBack<ArticleResponse>() {
+
             @Override
-            protected void onSuccess(List<Article> response) {
-                Logger.e("文章id"+response.get(0).articleId);
+            public void onNext(ArticleResponse response) {
+                Logger.e("response:"+response.getData().toString());
                 mvpView.onGetArticleListSuccess(response);
             }
         });

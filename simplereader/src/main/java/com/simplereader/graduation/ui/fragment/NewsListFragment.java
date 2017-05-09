@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
+import com.orhanobut.logger.Logger;
 import com.simplereader.graduation.base.BaseMvpFragment;
 import com.simplereader.graduation.model.News;
 import com.simplereader.graduation.presenter.NewsListPresenter;
@@ -58,10 +59,12 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
 
     @Override
     protected void processLogic() {
+        Logger.e("processLogic");
+
         initCommonRecyclerView(createAdapter(), null);
         mTitleCode = getArguments().getString(ConstanceValue.DATA);
-        srl.measure(0, 0);
-        srl.setRefreshing(true);
+        /*srl.measure(0, 0);
+        srl.setRefreshing(true);*/
     }
 
     protected BaseQuickAdapter createAdapter() {
@@ -71,6 +74,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
     @Override
     protected void lazyLoad() {
         super.lazyLoad();
+        Logger.e("processLogic");
         if (TextUtils.isEmpty(mTitleCode)) {
             mTitleCode = getArguments().getString(ConstanceValue.DATA);
         }
@@ -82,6 +86,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
         srl.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
+                Logger.e("mTitleCode:"+mTitleCode);
                 mvpPresenter.getNewsList(mTitleCode);
             }
         });
@@ -112,4 +117,5 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
         mDatas.addAll(0, response);
         mAdapter.notifyItemRangeChanged(0, response.size());
     }
+
 }

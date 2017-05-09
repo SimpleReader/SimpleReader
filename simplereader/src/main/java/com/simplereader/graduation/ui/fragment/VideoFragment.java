@@ -40,6 +40,7 @@ public class VideoFragment extends BasePagerFragment {
     @Override
     protected void bindViews(View view) {
         super.bindViews(view);
+
     }
 
     @Override

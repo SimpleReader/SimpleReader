@@ -1,6 +1,7 @@
 package com.simplereader.graduation.api;
 
 import com.google.gson.GsonBuilder;
+import com.orhanobut.logger.Logger;
 import com.simplereader.simplereader.BuildConfig;
 
 import java.io.IOException;
@@ -21,11 +22,11 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class AppClient {
     public static Retrofit mRetrofit;
-
     /**
      * @return
      */
-    public static Retrofit retrofit() {
+    public static Retrofit retrofit(String baseUrl) {
+        Logger.e("baseUrl："+baseUrl);
         if (mRetrofit == null) {
             OkHttpClient.Builder builder = new OkHttpClient.Builder();
             if (BuildConfig.DEBUG) {
@@ -49,8 +50,9 @@ public class AppClient {
                 }
             });
             OkHttpClient okHttpClient = builder.build();
+            Logger.e("baseUrl+down:"+baseUrl);
             mRetrofit = new Retrofit.Builder()
-                    .baseUrl(ApiService.API_SERVICE_URL)
+                    .baseUrl(baseUrl)
                     .addConverterFactory(ScalarsConverterFactory.create())
                     .addConverterFactory(GsonConverterFactory.create(new GsonBuilder().create()))
                     .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
@@ -60,7 +62,7 @@ public class AppClient {
         return mRetrofit;
     }
 
-    public static ApiService getApiService() {
-        return retrofit().create(ApiService.class);
+    public static ApiService getApiService(String baseUrl) {
+        return retrofit(baseUrl).create(ApiService.class);
     }
 }

@@ -14,10 +14,10 @@
         android:id="@+id/layout_user_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
+        android:layout_gravity="center"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:visibility="visible">
+        android:visibility="gone">
 
         <ImageView
             android:id="@+id/img_avatar"
@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/txtUserName"
@@ -49,20 +49,18 @@
                     android:textColor="@color/ssxinzi10"
                     android:textSize="16sp" />
 
-                <ImageView
-                    android:id="@+id/imgTouTiaoHao"
+                <Button
+                    android:id="@+id/btnLogout"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="4dp"
-                    android:src="@drawable/newtoutiaohao_details1"
-                    android:visibility="gone" />
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:background="@color/red_btn_color_normal"
+                    android:maxLines="1"
+                    android:text="退出登录"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/ssxinzi10"
+                    android:textSize="16sp" />
 
-                <ImageView
-                    android:id="@+id/imgHeaderClickTips"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="4dp"
-                    android:src="@drawable/name_arrow" />
             </LinearLayout>
         </LinearLayout>
 
@@ -73,7 +71,8 @@
             android:layout_marginBottom="23dp"
             android:layout_marginTop="18dp"
             android:gravity="center_vertical"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <LinearLayout
                 android:id="@+id/layout_following"
@@ -177,7 +176,7 @@
         android:layout_gravity="bottom"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:visibility="gone">
+        android:visibility="visible">
 
         <ImageView
             android:id="@+id/img_register"

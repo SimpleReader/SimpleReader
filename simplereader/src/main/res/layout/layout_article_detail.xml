@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/title_bar_style"
+        android:background="@color/ssxinmian4">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            style="@style/topic_title_back_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/forum_introduce"
+            android:textColor="@color/heise1"
+            android:textSize="@dimen/title_bar_text_size" />
+
+        <ImageView
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="4dp"
+            android:paddingRight="8dp"
+            android:scaleType="center"
+            android:src="@drawable/btn_more_title_detail" />
+
+        <ImageView
+            android:id="@+id/btnCollect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_uncollect_black"
+            android:layout_toLeftOf="@id/btnShare"
+            android:layout_centerVertical="true"
+            android:paddingRight="4dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/ssxinxian7" />
+    </RelativeLayout>
+
+    <com.simplereader.graduation.ui.view.ProgressWebView
+        android:id="@+id/web_article"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

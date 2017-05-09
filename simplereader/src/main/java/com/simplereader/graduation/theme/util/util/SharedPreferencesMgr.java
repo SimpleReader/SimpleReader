@@ -13,7 +13,7 @@ public class SharedPreferencesMgr {
 
     private SharedPreferencesMgr(Context context, String fileName) {
         this.context = context;
-        sharedPreferences = context.getSharedPreferences(fileName, Context.MODE_WORLD_READABLE);
+        sharedPreferences = context.getSharedPreferences(fileName, Context.MODE_PRIVATE);
     }
 
     public static void init(Context context, String fileName) {
@@ -52,6 +52,9 @@ public class SharedPreferencesMgr {
         sharedPreferences.edit().putString(key, value).commit();
     }
 
+    /**
+     * 删除sp中的json数据
+     */
     public static void clearAll() {
         if (sharedPreferences == null) {
             return;

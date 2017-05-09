@@ -15,10 +15,12 @@
         android:icon="@mipmap/article_icon"
         android:title="文章"/>
 
+
     <item
         android:id="@+id/item_weather"
         android:icon="@mipmap/icon_weather"
         android:title="天气"/>
+
 
     <item
         android:id="@+id/item_person"

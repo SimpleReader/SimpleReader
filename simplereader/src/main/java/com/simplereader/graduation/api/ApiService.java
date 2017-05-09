@@ -1,14 +1,22 @@
 package com.simplereader.graduation.api;
 
 import com.simplereader.graduation.base.ResultResponse;
-import com.simplereader.graduation.model.Article;
+import com.simplereader.graduation.model.ArticleFavour;
+import com.simplereader.graduation.model.ArticleResponse;
 import com.simplereader.graduation.model.CommentList;
+import com.simplereader.graduation.model.HeWeather;
+import com.simplereader.graduation.model.LoginMessage;
 import com.simplereader.graduation.model.News;
+import com.simplereader.graduation.model.ResponseInfo;
 import com.simplereader.graduation.model.VideoModel;
 
 import java.util.List;
 
+import okhttp3.RequestBody;
+import retrofit2.http.Body;
 import retrofit2.http.GET;
+import retrofit2.http.Headers;
+import retrofit2.http.POST;
 import retrofit2.http.Query;
 import retrofit2.http.Url;
 import rx.Observable;
@@ -26,6 +34,15 @@ public interface ApiService {
     String URL_VIDEO = "/video/urls/v/1/toutiao/mp4/%s?r=%s";
     //阿里云的服务器地址
     String HOST_MINE = "http://120.24.185.87:8080/graduate/";
+    String URL_ARTICLE = HOST_MINE + "article/list.do";
+    String URL_LOGIN = HOST_MINE + "user/login.do";
+    String URL_REGISTER=HOST_MINE+"user/register.do";
+    String URL_ARTICLE_FAVOUR=HOST_MINE+"article/favour/listByUser.do";
+    String URL_FAVOUR_ARTICLE_ADD=HOST_MINE+"article/favour/addFavour.do";
+    String URL_ISCOLLECTED=HOST_MINE+"article/favour/isCollected.do";
+    String URL_CANCEL_FAVOUR=HOST_MINE+"article/favour/cancelFavour.do";
+    String Host_WEATHER="https://free-api.heweather.com/v5/";
+    String URL_HEWEATHER=Host_WEATHER+"weather";
 
     /**
      * 获取新闻数据列表
@@ -64,7 +81,70 @@ public interface ApiService {
     @GET
     Observable<ResultResponse<VideoModel>> getVideoData(@Url String url);
 
-    @GET(HOST_MINE+"article/list.do")
-    Observable<ResultResponse<Article>> getArticleData();
+    /**
+     * 获取文章列表
+     *
+     * @param url
+     * @return
+     */
+    @GET
+    Observable<ArticleResponse> getArticleData(@Url String url);
 
+    /**
+     * 用户名登录
+     *
+     * @param username
+     * @param password
+     * @return
+     */
+    @POST(URL_LOGIN)
+    Observable<LoginMessage> loginByUsername(@Query("username") String username,
+                                             @Query("password") String password);
+
+    /**
+     * 通过用户名查询收藏列表
+     * @param username
+     * @return
+     */
+    @GET(URL_ARTICLE_FAVOUR)
+    Observable<ArticleFavour> getArticleFavourList(@Query("username") String username);
+
+    @POST(URL_FAVOUR_ARTICLE_ADD)
+    Observable<ResponseInfo<String>> collectArticle(@Query("username") String username,
+                                                    @Query("article_id") String article_id);
+
+    /**
+     * 查询是否收藏
+     * @param body
+     * @return
+     */
+    @Headers({"Content-type:application/json;charset=UTF-8"})
+    @POST(URL_ISCOLLECTED)
+    Observable<ResponseInfo<String>> isCollected(@Body RequestBody body);
+
+    /**
+     * 取消收藏
+     * @param body
+     * @return
+     */
+    @POST(URL_CANCEL_FAVOUR)
+    Observable<ResponseInfo<String>> cancelCollect(@Body RequestBody body);
+
+    /**
+     * 用户注册
+     * @param body
+     * @return
+     */
+    @POST(URL_REGISTER)
+    Observable<ResponseInfo<String>> register(@Body RequestBody body);
+
+    /**
+     * 获取天气情况
+     * @param city
+     * @param key
+     * @return
+     */
+    @GET(URL_HEWEATHER)
+    Observable<HeWeather> loadHeWeather(@Query("city") String city,
+                                        @Query("key") String key);
 }

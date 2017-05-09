@@ -1,8 +1,6 @@
 package com.simplereader.graduation.view;
 
-import com.simplereader.graduation.model.Article;
-
-import java.util.List;
+import com.simplereader.graduation.model.ArticleResponse;
 
 /**
  * Description:
@@ -10,5 +8,5 @@ import java.util.List;
  */
 
 public interface IArticleView {
-    void onGetArticleListSuccess(List<Article> response);
+    void onGetArticleListSuccess(ArticleResponse response);
 }
