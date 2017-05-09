@@ -16,6 +16,9 @@
     <color name="font_main_p">#F85959</color>
     <color name="ssqianhui">#F4F5F7</color>
 
+    <color name="bg_color">#f1f1f1</color>
+    <color name="grey_btn_color_normal">#fff1f1f1</color>
+
 
 
     <color name="account_bg">#fffafafa</color>
@@ -349,6 +352,7 @@
     <color name="biaozhunhong3_pressed">#fff5aaaa</color>
     <color name="biaozhunhong3_selected">#fff5aaaa</color>
     <color name="black">#ff000000</color>
+    <color name="border_color">#a9b7b7</color>
     <color name="blue">#ff0000ff</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -1789,4 +1793,10 @@
     <color name="yejiantongyong1_disable">#ff505050</color>
     <color name="yejiantongyong1_pressed">#ff505050</color>
     <color name="yejiantongyong1_selected">#ff505050</color>
+    <color name="white_color_disable">#7fffffff</color>
+    <color name="red_btn_color_normal">#ffff5454</color>
+    <color name="red_btn_color_pressed">#ffd24242</color>
+    <color name="red_btn_color_disable">#7fff5454</color>
+
+    <color name="color_weather">#76B1D4</color>
 </resources>

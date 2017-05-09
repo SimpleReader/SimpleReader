@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/title_bar_style"
+        android:background="@color/ssxinmian4">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            style="@style/topic_title_back_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/mine_register"
+            android:textColor="@color/heise1"
+            android:textSize="@dimen/title_bar_text_size" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/ssxinxian7" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/selector_view_block"
+        android:padding="@dimen/largePadding">
+
+        <com.simplereader.graduation.ui.view.ClearEditText
+            android:id="@+id/etxt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_nickname"
+            android:drawablePadding="20dp"
+            android:hint="请输入用户名"
+            style="@style/editText_base"/>
+        <View
+            style="@style/line_vertical">
+        </View>
+
+        <com.simplereader.graduation.ui.view.ClearEditText
+            android:id="@+id/etxt_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_pwd"
+            android:drawablePadding="20dp"
+            android:hint="请输入登录密码"
+            style="@style/editText_base"
+            android:inputType="textPassword"/>
+        <View
+            style="@style/line_vertical">
+        </View>
+
+        <com.simplereader.graduation.ui.view.ClearEditText
+            android:id="@+id/etxt_repeat_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_pwd"
+            android:drawablePadding="20dp"
+            android:hint="请再次输入登录密码"
+            style="@style/editText_base"
+            android:inputType="textPassword"/>
+        <View
+            style="@style/line_vertical">
+        </View>
+        <com.simplereader.graduation.ui.view.ClearEditText
+            android:id="@+id/etxt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_phone"
+            android:drawablePadding="20dp"
+            android:hint="请输入手机号码"
+            style="@style/editText_base"
+            android:inputType="textPassword"/>
+        <View
+            style="@style/line_vertical">
+        </View>
+        <com.simplereader.graduation.ui.view.ClearEditText
+            android:id="@+id/etxt_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_nickname"
+            android:drawablePadding="20dp"
+            android:hint="请输入用户昵称"
+            style="@style/editText_base"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/bigRedButton"
+        android:text="注册"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>

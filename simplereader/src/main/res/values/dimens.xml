@@ -22,6 +22,11 @@
     <dimen name="splash_ad_ignore">36.0dip</dimen>
     <dimen name="splash_ad_ignore_count_top">3.0dip</dimen>
     <dimen name="splash_ad_ignore_text_top">18.0dip</dimen>
+    <dimen name="buttonCornerSize">2.0dip</dimen>
+    <dimen name="largePadding">16.0dip</dimen>
+    <dimen name="bigButtonTextSize">18.0dip</dimen>
+    <dimen name="normalButtonHeight">48.0dip</dimen>
+
 
     <!--文章布局属性-->
     <dimen name="article_author_textSize">16.0sp</dimen>
@@ -29,4 +34,9 @@
     <dimen name="article_title_title">16.0sp</dimen>
     <dimen name="article_sketch_textSize">15.0sp</dimen>
     <dimen name="view_height">1dp</dimen>
+
+    <!--天气布局属性-->
+    <dimen name="big_textsize">22sp</dimen>
+    <dimen name="cardview_margin">8dp</dimen>
+    <dimen name="weather_city">20sp</dimen>
 </resources>

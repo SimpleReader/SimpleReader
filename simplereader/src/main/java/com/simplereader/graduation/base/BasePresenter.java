@@ -29,7 +29,7 @@ public class BasePresenter<V> implements Presenter<V> {
     @Override
     public void detachView() {
         this.mvpView = null;
-        onUnsubscribe();
+        //onUnsubscribe();
     }
 
     //RXjava取消注册，以避免内存泄露

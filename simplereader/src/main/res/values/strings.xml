@@ -24,4 +24,9 @@
     <string name="mine_item_activity">活 动</string>
     <string name="mine_item_sell">商 城</string>
     <string name="mine_item_sell_introduce">特卖、头彩、电影</string>
+    <string name="mine_login">用户登录</string>
+    <string name="mine_register">用户注册</string>
+
+    <string name="select_province">选择省份</string>
+    <string name="select_city">选择城市</string>
 </resources>

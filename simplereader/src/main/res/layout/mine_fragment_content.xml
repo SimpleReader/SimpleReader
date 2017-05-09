@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/transparent"
-    android:orientation="vertical"
-    app:isColorUi="true">
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/transparent"
+              android:orientation="vertical"
+              app:isColorUi="true">
 
     <LinearLayout
         android:id="@+id/tool_bar_layout"
@@ -15,7 +15,6 @@
         android:gravity="center_vertical"
         android:orientation="horizontal"
         app:isColorUi="true">
-
 
         <LinearLayout
             android:id="@+id/ll_favorite"
@@ -58,6 +57,7 @@
                 app:isColorUi="true" />
 
             <TextView
+                android:id="@+id/mine_fragment_mode_switch"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -105,7 +105,8 @@
         android:id="@+id/layout_my_page_message"
         style="@style/my_page_item_root"
         android:background="?attr/main_bg"
-        app:isColorUi="true">
+        app:isColorUi="true"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/txt_my_page_message"
@@ -131,7 +132,8 @@
         android:id="@+id/layout_my_page_offline"
         style="@style/my_page_item_root"
         android:background="?attr/main_bg"
-        app:isColorUi="true">
+        app:isColorUi="true"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/txt_my_page_offline"
@@ -166,7 +168,8 @@
         android:id="@+id/layout_my_page_activity"
         style="@style/my_page_item_root"
         android:background="?attr/main_bg"
-        app:isColorUi="true">
+        app:isColorUi="true"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/txt_my_page_activity"
@@ -192,14 +195,16 @@
         android:id="@+id/layout_my_page_sell"
         style="@style/my_page_item_root"
         android:background="?attr/main_bg"
-        app:isColorUi="true">
+        app:isColorUi="true"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/txt_my_page_sell"
             style="@style/my_page_item_tv"
             android:text="@string/mine_item_sell"
             android:textColor="?attr/font_color"
-            app:isColorUi="true" />
+            app:isColorUi="true"
+            />
 
         <ImageView
             android:id="@+id/img_my_page_sell_right_arrow"

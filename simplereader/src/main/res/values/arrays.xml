@@ -2,13 +2,13 @@
 <resources>
     <!--首页tab标题-->
     <string-array name="tab_titles">
-        <!--<item>推荐</item>-->
-        <!--<item>视频</item>-->
+       <!-- <item>推荐</item>
+        <item>视频</item>-->
         <item>热点</item>
         <item>社会</item>
         <item>娱乐</item>
         <item>科技</item>
-       <!-- <item>汽车</item>-->
+        <!--<item>汽车</item>-->
         <item>体育</item>
         <item>财经</item>
         <item>军事</item>
@@ -27,9 +27,9 @@
 
     <!--标题对应的id-->
     <string-array name="tab_titles_code">
-       <!-- <item>__all__</item>
-        <item>video</item>-->
-        <item>news_hot</item>
+        <item>__all__</item>
+        <!--<item>video</item>
+        <item>news_hot</item>-->
         <item>news_society</item>
         <item>news_entertainment</item>
         <item>news_tech</item>
@@ -56,7 +56,7 @@
         <item>音乐台</item>
         <item>看天下</item>
         <item>小品</item>
-        <item>唱将</item>
+        <!--<item>唱将</item>-->
         <item>最娱乐</item>
     </string-array>
 
@@ -66,18 +66,18 @@
         <item>subv_voice</item>
         <item>subv_society</item>
         <item>subv_comedy</item>
-        <item>subv_haoshengyin</item>
+        <!--<item>subv_haoshengyin</item>-->
         <item>subv_entertainment</item>
     </string-array>
 
     <string-array name="channel_title">
-        <!--<item>推荐</item>
-        <item>视频</item>-->
+        <item>推荐</item>
+        <item>视频</item>
         <item>热点</item>
         <item>社会</item>
         <item>娱乐</item>
         <item>科技</item>
-       <!-- <item>汽车</item>-->
+        <item>汽车</item>
         <item>体育</item>
         <item>财经</item>
         <item>军事</item>

@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.simplereader.simplereader">
+          package="com.simplereader.simplereader">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <!--悬浮窗-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
     <application
         android:name="com.simplereader.graduation.MyApplication"
@@ -14,14 +22,24 @@
         android:theme="@style/AppTheme">
         <activity android:name="com.simplereader.graduation.ui.activity.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.simplereader.graduation.ui.activity.VideoDetailActivity" />
-        <activity android:name="com.simplereader.graduation.ui.activity.ChannelActivity" />
-        <activity android:name="com.simplereader.graduation.ui.activity.NewsDetailActivity"></activity>
+        <activity android:name="com.simplereader.graduation.ui.activity.VideoDetailActivity"/>
+        <activity android:name="com.simplereader.graduation.ui.activity.ChannelActivity"/>
+        <activity android:name="com.simplereader.graduation.ui.activity.NewsDetailActivity"/>
+        <activity android:name="com.simplereader.graduation.ui.activity.ArticleDetailAvtivity">
+        </activity>
+        <activity android:name="com.simplereader.graduation.ui.activity.LoginActivity">
+        </activity>
+        <activity android:name="com.simplereader.graduation.ui.activity.ArticleFavourActivity">
+        </activity>
+        <activity android:name="com.simplereader.graduation.ui.activity.RegisterActivity">
+        </activity>
+        <activity android:name="com.simplereader.graduation.ui.activity.ChooseCityActivity">
+        </activity>
     </application>
 
 </manifest>

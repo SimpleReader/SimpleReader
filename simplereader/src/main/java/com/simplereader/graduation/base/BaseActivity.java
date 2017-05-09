@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 
@@ -18,6 +19,7 @@ import com.simplereader.graduation.model.Notice;
 import com.simplereader.graduation.theme.util.SkinFactory;
 import com.simplereader.graduation.theme.util.util.ColorUiUtil;
 import com.simplereader.graduation.theme.util.util.SharedPreferencesMgr;
+import com.simplereader.graduation.ui.activity.LoginActivity;
 import com.simplereader.graduation.util.ConstanceValue;
 import com.simplereader.graduation.util.RxBus;
 import com.simplereader.graduation.util.ToastUtils;
@@ -224,6 +226,20 @@ public abstract class BaseActivity extends AppCompatActivity {
         onUnsubscribe();
         if (mSubscription != null) {
             mSubscription.unsubscribe();
+        }
+    }
+
+    public void startActivity(Intent intent, boolean isNeedLogin) {
+        if (isNeedLogin) {
+            String userInfo = SharedPreferencesMgr.getString("userinfo", "");
+            if (!TextUtils.isEmpty(userInfo)) {
+                startActivity(intent);
+            }else { //未登录
+                Intent loginIntent=new Intent(this, LoginActivity.class);
+                super.startActivity(loginIntent);
+            }
+        }else {
+            super.startActivity(intent);
         }
     }
 }
