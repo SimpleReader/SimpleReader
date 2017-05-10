@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
 
     <RelativeLayout
+        android:id="@+id/article_detail_bar"
         style="@style/title_bar_style"
         android:background="@color/ssxinmian4">
 
@@ -56,6 +57,38 @@
     <WebView
         android:id="@+id/web_article"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@id/article_detail_bar"/>
 
-</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true">
+        <ImageView
+            android:id="@+id/tts_pause"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/tts_start"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/start"
+            android:layout_above="@id/tts_pause"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="5dp"/>
+        <ImageView
+            android:id="@+id/tts_stop"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/stop"
+            android:layout_below="@id/tts_pause"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
