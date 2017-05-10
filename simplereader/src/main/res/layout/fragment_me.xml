@@ -7,7 +7,7 @@
     android:orientation="vertical"
     app:isColorUi="true">
 
-    <com.simplereader.graduation.ui.view.HeaderZoomLayout
+    <com.umeng.soexample.ui.view.HeaderZoomLayout
         android:id="@+id/zoomLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -22,6 +22,6 @@
             <include layout="@layout/mine_fragment_content" />
 
         </LinearLayout>
-    </com.simplereader.graduation.ui.view.HeaderZoomLayout>
+    </com.umeng.soexample.ui.view.HeaderZoomLayout>
 
 </LinearLayout>

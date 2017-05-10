@@ -8,7 +8,7 @@
     android:orientation="vertical"
     app:isColorUi="true">
 
-    <com.simplereader.graduation.ui.view.SPVideoPlayer
+    <com.umeng.soexample.ui.view.SPVideoPlayer
         android:id="@+id/videoPlayer"
         android:layout_width="match_parent"
         android:layout_height="200dp" />

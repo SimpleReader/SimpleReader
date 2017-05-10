@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.simplereader.graduation.ui.activity.ChooseCityActivity">
+    tools:context="com.umeng.soexample.ui.activity.ChooseCityActivity">
     <RelativeLayout
         style="@style/title_bar_style"
         android:background="@color/ssxinmian4">
