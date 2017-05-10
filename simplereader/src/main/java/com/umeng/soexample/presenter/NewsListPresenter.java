@@ -25,7 +25,6 @@ public class NewsListPresenter extends BasePresenter<INewsListView> {
             @Override
             protected void onSuccess(List<News> response) {
                 Logger.e("response" + response.toString());
-                Logger.e("mvpView:"+mvpView==null?"null":"不为空"+" response:"+response==null?"是":"不为空");
                 mvpView.onGetNewsListSuccess(response);
             }
         });

@@ -19,7 +19,7 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         instance = this;
-        Config.DEBUG=true;
+        Config.DEBUG=false;
         UMShareAPI.get(this);
         SharedPreferencesMgr.init(this, "simpleread");
         SharedPreferencesMgr.setString(ConstanceValue.SP_CITY,ConstanceValue.CITY_DEFAULT);
