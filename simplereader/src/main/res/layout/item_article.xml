@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="5dp">
+    android:padding="5dp"
+    app:isColorUi="true">
 
     <LinearLayout
         android:id="@+id/layout_head"
@@ -16,7 +18,8 @@
             android:id="@+id/image_head"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@mipmap/head"/>
+            android:src="@mipmap/head"
+            app:isColorUi="true"/>
 
         <TextView
             android:id="@+id/text_author"
@@ -25,7 +28,8 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="@dimen/article_author2head"
             android:text="北方以北"
-            android:textSize="@dimen/article_author_textSize"/>
+            android:textSize="@dimen/article_author_textSize"
+            app:isColorUi="true"/>
     </LinearLayout>
 
     <RelativeLayout
@@ -42,7 +46,8 @@
             android:maxHeight="80dp"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@mipmap/head"/>
+            android:src="@mipmap/head"
+            app:isColorUi="true"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -54,6 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/article_title_title"
+                app:isColorUi="true"
                 android:text="读和写，一个都不能少——尹沽城读写训练营有感"/>
             <TextView
                 android:id="@+id/article_sketch"
@@ -66,7 +72,8 @@
                 android:layout_marginTop="3dp"
                 android:lineSpacingMultiplier="1.5"
                 android:layout_below="@id/article_title"
-                android:text="4月的简书上，我极少更文。懒病犯了吗？不是，我看书去了。 如果说在简书上开始码字，是我重新扬起“写”的热情，那么参加读写训练营则是“读”的起航。如今人人一机在手的时代，谁人不"/>
+                android:text="4月的简书上，我极少更文。懒病犯了吗？不是，我看书去了。 如果说在简书上开始码字，是我重新扬起“写”的热情，那么参加读写训练营则是“读”的起航。如今人人一机在手的时代，谁人不"
+                app:isColorUi="true"/>
         </LinearLayout>
 
     </RelativeLayout>

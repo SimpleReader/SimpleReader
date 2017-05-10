@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.simplereader.simplereader">
+          package="com.umeng.soexample">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -13,33 +13,90 @@
     <!--悬浮窗-->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
     <application
-        android:name="com.simplereader.graduation.MyApplication"
+        android:name="com.umeng.soexample.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.simplereader.graduation.ui.activity.MainActivity">
+        <activity android:name="com.umeng.soexample.ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.simplereader.graduation.ui.activity.VideoDetailActivity"/>
-        <activity android:name="com.simplereader.graduation.ui.activity.ChannelActivity"/>
-        <activity android:name="com.simplereader.graduation.ui.activity.NewsDetailActivity"/>
-        <activity android:name="com.simplereader.graduation.ui.activity.ArticleDetailAvtivity">
+        <activity android:name="com.umeng.soexample.ui.activity.VideoDetailActivity"/>
+        <activity android:name="com.umeng.soexample.ui.activity.ChannelActivity"/>
+        <activity android:name="com.umeng.soexample.ui.activity.NewsDetailActivity"/>
+        <activity android:name="com.umeng.soexample.ui.activity.ArticleDetailAvtivity">
         </activity>
-        <activity android:name="com.simplereader.graduation.ui.activity.LoginActivity">
+        <activity android:name="com.umeng.soexample.ui.activity.LoginActivity">
         </activity>
-        <activity android:name="com.simplereader.graduation.ui.activity.ArticleFavourActivity">
+        <activity android:name="com.umeng.soexample.ui.activity.ArticleFavourActivity">
         </activity>
-        <activity android:name="com.simplereader.graduation.ui.activity.RegisterActivity">
+        <activity android:name="com.umeng.soexample.ui.activity.RegisterActivity">
         </activity>
-        <activity android:name="com.simplereader.graduation.ui.activity.ChooseCityActivity">
+        <activity android:name="com.umeng.soexample.ui.activity.ChooseCityActivity">
         </activity>
+
+        <!--新浪微博-->
+        <activity
+            android:name="com.umeng.soexample.WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" >
+        </activity>
+        <service android:name="com.sina.weibo.sdk.net.DownloadService"
+                 android:exported="false">
+        </service>
+        <!--微信-->
+        <activity
+            android:name="com.umeng.soexample.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!--QQ-->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1106155084" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5126ff896c738f2bfa000438">
+        </meta-data>
     </application>
 
 </manifest>

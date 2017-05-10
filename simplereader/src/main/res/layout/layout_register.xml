@@ -42,7 +42,7 @@
         android:background="@drawable/selector_view_block"
         android:padding="@dimen/largePadding">
 
-        <com.simplereader.graduation.ui.view.ClearEditText
+        <com.umeng.soexample.ui.view.ClearEditText
             android:id="@+id/etxt_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
             style="@style/line_vertical">
         </View>
 
-        <com.simplereader.graduation.ui.view.ClearEditText
+        <com.umeng.soexample.ui.view.ClearEditText
             android:id="@+id/etxt_pwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
             style="@style/line_vertical">
         </View>
 
-        <com.simplereader.graduation.ui.view.ClearEditText
+        <com.umeng.soexample.ui.view.ClearEditText
             android:id="@+id/etxt_repeat_pwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
         <View
             style="@style/line_vertical">
         </View>
-        <com.simplereader.graduation.ui.view.ClearEditText
+        <com.umeng.soexample.ui.view.ClearEditText
             android:id="@+id/etxt_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
         <View
             style="@style/line_vertical">
         </View>
-        <com.simplereader.graduation.ui.view.ClearEditText
+        <com.umeng.soexample.ui.view.ClearEditText
             android:id="@+id/etxt_nickname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
