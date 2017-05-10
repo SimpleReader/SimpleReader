@@ -41,6 +41,7 @@ public class ProgressWebView extends WebView {
         Drawable drawable = context.getResources().getDrawable(R.drawable.progress_bar_states);
         mProgressBar.setProgressDrawable(drawable);
         addView(mProgressBar);
+        //为webview设置一个处理器
         setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
@@ -66,11 +67,13 @@ public class ProgressWebView extends WebView {
         });
         setWebViewClient(new WebViewClient());
         WebSettings settings = getSettings();
+        //设置webview支持js
         settings.setJavaScriptEnabled(true);
         settings.setUseWideViewPort(true);
         settings.setLoadWithOverviewMode(true);
         settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
         settings.setDomStorageEnabled(true);
+        //在网页中增加了一个local_obj的类
         addJavascriptInterface(new InJavaScriptLocalObj(), "local_obj");
     }
 

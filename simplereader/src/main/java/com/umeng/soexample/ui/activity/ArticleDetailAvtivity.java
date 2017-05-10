@@ -1,14 +1,24 @@
 package com.umeng.soexample.ui.activity;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.webkit.JavascriptInterface;
+import android.webkit.WebResourceError;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.myhexin.mylibrary.OnSynthesisListener;
+import com.myhexin.mylibrary.bean.VoiceBean;
+import com.myhexin.mylibrary.middleware.SessionProxy;
+import com.orhanobut.logger.Logger;
 import com.umeng.socialize.ShareAction;
 import com.umeng.socialize.UMShareAPI;
 import com.umeng.socialize.UMShareListener;
@@ -23,7 +33,6 @@ import com.umeng.soexample.base.BaseCallBack;
 import com.umeng.soexample.model.ResponseInfo;
 import com.umeng.soexample.model.User;
 import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
-import com.umeng.soexample.ui.view.ProgressWebView;
 import com.umeng.soexample.util.ConstanceValue;
 import com.umeng.soexample.util.LoginStatusUtils;
 import com.umeng.soexample.util.ToastUtils;
@@ -45,7 +54,11 @@ public class ArticleDetailAvtivity extends BaseActivity {
     @BindView(R.id.btnCollect)
     public ImageView btnCollect;
     @BindView(R.id.web_article)
-    public ProgressWebView webView;
+    public WebView webView;
+    @BindView(R.id.tts_start)
+    public ImageView mPlayIv;
+    @BindView(R.id.tts_stop)
+    public ImageView mStopIv;
 
     private String articleId;
     private boolean isCollected=false; //默认没有收藏
@@ -54,6 +67,9 @@ public class ArticleDetailAvtivity extends BaseActivity {
     private String articleContent;
     private String articleThumb;
     private String articleTitle;
+    private String textContent; //文章的文本内容
+    private int startIndex; //开始索引
+    private int endIndex; //结束索引
 
     @Override
     protected void loadViewLayout() {
@@ -96,6 +112,10 @@ public class ArticleDetailAvtivity extends BaseActivity {
             });
         }
 
+
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.addJavascriptInterface(new InJavaScriptLocalObj(), "java_obj");
+        webView.setWebViewClient(new CustomWebViewClient());
         webView.loadUrl(articleContent);
     }
 
@@ -113,13 +133,7 @@ public class ArticleDetailAvtivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 //设置分享链接
-                //UMImage image=new UMImage(ArticleDetailAvtivity.this,articleThumb);
                 UMImage thumb =  new UMImage(ArticleDetailAvtivity.this, R.mipmap.app_icon);
-                /*image.setThumb(thumb);
-                image.compressStyle = UMImage.CompressStyle.SCALE;//大小压缩，默认为大小压缩，适合普通很大的图
-                image.compressStyle = UMImage.CompressStyle.QUALITY;//质量压缩，适合长图的分享
-                //压缩格式设置：
-                image.compressFormat = Bitmap.CompressFormat.PNG;//用户分享透明背景的图片可以设置这种方式，但是qq好友，微信朋友圈，不支持透明背景图片，会变成黑色*/
                 UMWeb web=new UMWeb(articleContent);
                 web.setTitle(articleTitle); //设置分享标题
                 web.setThumb(thumb); //设置缩略图 新浪微博必须设置
@@ -172,8 +186,42 @@ public class ArticleDetailAvtivity extends BaseActivity {
             }
         });
 
+        mPlayIv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //根据判断是否正在播放决定下面操作
+                if(SessionProxy.isSpeakPlaying()){
+                    //暂停播放
+                    SessionProxy.pauseSpeaking();
+                    mPlayIv.setImageResource(R.mipmap.start);
+                }else if(SessionProxy.isSpeakPaused()){
+                    //继续播放
+                    SessionProxy.resumeSpeaking();
+                    mPlayIv.setImageResource(R.mipmap.pause);
+                }else {
+                    //语音合成属性
+                    VoiceBean voiceBean=new VoiceBean();
+                    voiceBean.setVoiceType(0); // 设置声音类型
+                    voiceBean.setVolumn(50); // 设置音量
+                    voiceBean.setSpeedRate(100); // 设置语速
+                    voiceBean.setPitchRate(0); // 设置语调
+                    SessionProxy.startSynthesis(ArticleDetailAvtivity.this,textContent,voiceBean);
+                    mPlayIv.setImageResource(R.mipmap.pause);
+                }
+                SessionProxy.setSynthesisListener(listener);
+            }
+        });
+        mStopIv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SessionProxy.stopSpeaking();
+                mPlayIv.setImageResource(R.mipmap.start);
+            }
+        });
+
     }
 
+    //社会化分享的监听回调
     UMShareListener shareListener = new UMShareListener() {
         @Override
         public void onStart(SHARE_MEDIA platform) {
@@ -202,5 +250,97 @@ public class ArticleDetailAvtivity extends BaseActivity {
         UMShareAPI.get(this).onActivityResult(requestCode, resultCode, data);
 
     }
+
+    //继承webview
+    final class CustomWebViewClient extends WebViewClient {
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            view.loadUrl(url);
+            return true;
+        }
+        @Override
+        public void onPageStarted(WebView view, String url, Bitmap favicon) {
+            super.onPageStarted(view, url, favicon);
+        }
+        @Override
+        public void onPageFinished(WebView view, String url) {
+            view.loadUrl("javascript:window.java_obj.getSource('<head>'+" +
+                    "document.getElementsByTagName('html')[0].innerHTML+'</head>');");
+            super.onPageFinished(view, url);
+        }
+        @Override
+        public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
+            super.onReceivedError(view, request, error);
+        }
+    }
+
+    final class InJavaScriptLocalObj {
+        @JavascriptInterface
+        public void getSource(String html) {
+            Logger.d("html=", html);
+            startIndex=html.indexOf("<div class=\"content\" data-note-content=\"\">");
+            endIndex=html.indexOf("<!-- share 数据 -->");
+            if(startIndex!=-1){
+                String string = html.substring(startIndex,endIndex);
+                //去掉img标签
+                textContent=string.replaceAll("<img[:a-z0-9\"\\s=\\/%?\\._A-Z-]+>","")
+                        //去掉div标签
+                        .replaceAll("<div class=\"[;&a-z-\\s_]+\">","")
+                        //去掉所有的结束标签
+                        .replaceAll("<[\\/]?[a-z]+>","")
+                        //去掉空格和p标签
+                        .replaceAll("(.*)[小刃刃]+<\\/b><\\/p>","")
+                        //去掉class
+                        .replaceAll("<div\\sclass=\"content\"\\sdata-note-content=\"\">","");
+            }else {
+                startIndex=html.indexOf("<div class=\"show-content\">");
+                endIndex=html.indexOf(" <!--  -->");
+                String string=html.substring(startIndex,endIndex);
+                //去掉img标签
+                textContent=string.replaceAll("<img[:a-z0-9\"\\s=\\/%?\\._A-Z-]+>","")
+                        //去掉div标签
+                        .replaceAll("<div class=\"[;&a-z-\\s_]+\">","")
+                        //去掉所有的结束标签
+                        .replaceAll("<[\\/]?[a-z]+>","")
+                        //去掉空格和p标签
+                        .replaceAll("(.*)[小刃刃]+<\\/b><\\/p>","")
+                        //去掉class
+                        .replaceAll("<div class=\"show-content\">","");
+            }
+            Logger.d("voiceBean",textContent);
+        }
+    }
+
+    //语音合成监听回调
+    OnSynthesisListener listener=new OnSynthesisListener() {
+        @Override
+        public void onSpeakStart() {
+        }
+
+        @Override
+        public void onSpeakPause() {
+
+        }
+
+        @Override
+        public void onSpeakResume() {
+
+        }
+
+        @Override
+        public void onSpeakFinish() {
+
+        }
+
+        @Override
+        public void onSpeakStop() {
+
+        }
+
+        @Override
+        public void onError(int i, String s) {
+
+        }
+    };
 
 }

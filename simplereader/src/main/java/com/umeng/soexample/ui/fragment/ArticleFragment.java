@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.orhanobut.logger.Logger;
 import com.umeng.soexample.R;
 import com.umeng.soexample.base.BaseMvpFragment;
 import com.umeng.soexample.model.Article;
@@ -90,9 +89,7 @@ public class ArticleFragment extends BaseMvpFragment<ArticleListPresenter> imple
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
-        Logger.e("isVisibleToUser----getArticleList:"+isVisibleToUser);
         if(isVisibleToUser){
-            Logger.e("-----setUserVisibleHint---getArticleList");
             mvpPresenter.getArticleList();
         }
     }
