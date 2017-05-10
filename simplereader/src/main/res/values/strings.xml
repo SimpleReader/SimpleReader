@@ -18,6 +18,7 @@
     <string name="mine_login_hint">登录推荐更精准</string>
     <string name="mine_item_favorite">收藏</string>
     <string name="mine_item_night_mode">夜间</string>
+    <string name="mine_item_day_mode">白天</string>
     <string name="mine_item_settings">设置</string>
     <string name="mine_item_notification">消息通知</string>
     <string name="mine_item_offline">离 线</string>

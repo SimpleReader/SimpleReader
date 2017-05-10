@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="speech-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/speech/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/speech/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

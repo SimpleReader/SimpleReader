@@ -28,7 +28,7 @@ ext {
     javaVersion = JavaVersion.VERSION_1_8
     buildToolsVersion = "25.0.2"
     compileVersion = 25
-    minSdk = 14
+    minSdk = 17
     targetSdk = 23
     version_code = 1
     version_name = "1.0.0"

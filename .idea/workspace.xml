@@ -6,24 +6,217 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="voicebean" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03e0ba94-2c3b-44a0-ac07-b25d6db15cd7" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+    <list default="true" id="0b11d012-2fdd-4690-863b-e8bcdab95245" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/debug.keystore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/SocialSDK_QQ_Full.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/SocialSDK_Sina_Full.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/SocialSDK_WeChat_Simplify.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/open_sdk_r5781.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/speech.aar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/umeng_shareboard_widget.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/umeng_social_api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/umeng_social_net.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/umeng_social_shareboard.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/umeng_social_tool.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/libs/weiboSDKCore_3.1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/jniLibs/arm64-v8a/libweibosdkcore.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/jniLibs/armeabi-v7a/libweibosdkcore.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/jniLibs/armeabi/libweibosdkcore.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/jniLibs/mips/libweibosdkcore.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/jniLibs/mips64/libweibosdkcore.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/jniLibs/x86/libweibosdkcore.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/jniLibs/x86_64/libweibosdkcore.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_back_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_copyurl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_fav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_menu_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_qzone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_share_music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_share_video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_share_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_sina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_wechat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_wxcircle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/mipmap-hdpi/pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/mipmap-hdpi/start.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/mipmap-hdpi/stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SocialSDK_QQ_Full.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SocialSDK_Sina_Full.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SocialSDK_WeChat_Simplify.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/open_sdk_r5781.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/speech_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/umeng_shareboard_widget.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/umeng_social_api.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/umeng_social_net.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/umeng_social_shareboard.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/umeng_social_tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/weiboSDKCore_3_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/MyApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/WBShareActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleDetailAvtivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/wxapi/WXEntryActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_btn_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/drawable/umeng_socialize_edit_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout-sw550dp-large/umeng_socialize_oauth_dialog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/socialize_share_menu_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/umeng_socialize_oauth_dialog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values-en/ssdk_oks_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values-en/ssdk_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/ssdk_instapaper_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/ssdk_oks_color_drawables.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/ssdk_oks_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/ssdk_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/umeng_socialize_colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/umeng_socialize_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/umeng_socialize_style.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/MyApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/ArticleDetailAvtivity.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/api/ApiService.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/api/ApiService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/api/AppClient.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/api/AppClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/BaseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseCallBack.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/BaseCallBack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/BaseFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseMVPActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/BaseMVPActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseMvpFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/BaseMvpFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BasePresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/BasePresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/Presenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/Presenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/ResultResponse.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/ResultResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/SubscriberCallBack.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/SubscriberCallBack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/db/DBManager.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/db/DBManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/db/WeatherDB.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/db/WeatherDB.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/listener/ItemDragHelperCallback.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/listener/ItemDragHelperCallback.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/listener/OnChannelDragListener.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/listener/OnChannelDragListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Article.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/Article.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/ArticleFavour.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/ArticleFavour.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/ArticleResponse.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/ArticleResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Channel.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/Channel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/City.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/City.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Comment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/Comment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/CommentList.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/CommentList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/HeWeather.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/HeWeather.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/ImageUrl.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/ImageUrl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/LoginMessage.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/LoginMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/News.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/News.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Notice.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/Notice.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Province.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/Province.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/ResponseInfo.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/ResponseInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/User.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Video.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/Video.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/VideoModel.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/model/VideoModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/ArticleFavourListPresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/ArticleFavourListPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/ArticleListPresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/ArticleListPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/BaseDetailPresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/BaseDetailPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/HeWeatherPresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/HeWeatherPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/HomePresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/HomePresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/LoginPresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/LoginPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/NewsDetailPresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/NewsDetailPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/NewsListPresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/NewsListPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/VideoDetailPresenter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/VideoDetailPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/ColorUiInterface.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/theme/util/ColorUiInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/SkinFactory.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/theme/util/SkinFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/ColorUiUtil.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/theme/util/util/ColorUiUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/SharedPreferencesMgr.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/theme/util/util/SharedPreferencesMgr.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/ViewAttributeUtil.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/theme/util/util/ViewAttributeUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/ArticleFavourActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleFavourActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/BaseNewsActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/BaseNewsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/ChannelActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ChannelActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/ChooseCityActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ChooseCityActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/LoginActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/NewsDetailActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/NewsDetailActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/RegisterActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/VideoDetailActivity.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/VideoDetailActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/ArticleAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ArticleAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/ArticleFavourAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ArticleFavourAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/ChannelAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ChannelAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/CityAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/CityAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/CommentAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/CommentAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/ForcastAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ForcastAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/HoursWeatherAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/HoursWeatherAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/NewsAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/TitlePagerAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/TitlePagerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/VideoAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/VideoAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/ViewPagerAdapter.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ViewPagerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/layoutmanager/LinearLayoutManagerWrapper.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/layoutmanager/LinearLayoutManagerWrapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/ArticleFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/ArticleFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/AttentionFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/AttentionFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/BasePagerFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/BasePagerFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/HomeFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/HomeFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/MeFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/MeFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/NewsListFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/VideoFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoListFragment.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/VideoListFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/ClearEditText.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/ClearEditText.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/HeaderZoomLayout.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/HeaderZoomLayout.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/ProgressWebView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/ProgressWebView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/PullZoomLayout.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/PullZoomLayout.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/SPVideoPlayer.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/SPVideoPlayer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ConstanceValue.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/util/ConstanceValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/DateUtils.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/util/DateUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ImageLoadUtil.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/util/ImageLoadUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/LoginStatusUtils.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/util/LoginStatusUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/NetworkUtil.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/util/NetworkUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/RxBus.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/util/RxBus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ToastUtils.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/util/ToastUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/VideoPathDecoder.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/util/VideoPathDecoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/view/IArticleFavourView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/view/IArticleFavourView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/view/IArticleView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/view/IArticleView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/view/IBaseDetailView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/view/IBaseDetailView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/view/IHeWeatherView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/view/IHeWeatherView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/view/IHomeView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/view/IHomeView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/view/ILoginView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/view/ILoginView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/view/INewsDetailView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/view/INewsDetailView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/view/INewsListView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/view/INewsListView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/view/IVideoDetailView.java" afterPath="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/view/IVideoDetailView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_25_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_1_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/build.gradle" afterPath="$PROJECT_DIR$/simplereader/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/simplereader.iml" afterPath="$PROJECT_DIR$/simplereader/simplereader.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_channel.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_channel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_choose_city.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_choose_city.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_video_detail.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_video_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/content_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_article.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_article.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_me.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_me.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/item_article.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/item_article.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/item_video_list.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/item_video_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_article_detail.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_article_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_login.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_register.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_register.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_webview.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_webview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/layout/mine_fragment_content.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/layout/mine_fragment_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplereader/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/simplereader/src/main/res/values/strings.xml" />
     </list>
+    <list id="992a150a-3e72-415e-bf68-06b71516517b" name="Failed commit: Default" comment="merge" />
     <ignored path="SimpleReader.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,76 +247,34 @@
     <favorites_list name="SimpleReader" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="ChannelAdapter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/ChannelAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-=======
-      <file leaf-file-name="VideoAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/VideoAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-              <folding>
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/api/ApiService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoPathDecoder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/VideoPathDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4109#4110#0" expanded="true" />
-                <element signature="e#4173#4174#0" expanded="true" />
-                <element signature="e#4258#4259#0" expanded="true" />
-                <element signature="e#4322#4323#0" expanded="true" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="valueResourceFile" />
         <option value="ASInterface" />
-<<<<<<< HEAD
-=======
         <option value="layoutResourceFile_vertical" />
-        <option value="resourceFile" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
         <option value="ASClass" />
-        <option value="layoutResourceFile_vertical" />
-        <option value="resourceFile" />
       </list>
     </option>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="E:\LocalDepot\SimpleReader\simplereader\debug.keystore" />
+    <option name="KEY_ALIAS" value="androiddebugkey" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="chenggong" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature_gxj_1.0.1_me_article" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -175,6 +326,11 @@
                 <option name="name" value="validateSigningDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleReleaseUnitTest" />
               </ExternalTaskPojo>
@@ -224,6 +380,11 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
@@ -262,6 +423,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare :speech:" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareSpeechLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -314,11 +480,6 @@
                 <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
@@ -408,11 +569,6 @@
                 <option name="name" value="mergeDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processReleaseManifest" />
               </ExternalTaskPojo>
@@ -452,6 +608,11 @@
                 <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
@@ -483,6 +644,11 @@
                 <option name="description" value="Uninstall all applications." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="uninstallAll" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all the Test applications." />
@@ -540,11 +706,6 @@
                 <option name="name" value="prepareComAndroidSupportAppcompatV72510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="androidDependencies" />
@@ -594,8 +755,18 @@
                 <option name="name" value="jarReleaseClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -743,22 +914,12 @@
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare de.hdodenhof:circleimageview:2.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareDeHdodenhofCircleimageview200Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -773,11 +934,6 @@
                 <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -814,11 +970,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -889,6 +1040,11 @@
                 <option name="name" value="validateSigningDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="assembleReleaseUnitTest" />
               </ExternalTaskPojo>
@@ -933,6 +1089,11 @@
                 <option name="name" value="compileDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
@@ -971,6 +1132,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="generateDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare :speech:" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
+                <option name="name" value="prepareSpeechLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
@@ -1023,11 +1189,6 @@
                 <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
-                <option name="name" value="prepareComAndroidSupportSupportV42510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
@@ -1117,11 +1278,6 @@
                 <option name="name" value="mergeDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="processReleaseManifest" />
               </ExternalTaskPojo>
@@ -1161,6 +1317,11 @@
                 <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="help" />
@@ -1192,6 +1353,11 @@
                 <option name="description" value="Uninstall all applications." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="uninstallAll" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
+                <option name="name" value="prepareComAndroidSupportSupportV42520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all the Test applications." />
@@ -1244,11 +1410,6 @@
                 <option name="name" value="prepareComAndroidSupportAppcompatV72510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="androidDependencies" />
@@ -1298,8 +1459,18 @@
                 <option name="name" value="jarReleaseClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2520Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2520Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
@@ -1447,22 +1618,12 @@
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="compileDebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="generateReleaseBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare de.hdodenhof:circleimageview:2.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
-                <option name="name" value="prepareDeHdodenhofCircleimageview200Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
@@ -1477,11 +1638,6 @@
                 <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2510Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
@@ -1519,11 +1675,6 @@
                 <option name="description" value="Deletes the build directory." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
                 <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.1.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simplereader" />
@@ -1575,11 +1726,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-<<<<<<< HEAD
-        <entry key="$PROJECT_DIR$" value="4472058388000" />
-=======
-        <entry key="$PROJECT_DIR$" value="4470790630000" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
+        <entry key="$PROJECT_DIR$" value="4477007937000" />
+        <entry key="E:\LocalDepot\SimpleReader" value="4482161283876" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1849,84 +1997,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseFragment.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_video_detail.xml" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/VideoDetailActivity.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/ColorUiUtil.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_recycerview.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/colortrackview/ColorTrackTabViewIndicator.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/colortrackview/ColorTrackTabLayout.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/values/attr.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/colortrackview/ColorTrackView.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/ColorUiUtil.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/ColorUiInterface.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/ColorTrackTabViewIndicator.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/ViewAttributeUtil.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BasePagerFragment.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ConstanceValue.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoFragment.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_video.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/simplereader/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java" />
-=======
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_demo.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_news.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Notice.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ToastUtils.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/SkinFactory.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/SharedPreferencesMgr.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/MyApplication.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseActivity.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/simplereader/.gitignore" />
-        <option value="$PROJECT_DIR$/simplereader/build.gradle" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/ic_category_expand.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_home.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/add_channels_bg.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/activity_channel.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/category_edit_close.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_forecast.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_hour_info.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_temperature.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_suggestion.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_weather.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/assets/ShareSDK.xml" />
         <option value="$PROJECT_DIR$/simplereader/src/main/res/values/arrays.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/listener/OnChannelDragListener.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/listener/ItemDragHelperCallback.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/ChannelActivity.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/bg_channel_shape.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_channel_title.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/shape_stroke_red.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_channel.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Channel.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/ChannelAdapter.java" />
-=======
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_video.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/ic_new_category_tip_dark.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/TitlePagerAdapter.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/BasePagerFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/ArticleDetailAvtivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/wxapi/WXEntryActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/WBShareActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/MyApplication.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/graduation/MyApplication.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/api/AppClient.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/db/DBManager.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/BaseMvpFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ArticleFavourAdapter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ChannelAdapter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/CityAdapter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/ClearEditText.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/VideoDetailActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ArticleAdapter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ForcastAdapter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/HoursWeatherAdapter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/VideoAdapter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/SPVideoPlayer.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/AttentionFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/NewsAdapter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/MeFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/VideoFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/PullZoomLayout.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/NewsDetailActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/NewsListFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/BasePagerFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleFavourActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/BaseNewsActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ChannelActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ChooseCityActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/ArticleFragment.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/NewsListPresenter.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/ProgressWebView.java" />
         <option value="$PROJECT_DIR$/simplereader/build.gradle" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/ic_action_comment.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/SPVideoPlayer.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/drawable/more_video_selector.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/News.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/VideoModel.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Video.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoListFragment.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_sp_video_player.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/item_video_list.xml" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/api/ApiService.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/VideoPathDecoder.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/NewsListPresenter.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java" />
-        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/VideoAdapter.java" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
+        <option value="$PROJECT_DIR$/simplereader/build/intermediates/res/merged/debug/layout/layout_article_detail.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/MyApplication.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleDetailAvtivity.java" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/res/layout/layout_article_detail.xml" />
+        <option value="$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -1935,84 +2056,14 @@
     <option name="width" value="1440" />
     <option name="height" value="787" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Internationalization</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Security</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Typography</id>
-          </State>
-          <State>
-            <id>C/C++</id>
-          </State>
-          <State>
-            <id>CorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>Data flow analysisC/C++</id>
-          </State>
-          <State>
-            <id>Gradle</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>LintAndroid</id>
-          </State>
-          <State>
-            <id>Packaging issuesJava</id>
-          </State>
-          <State>
-            <id>Probable bugsGradle</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -2021,7 +2072,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -2030,15 +2081,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-<<<<<<< HEAD
-      <pane id="Scratches" />
-      <pane id="Scope" />
-=======
       <pane id="AndroidView">
         <subPane />
       </pane>
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2145,67 +2193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2235,235 +2223,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="graduation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-<<<<<<< HEAD
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-=======
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-<<<<<<< HEAD
-              <option name="myItemId" value="listener" />
-=======
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SimpleReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplereader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graduation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
-=======
-      <pane id="Scope" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="android.sdk.path" value="D:/sdk" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="7321a623" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simplereader/debug.keystore" />
+    <property name="device.picker.selection" value="8C5F307F" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-    <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_4s-7321a623" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/LocalDepot/SimpleReader/simplereader/src/main/res/values/arrays.xml&#10;Prog&#9;FILE&#9;file://E:/LocalDepot/SimpleReader/simplereader/src/main/java/com/simplereader/graduation/ui/view/ProgressWebView.java&#10;Ada&#9;PSI&#9;JAVA://com.simplereader.graduation.ui.adapter.NewsAdapter" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-samsung_sm_n900a-127.0.0.1:6555" />
     <property name="DEBUGGABLE_PROCESS" value="com.simplereader.simplereader" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
+    <property name="ExportApk.ApkPath" value="E:\LocalDepot\SimpleReader\simplereader" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="debug" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.simplereader.graduation.ui.fragment" />
-    </key>
     <key name="android.template.packageName">
       <recent name="com.simplereader.graduation.ui.activity" />
-      <recent name="com.simplereader.graduation.presenter" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-<<<<<<< HEAD
-=======
-      <recent name="$PROJECT_DIR$/simplereader/libs" />
-      <recent name="$PROJECT_DIR$/simplereader/src/main/res/layout" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-      <recent name="$PROJECT_DIR$/simplereader/src/main/res" />
-      <recent name="$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi" />
-      <recent name="$PROJECT_DIR$/simplereader/src/main/res/layout" />
+      <recent name="E:\LocalDepot\SimpleReader\simplereader\src\main\res\mipmap-hdpi" />
+      <recent name="E:\LocalDepot\SimpleReader\simplereader\libs" />
+      <recent name="E:\LocalDepot\SimpleReader\simplereader" />
+      <recent name="E:\LocalDepot\SimpleReader\simplereader\src\main\java\com\simplereader\graduation" />
+      <recent name="E:\LocalDepot\SimpleReader\simplereader\src\main\java\com\simplereader\graduation\wxapi" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.simplereader">
@@ -2585,15 +2384,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -2774,80 +2564,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="03e0ba94-2c3b-44a0-ac07-b25d6db15cd7" name="Default" comment="" />
-      <created>1490149942457</created>
+      <changelist id="0b11d012-2fdd-4690-863b-e8bcdab95245" name="Default" comment="" />
+      <created>1493464728107</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1490149942457</updated>
+      <updated>1493464728107</updated>
     </task>
-    <task id="LOCAL-00001" summary="2017 03 28">
-      <created>1490702333521</created>
+    <task id="LOCAL-00001" summary="feat: 显示文章列表功能提交">
+      <created>1493888474698</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1490702333521</updated>
+      <updated>1493888474698</updated>
     </task>
-    <task id="LOCAL-00002" summary="2017 03 28 改正大小写&#10;">
-      <created>1490705341874</created>
+    <task id="LOCAL-00002" summary="feat: 修改取消事件传递的注册，修改夜间模式切换">
+      <created>1494298137441</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1490705341874</updated>
+      <updated>1494298137441</updated>
     </task>
-    <task id="LOCAL-00003" summary="2017 03 29  首页编写&#10;">
-      <created>1490785431601</created>
+    <task id="LOCAL-00003" summary="feat: 提交文章分享功能">
+      <created>1494377934153</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1490785431601</updated>
+      <updated>1494377934153</updated>
     </task>
-    <task id="LOCAL-00004" summary="2017 04 07 新闻页面&#10;">
-      <created>1491571048388</created>
+    <task id="LOCAL-00004" summary="feat: 获取文章文本内容">
+      <created>1494398232038</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1491571048388</updated>
+      <updated>1494398232038</updated>
     </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00005" summary="2017 04 07 频道页面">
-      <created>1492418048619</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1492418048619</updated>
-    </task>
-    <task id="LOCAL-00006" summary="2017 04 07 频道页面">
-      <created>1492422299869</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1492422299869</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
-=======
-    <task id="LOCAL-00005" summary="2017 04 10 新闻页面完成&#10;">
-      <created>1491815906237</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1491815906237</updated>
-    </task>
-    <task id="LOCAL-00006" summary="2017 04 11 视频页面完成 但是不能点击播放&#10;">
-      <created>1491898971894</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1491898971895</updated>
-    </task>
-    <task id="LOCAL-00007" summary="2017 04 11 视频页面完成 能点击播放&#10;">
-      <created>1491918494845</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1491918494845</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2855,84 +2606,74 @@
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68358207" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27010623" sideWeight="0.50689656" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7586207" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.4969651" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug with JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug with JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4413793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47164178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2672414" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.75689656" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.91940296" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28939828" sideWeight="0.49310344" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="587" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29297996" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-=======
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29297996" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24430956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81206894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68358207" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7586207" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.97931033" sideWeight="0.4969651" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug with JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16551724" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="587" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14482759" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29297996" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47164178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24430956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79310346" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63793105" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27693474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17068966" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -2946,753 +2687,499 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2017 03 28" />
-    <MESSAGE value="2017 03 28 改正大小写&#10;" />
-    <MESSAGE value="2017 03 29  首页编写&#10;" />
-    <MESSAGE value="2017 04 07 新闻页面&#10;" />
-<<<<<<< HEAD
-    <MESSAGE value="2017 04 07 频道页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017 04 07 频道页面" />
-=======
-    <MESSAGE value="2017 04 10 新闻页面完成&#10;" />
-    <MESSAGE value="2017 04 11 视频页面完成 但是不能点击播放&#10;" />
-    <MESSAGE value="2017 04 11 视频页面完成 能点击播放&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017 04 11 视频页面完成 能点击播放&#10;" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
+    <MESSAGE value="feat: 显示文章列表功能提交" />
+    <MESSAGE value="feat: 修改取消事件传递的注册，修改夜间模式切换" />
+    <MESSAGE value="feat: 提交文章分享功能" />
+    <MESSAGE value="feat: 获取文章文本内容" />
+    <MESSAGE value="merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/ArticleListPresenter.java</url>
+          <line>21</line>
+          <properties class="com.umeng.soexample.presenter.ArticleListPresenter" method="getArticleList" />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/ArticleListPresenter.java</url>
+          <line>25</line>
+          <properties method="onNext" />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/db/DBManager.java</url>
+          <line>47</line>
+          <properties class="com.umeng.soexample.db.DBManager" method="openDatabase" />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/HeWeatherPresenter.java</url>
+          <line>26</line>
+          <properties method="onNext" />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/NewsListFragment.java</url>
+          <line>111</line>
+          <properties class="com.umeng.soexample.ui.fragment.NewsListFragment" method="onGetNewsListSuccess" />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/NewsListFragment.java</url>
+          <line>60</line>
+          <properties class="com.umeng.soexample.ui.fragment.NewsListFragment" method="processLogic" />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/ArticleListPresenter.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/ArticleListPresenter.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleFavourActivity.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleFavourActivity.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleFavourActivity.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleFavourActivity.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/db/DBManager.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/db/DBManager.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/db/DBManager.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/HeWeatherPresenter.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="132" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/add_channels_close_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/add_channels_close_press.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/add_channels_close_press_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/add_channels_close_small_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/addred_channel_titlbar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/addred_channel_titlbar_press.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/addred_channel_titlbar_press_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/arrow_ad_spalsh.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/arrow_ad_spalsh_press.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newcare_tabbar_press.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newcare_tabbar_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newcare_tabbar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newcare_tabbar_press_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-=======
-    <entry file="file://$PROJECT_DIR$/simplereader/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/base/BaseMvpFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="65">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_demo.xml">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/db/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ArticleFavourAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ChannelAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/CityAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/ClearEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ArticleAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/VideoAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/SPVideoPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/AttentionFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/NewsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/HoursWeatherAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/adapter/ForcastAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/PullZoomLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/BasePagerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/MeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ChooseCityActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ChannelActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/simplereader/libs/umeng_social_api.jar!/com/umeng/socialize/ShareAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/WBShareActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleFavourActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/layout_webview.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/403c0215220d990f2856904658185a7b5ba8b521/rxjava-1.1.1-sources.jar!/rx/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="6071" column="35" selection-start-line="6071" selection-start-column="35" selection-end-line="6071" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ToastUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/SkinFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Notice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/RxBus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/MyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/theme/util/util/SharedPreferencesMgr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/BaseNewsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newhome_tabbar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newhome_tabbar_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newhome_tabbar_press.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newhome_tabbar_press_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newmine_tabbar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newmine_tabbar_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newmine_tabbar_press.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newnologin_tabbar_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newnologin_tabbar_press.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newnologin_tabbar_press_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newvideo_tabbar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newvideo_tabbar_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newvideo_tabbar_press.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/comment_like_icon.png">
-=======
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/ConstanceValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="-242">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3650#3965#0" expanded="false" />
+            <element signature="e#3964#3965#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_home.xml">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/NewsDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#846#847#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
+            <element signature="e#939#940#0" expanded="false" />
+            <element signature="e#991#992#0" expanded="false" />
+            <element signature="e#1066#1067#0" expanded="false" />
+            <element signature="e#1109#1110#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/NewsListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="78" column="64" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1448#1449#0" expanded="false" />
+            <element signature="e#1498#1499#0" expanded="false" />
+            <element signature="e#2126#2127#0" expanded="false" />
+            <element signature="e#2183#2184#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/activity_news_detail.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="40" selection-start-line="10" selection-start-column="7" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="161">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SDK/sources/android-25/android/webkit/WebView.java" />
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/presenter/NewsListPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable/ic_new_category_tip_dark.xml">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/api/AppClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseActivity.java">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/VideoFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="-276">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-core-ui/25.1.0/support-core-ui-25.1.0-sources.jar!/android/support/v4/view/ViewPager.java">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/fragment/ArticleFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="504" column="16" selection-start-line="504" selection-start-column="16" selection-end-line="504" selection-end-column="16" />
+        <state relative-caret-position="875">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/TitlePagerAdapter.java">
+    <entry file="file://D:/SDK/sources/android-25/android/webkit/WebViewClient.java" />
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/VideoDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="-40">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/HomeFragment.java">
+    <entry file="file://D:/SDK/sources/android-25/java/util/regex/Pattern.java" />
+    <entry file="file://D:/SDK/sources/android-25/java/util/regex/Matcher.java" />
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/util/VideoPathDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="63" column="98" selection-start-line="63" selection-start-column="98" selection-end-line="63" selection-end-column="98" />
+        <state relative-caret-position="133">
+          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/BasePagerFragment.java">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/api/ApiService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="53" column="100" selection-start-line="53" selection-start-column="100" selection-end-line="53" selection-end-column="100" />
+        <state relative-caret-position="275">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/MainActivity.java">
+    <entry file="file://D:/SDK/sources/android-25/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/view/ProgressWebView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="-390">
+          <caret line="81" column="42" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplereader/build/intermediates/res/merged/debug/layout/layout_article_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simplereader/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable/ic_action_comment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/view/SPVideoPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xxhdpi/more_video_press.png">
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/comment_like_icon_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newnologin_tabbar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/b_newmine_tabbar_press_night.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/java/nio/channels/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/values/arrays.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        <state relative-caret-position="1010">
+          <caret line="54" column="50" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.1.0/recyclerview-v7-25.1.0-sources.jar!/android/support/v7/widget/helper/ItemTouchHelper.java">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        <state relative-caret-position="224">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseActivity.java">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1404">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="200">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/com.github.CymChad/BaseRecyclerViewAdapterHelper/v1.8.5/jars/classes.jar!/com/chad/library/adapter/base/callback/ItemDragAndSwipeCallback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/listener/ItemDragHelperCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/NewsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/activity/ChannelActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable/bg_channel_shape.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-=======
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable/more_video_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/layout_recycerview.xml">
-      <provider editor-type-id="android-designer2">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="237">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/fragment_video.xml">
-      <provider editor-type-id="android-designer2">
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/layout_article_detail.xml">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/item_news.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="177" column="39" selection-start-line="177" selection-start-column="39" selection-end-line="177" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/VideoModel.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/jiecaovideoplayer-release/res/layout/jc_layout_standard.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/umeng/soexample/ui/activity/ArticleDetailAvtivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1746">
-          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+        <state relative-caret-position="266">
+          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7459#8568#0" expanded="true" />
+            <element signature="e#8567#8568#0" expanded="true" />
+            <element signature="e#8606#8825#0" expanded="true" />
+            <element signature="e#8824#8825#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/layout_sp_video_player.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/ResultResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Video.java">
+    <entry file="file://$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/item_video_list.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/jiecaovideoplayer-release/jars/classes.jar!/fm/jiecao/jcvideoplayer_lib/JCVideoPlayer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/build/generated/source/r/debug/fm/jiecao/jcvideoplayer_lib/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="797" column="32" selection-start-line="797" selection-start-column="32" selection-end-line="797" selection-end-column="32" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable-xhdpi/add_channels_close_small.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/drawable/shape_stroke_red.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-=======
-    <entry file="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/jiecaovideoplayer-release/jars/classes.jar!/fm/jiecao/jcvideoplayer_lib/JCVideoPlayerStandard.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1983">
-          <caret line="177" column="89" selection-start-line="177" selection-start-column="89" selection-end-line="177" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/com.github.CymChad/BaseRecyclerViewAdapterHelper/v1.8.5/jars/classes.jar!/com/chad/library/adapter/base/BaseQuickAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="353" column="0" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/com.github.CymChad/BaseRecyclerViewAdapterHelper/v1.8.5/jars/classes.jar!/com/chad/library/adapter/base/BaseMultiItemQuickAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/item_news.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-=======
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BasePresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/BaseCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/base/SubscriberCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="11420" column="9" selection-start-line="11420" selection-start-column="9" selection-end-line="11420" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/com.github.CymChad/BaseRecyclerViewAdapterHelper/v1.8.5/jars/classes.jar!/com/chad/library/adapter/base/BaseViewHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="102" column="57" selection-start-line="102" selection-start-column="57" selection-end-line="102" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/listener/OnChannelDragListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-=======
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/presenter/NewsListPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-          <folding>
-            <element signature="e#690#951#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/NewsListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/com.github.CymChad/BaseRecyclerViewAdapterHelper/v1.8.5/jars/classes.jar!/com/chad/library/adapter/base/BaseQuickAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="622" column="15" selection-start-line="622" selection-start-column="15" selection-end-line="622" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/item_channel_title.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/res/layout/item_channel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/ChannelAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/api/ApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/fragment/VideoListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/model/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/ui/adapter/VideoAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-          <folding>
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplereader/src/main/java/com/simplereader/graduation/util/VideoPathDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4109#4110#0" expanded="true" />
-            <element signature="e#4173#4174#0" expanded="true" />
-            <element signature="e#4258#4259#0" expanded="true" />
-            <element signature="e#4322#4323#0" expanded="true" />
->>>>>>> 6607221a4c3bf908f45be09788eaca7e8c96928b
-          </folding>
         </state>
       </provider>
     </entry>

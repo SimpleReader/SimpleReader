@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:background="@null"
-                android:text="@string/mine_item_night_mode"
+                android:text="@string/mine_item_day_mode"
                 android:textColor="?attr/font_color"
                 app:isColorUi="true" />
         </LinearLayout>

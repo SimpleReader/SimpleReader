@@ -8,7 +8,7 @@
     android:background="?attr/main_bg"
     android:orientation="vertical"
     app:isColorUi="true"
-    tools:context="com.simplereader.graduation.ui.activity.ChannelActivity">
+    tools:context="com.umeng.soexample.ui.activity.ChannelActivity">
 
     <ImageView
         android:id="@+id/icon_collapse"
