@@ -7,7 +7,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.umeng.soexample.R;
 import com.umeng.soexample.model.News;
-import com.umeng.soexample.theme.util.util.ColorUiUtil;
+import com.umeng.soexample.theme.util.ColorUiUtil;
 import com.umeng.soexample.util.ConstanceValue;
 import com.umeng.soexample.util.DateUtils;
 import com.umeng.soexample.util.ImageLoadUtil;

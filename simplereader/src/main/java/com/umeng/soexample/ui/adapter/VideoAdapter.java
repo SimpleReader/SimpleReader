@@ -9,7 +9,7 @@ import com.orhanobut.logger.Logger;
 import com.umeng.soexample.R;
 import com.umeng.soexample.model.News;
 import com.umeng.soexample.model.Video;
-import com.umeng.soexample.theme.util.util.ColorUiUtil;
+import com.umeng.soexample.theme.util.ColorUiUtil;
 import com.umeng.soexample.ui.view.SPVideoPlayer;
 import com.umeng.soexample.util.ImageLoadUtil;
 import com.umeng.soexample.util.VideoPathDecoder;

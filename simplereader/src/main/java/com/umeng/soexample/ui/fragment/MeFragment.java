@@ -19,7 +19,7 @@ import com.umeng.soexample.R;
 import com.umeng.soexample.base.BaseFragment;
 import com.umeng.soexample.model.Notice;
 import com.umeng.soexample.model.User;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 import com.umeng.soexample.ui.activity.ArticleFavourActivity;
 import com.umeng.soexample.ui.activity.LoginActivity;
 import com.umeng.soexample.ui.view.HeaderZoomLayout;

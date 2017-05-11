@@ -1,4 +1,4 @@
-package com.umeng.soexample.theme.util;
+package com.umeng.soexample.theme;
 
 import android.content.Context;
 import android.support.v4.view.LayoutInflaterFactory;
@@ -6,6 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.orhanobut.logger.Logger;
+import com.umeng.soexample.theme.widget.ColorImageView;
+import com.umeng.soexample.theme.widget.ColorLinearLayout;
+import com.umeng.soexample.theme.widget.ColorRelativeLayout;
+import com.umeng.soexample.theme.widget.ColorTextView;
+import com.umeng.soexample.theme.widget.ColorView;
 
 /**
  * Created by gxj on 2017/4/10.
@@ -26,8 +33,8 @@ public class SkinFactory implements LayoutInflaterFactory {
             return delegateCreateView(parent, name, context, attrs);
         }
         switch (name) {
-           /* case "TextView":
-                view = new ColorTextView(Context, attrs);
+            case "TextView":
+                view = new ColorTextView(context, attrs);
                 break;
             case "ImageView":
                 view = new ColorImageView(context, attrs);
@@ -41,7 +48,7 @@ public class SkinFactory implements LayoutInflaterFactory {
                 break;
             case "View":
                 view = new ColorView(context, attrs);
-                break;*/
+                break;
         }
 
         if (view == null) {

@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/cardview_margin"
     android:clickable="true"
-    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="?attr/main_bg"
     card_view:cardCornerRadius="3dp"
     card_view:cardElevation="2dp">
 
@@ -26,6 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             card_view:srcCompat="@drawable/icon_time"/>
+
         <TextView
             android:id="@+id/one_clock"
             tools:text="16:00"
@@ -33,11 +34,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginLeft="12dp"
-            />
+            android:textColor="?attr/font_color" />
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             card_view:srcCompat="@drawable/icon_temp"/>
+
         <TextView
             android:id="@+id/one_temp"
             tools:text="12°"
@@ -45,7 +48,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginLeft="8dp"
-            />
+            android:textColor="?attr/font_color" />
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,7 +61,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginLeft="8dp"/>
+            android:layout_marginLeft="8dp"
+            android:textColor="?attr/font_color" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -70,7 +75,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginLeft="12dp"/>
+            android:layout_marginLeft="12dp"
+            android:textColor="?attr/font_color" />
 
 
     </LinearLayout>

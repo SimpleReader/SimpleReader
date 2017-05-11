@@ -13,7 +13,7 @@ import com.umeng.soexample.db.DBManager;
 import com.umeng.soexample.db.WeatherDB;
 import com.umeng.soexample.model.City;
 import com.umeng.soexample.model.Province;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 import com.umeng.soexample.ui.adapter.CityAdapter;
 import com.umeng.soexample.util.ConstanceValue;
 

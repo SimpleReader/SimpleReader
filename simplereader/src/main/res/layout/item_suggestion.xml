@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/cardview_margin"
     android:clickable="true"
-    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="?attr/main_bg"
     card_view:cardCornerRadius="3dp"
     card_view:cardElevation="2dp">
 
@@ -40,14 +40,15 @@
                     android:id="@+id/cloth_brief"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="穿衣指数---"/>
+                    android:text="穿衣指数---"
+                    android:textColor="?attr/font_color"/>
 
                 <TextView
                     android:id="@+id/cloth_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:textColor="#969696"
+                    android:textColor="?attr/font_color"
                     android:textSize="12sp"/>
 
             </LinearLayout>
@@ -74,15 +75,16 @@
                     android:id="@+id/sport_brief"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="运动指数---"/>
+                    android:text="运动指数---"
+                    android:textColor="?attr/font_color"/>
 
                 <TextView
                     android:id="@+id/sport_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:textColor="#969696"
-                    android:textSize="12sp"/>
+                    android:textSize="12sp"
+                    android:textColor="?attr/font_color"/>
 
             </LinearLayout>
 
@@ -109,15 +111,16 @@
                     android:id="@+id/travel_brief"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="旅游指数---"/>
+                    android:text="旅游指数---"
+                    android:textColor="?attr/font_color"/>
 
                 <TextView
                     android:id="@+id/travel_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:textColor="#969696"
-                    android:textSize="12sp"/>
+                    android:textSize="12sp"
+                    android:textColor="?attr/font_color"/>
 
             </LinearLayout>
 
@@ -144,15 +147,16 @@
                     android:id="@+id/flu_brief"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="感冒指数---"/>
+                    android:text="感冒指数---"
+                    android:textColor="?attr/font_color"/>
 
                 <TextView
                     android:id="@+id/flu_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:textColor="#969696"
-                    android:textSize="12sp"/>
+                    android:textSize="12sp"
+                    android:textColor="?attr/font_color"/>
 
             </LinearLayout>
 

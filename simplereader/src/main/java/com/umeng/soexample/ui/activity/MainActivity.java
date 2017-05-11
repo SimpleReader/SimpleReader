@@ -8,7 +8,7 @@ import android.view.MenuItem;
 
 import com.umeng.soexample.R;
 import com.umeng.soexample.base.BaseActivity;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 import com.umeng.soexample.ui.adapter.ViewPagerAdapter;
 import com.umeng.soexample.ui.fragment.ArticleFragment;
 import com.umeng.soexample.ui.fragment.AttentionFragment;

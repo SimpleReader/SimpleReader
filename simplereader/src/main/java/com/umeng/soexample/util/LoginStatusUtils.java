@@ -4,7 +4,7 @@ import android.text.TextUtils;
 
 import com.google.gson.Gson;
 import com.umeng.soexample.model.User;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 
 /**
  * Description: 用户登录状态工具类

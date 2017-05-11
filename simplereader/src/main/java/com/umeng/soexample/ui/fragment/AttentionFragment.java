@@ -15,7 +15,7 @@ import com.umeng.soexample.R;
 import com.umeng.soexample.base.BaseMvpFragment;
 import com.umeng.soexample.model.HeWeather;
 import com.umeng.soexample.presenter.HeWeatherPresenter;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 import com.umeng.soexample.ui.activity.ChooseCityActivity;
 import com.umeng.soexample.ui.adapter.ForcastAdapter;
 import com.umeng.soexample.ui.adapter.HoursWeatherAdapter;
