@@ -5,10 +5,10 @@ import android.app.Application;
 import com.myhexin.mylibrary.SpeechSDK;
 import com.myhexin.mylibrary.middleware.SessionProxy;
 import com.umeng.socialize.Config;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
-import com.umeng.soexample.util.ConstanceValue;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
+import com.umeng.soexample.util.ConstanceValue;
 
 /**
  * Created by gxj on 2017/2/28.

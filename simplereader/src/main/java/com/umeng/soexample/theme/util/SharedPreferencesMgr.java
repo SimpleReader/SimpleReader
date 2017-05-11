@@ -1,4 +1,4 @@
-package com.umeng.soexample.theme.util.util;
+package com.umeng.soexample.theme.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;

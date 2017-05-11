@@ -4,8 +4,8 @@
       <root url="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/res" />
-      <root url="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/9145be9e9156be130794c764da1f47a53a2833a6/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/9145be9e9156be130794c764da1f47a53a2833a6/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

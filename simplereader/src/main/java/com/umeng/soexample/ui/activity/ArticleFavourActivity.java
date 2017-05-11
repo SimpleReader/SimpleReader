@@ -14,7 +14,7 @@ import com.umeng.soexample.base.BaseMVPActivity;
 import com.umeng.soexample.model.ArticleFavour;
 import com.umeng.soexample.model.User;
 import com.umeng.soexample.presenter.ArticleFavourListPresenter;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 import com.umeng.soexample.ui.adapter.ArticleFavourAdapter;
 import com.umeng.soexample.ui.adapter.layoutmanager.LinearLayoutManagerWrapper;
 import com.umeng.soexample.util.ConstanceValue;

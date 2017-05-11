@@ -1,4 +1,4 @@
-package com.umeng.soexample.theme.util.util;
+package com.umeng.soexample.theme.util;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 import com.umeng.soexample.MyApplication;
-import com.umeng.soexample.theme.util.ColorUiInterface;
+import com.umeng.soexample.theme.ColorUiInterface;
 import com.umeng.soexample.util.ConstanceValue;
 
 /**

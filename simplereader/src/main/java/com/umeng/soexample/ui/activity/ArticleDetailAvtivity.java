@@ -32,7 +32,7 @@ import com.umeng.soexample.base.BaseActivity;
 import com.umeng.soexample.base.BaseCallBack;
 import com.umeng.soexample.model.ResponseInfo;
 import com.umeng.soexample.model.User;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 import com.umeng.soexample.util.ConstanceValue;
 import com.umeng.soexample.util.LoginStatusUtils;
 import com.umeng.soexample.util.ToastUtils;
@@ -162,7 +162,7 @@ public class ArticleDetailAvtivity extends BaseActivity {
                             }
                         });
                     }else{
-                        String json=SharedPreferencesMgr.getString(ConstanceValue.SP_USER,"");
+                        String json= SharedPreferencesMgr.getString(ConstanceValue.SP_USER,"");
                         if(!TextUtils.isEmpty(json)){
                             User user=new Gson().fromJson(json,User.class);
                             addSubscription(AppClient.getApiService(ApiService.HOST_MINE).collectArticle(user.getUsername(), articleId), new BaseCallBack<ResponseInfo<String>>() {

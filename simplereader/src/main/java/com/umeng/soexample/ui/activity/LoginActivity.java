@@ -14,7 +14,7 @@ import com.umeng.soexample.api.AppClient;
 import com.umeng.soexample.base.BaseActivity;
 import com.umeng.soexample.base.BaseCallBack;
 import com.umeng.soexample.model.LoginMessage;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 import com.umeng.soexample.ui.view.ClearEditText;
 import com.umeng.soexample.util.ConstanceValue;
 import com.umeng.soexample.util.LoginStatusUtils;

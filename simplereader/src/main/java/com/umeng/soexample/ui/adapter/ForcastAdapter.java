@@ -6,7 +6,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.umeng.soexample.R;
 import com.umeng.soexample.model.HeWeather;
-import com.umeng.soexample.theme.util.util.SharedPreferencesMgr;
+import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 import com.umeng.soexample.util.ImageLoadUtil;
 
 import java.util.List;

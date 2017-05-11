@@ -1,4 +1,4 @@
-package com.umeng.soexample.theme.util;
+package com.umeng.soexample.theme;
 
 import android.content.res.Resources;
 import android.view.View;

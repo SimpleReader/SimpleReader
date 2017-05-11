@@ -44,11 +44,11 @@
     <style name="tab_layout">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="tabBackground">@color/tab_background</item>
+        <item name="tabBackground">?attr/main_bg</item>
         <item name="tabGravity">center</item>
         <item name="tabIndicatorHeight">0dp</item>
         <item name="tabSelectedTextColor">#ff7a61</item>
-        <item name="tabTextColor">@color/black</item>
+        <item name="tabTextColor">?attr/font_color</item>
     </style>
 
     <style name="RecycleViewCommon">
