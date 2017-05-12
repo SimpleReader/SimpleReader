@@ -10,7 +10,8 @@ import com.umeng.soexample.base.BaseFragment;
 import com.umeng.soexample.util.ConstanceValue;
 
 /**
- * Created by gxj on 2017/3/28.
+ * Description:视频页面
+ * Created by chenggong on 2017/3/28.
  */
 
 public class VideoFragment extends BasePagerFragment {

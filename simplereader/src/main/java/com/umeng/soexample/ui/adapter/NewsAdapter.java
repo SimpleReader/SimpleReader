@@ -15,7 +15,8 @@ import com.umeng.soexample.util.ImageLoadUtil;
 import java.util.List;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Description:新闻适配器
+ * Created by chenggong on 2017/3/29.
  */
 
 public class NewsAdapter extends BaseQuickAdapter<News>{

@@ -3,7 +3,8 @@ package com.umeng.soexample.listener;
 import com.chad.library.adapter.base.BaseViewHolder;
 
 /**
- * Created by gxj on 2017/4/17.
+ * Description:频道拖拽监听接口
+ * Created by chenggong on 2017/4/17.
  */
 
 public interface OnChannelDragListener {

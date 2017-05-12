@@ -17,7 +17,8 @@ import com.umeng.soexample.R;
 import com.umeng.soexample.util.NetworkUtil;
 
 /**
- * Created by gxj on 2017/4/24.
+ * Description:自定义webview
+ * Created by chenggong on 2017/4/24.
  */
 
 public class ProgressWebView extends WebView {

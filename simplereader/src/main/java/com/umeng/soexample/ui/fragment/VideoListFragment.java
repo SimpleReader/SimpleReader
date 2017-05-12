@@ -11,7 +11,8 @@ import fm.jiecao.jcvideoplayer_lib.JCVideoPlayer;
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerManager;
 
 /**
- * Created by gxj on 2017/4/7.
+ * Description:视频列表页面
+ * Created by chenggong on 2017/4/7.
  */
 
 public class VideoListFragment extends NewsListFragment {

@@ -8,7 +8,8 @@ import com.umeng.soexample.model.CommentList;
 import com.umeng.soexample.view.IBaseDetailView;
 
 /**
- * Created by gxj on 2017/4/24.
+ * Description:详情presenter基类
+ * Created by chenggong on 2017/4/24.
  */
 
 public class BaseDetailPresenter extends BasePresenter<IBaseDetailView> {

@@ -6,7 +6,8 @@ import android.widget.Toast;
 import com.umeng.soexample.MyApplication;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Description:弹出提示工具类
+ * Created by chenggong on 2017/3/29.
  */
 
 public class ToastUtils {

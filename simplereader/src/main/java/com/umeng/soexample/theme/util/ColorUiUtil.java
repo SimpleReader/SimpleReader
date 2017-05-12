@@ -13,7 +13,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * Created by gxj on 2017/4/7.
+ * Description:ui管理工具类
+ * Created by chenggong on 2017/4/7.
  */
 
 public class ColorUiUtil {

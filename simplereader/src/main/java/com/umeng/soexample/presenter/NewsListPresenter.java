@@ -11,7 +11,8 @@ import com.umeng.soexample.view.INewsListView;
 import java.util.List;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Description:新闻列表presenter
+ * Created by chenggong on 2017/3/29.
  */
 
 public class NewsListPresenter extends BasePresenter<INewsListView> {

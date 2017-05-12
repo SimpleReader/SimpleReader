@@ -30,7 +30,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
- * Created by gxj on 2017/4/24.
+ * Description:新闻Activity基础抽象类
+ * Created by chenggong on 2017/4/24.
  */
 
 public abstract class BaseNewsActivity<P extends BaseDetailPresenter> extends BaseMVPActivity<P> {

@@ -1,7 +1,8 @@
 package com.umeng.soexample.util;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Description:基础变量定义接口
+ * Created by chenggong on 2017/3/29.
  */
 
 public interface ConstanceValue {

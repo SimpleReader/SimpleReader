@@ -22,7 +22,8 @@ import rx.schedulers.Schedulers;
 import rx.subscriptions.CompositeSubscription;
 
 /**
- * Created by gxj on 2017/4/11.
+ * Description:视频解码类
+ * Created by chenggong on 2017/4/11.
  */
 
 public abstract class VideoPathDecoder {

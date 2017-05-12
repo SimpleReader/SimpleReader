@@ -4,7 +4,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Created by gxj on 2017/4/7.
+ * Description:sp工具类
+ * Created by chenggong on 2017/4/7.
  */
 
 public class SharedPreferencesMgr {

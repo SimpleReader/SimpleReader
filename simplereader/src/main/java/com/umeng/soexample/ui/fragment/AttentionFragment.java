@@ -29,7 +29,7 @@ import butterknife.ButterKnife;
 
 /**
  * Descrtiption: 天气页面
- * Created by gxj on 2017/3/28.
+ * Created by chenggong on 2017/3/28.
  */
 
 public class AttentionFragment extends BaseMvpFragment<HeWeatherPresenter> implements IHeWeatherView {

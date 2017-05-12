@@ -11,7 +11,8 @@ import com.umeng.soexample.theme.ColorUiInterface;
 import com.umeng.soexample.theme.util.ViewAttributeUtil;
 
 /**
- * Created by gxj on 2017/5/10.
+ * Description:textview颜色控件
+ * Created by chenggong on 2017/5/10.
  */
 
 public class ColorTextView extends TextView implements ColorUiInterface {

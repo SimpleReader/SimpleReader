@@ -27,7 +27,8 @@ import com.umeng.soexample.util.ConstanceValue;
 import com.umeng.soexample.util.LoginStatusUtils;
 
 /**
- * Created by gxj on 2017/3/28.
+ * Description:我的页面
+ * Created by chenggong on 2017/3/28.
  */
 
 public class MeFragment extends BaseFragment {

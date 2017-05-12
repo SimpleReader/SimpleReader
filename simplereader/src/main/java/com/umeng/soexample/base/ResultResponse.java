@@ -1,7 +1,8 @@
 package com.umeng.soexample.base;
 
 /**
- * Created by gxj on 2017/3/24.
+ * Description:新闻、视频消息相应实体类
+ * Created by chenggong on 2017/3/24.
  */
 
 public class ResultResponse<T> {

@@ -4,7 +4,8 @@ import com.umeng.soexample.base.BasePresenter;
 import com.umeng.soexample.view.IHomeView;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Description:主页presenter
+ * Created by chenggong on 2017/3/29.
  */
 
 public class HomePresenter extends BasePresenter<IHomeView> {

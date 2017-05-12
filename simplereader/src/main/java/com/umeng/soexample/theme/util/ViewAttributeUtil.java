@@ -11,7 +11,8 @@ import com.umeng.soexample.theme.ColorUiInterface;
 import com.umeng.soexample.util.ConstanceValue;
 
 /**
- * Created by gxj on 2017/4/7.
+ * Description:布局控件属性工具类
+ * Created by chenggong on 2017/4/7.
  */
 
 public class ViewAttributeUtil {

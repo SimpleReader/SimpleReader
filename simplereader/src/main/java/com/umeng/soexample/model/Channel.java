@@ -3,7 +3,8 @@ package com.umeng.soexample.model;
 import com.chad.library.adapter.base.entity.MultiItemEntity;
 
 /**
- * Created by gxj on 2017/4/17.
+ * Description:频道模型
+ * Created by chenggong on 2017/4/17.
  */
 
 public class Channel extends MultiItemEntity {

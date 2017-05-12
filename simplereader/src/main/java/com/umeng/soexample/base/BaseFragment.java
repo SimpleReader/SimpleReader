@@ -20,7 +20,8 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 
 /**
- * Created by gxj on 2017/2/28.
+ * Description:页面基础抽象类
+ * Created by chenggong on 2017/2/28.
  */
 
 public abstract class BaseFragment extends Fragment {

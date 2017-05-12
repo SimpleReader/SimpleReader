@@ -12,7 +12,8 @@ import java.net.SocketTimeoutException;
 import rx.Subscriber;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Description:基础回调
+ * Created by chenggong on 2017/3/29.
  */
 
 public abstract class BaseCallBack<T> extends Subscriber<T> {

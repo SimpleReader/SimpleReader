@@ -22,7 +22,8 @@ import retrofit2.http.Url;
 import rx.Observable;
 
 /**
- * Created by gxj on 2017/3/24.
+ * Description:网络请求接口
+ * Created by chenggong on 2017/3/24.
  */
 
 public interface ApiService {

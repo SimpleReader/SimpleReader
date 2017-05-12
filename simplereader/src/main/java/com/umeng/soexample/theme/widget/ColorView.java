@@ -9,7 +9,8 @@ import com.umeng.soexample.theme.ColorUiInterface;
 import com.umeng.soexample.theme.util.ViewAttributeUtil;
 
 /**
- * Created by gxj on 2017/5/10.
+ * Description:自定义颜色控件
+ * Created by chenggong on 2017/5/10.
  */
 
 public class ColorView extends View implements ColorUiInterface {

@@ -20,7 +20,8 @@ import com.umeng.soexample.model.Channel;
 import java.util.List;
 
 /**
- * Created by gxj on 2017/4/17.
+ * Description:频道列表适配器
+ * Created by chenggong on 2017/4/17.
  */
 
 public class ChannelAdapter extends BaseMultiItemQuickAdapter<Channel> {

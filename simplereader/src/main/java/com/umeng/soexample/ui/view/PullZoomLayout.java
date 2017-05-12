@@ -17,7 +17,8 @@ import com.orhanobut.logger.Logger;
 import com.umeng.soexample.R;
 
 /**
- * Created by gxj on 2017/4/26.
+ * Description:伸缩控件(我的页面)
+ * Created by chenggong on 2017/4/26.
  */
 
 public class PullZoomLayout extends LinearLayout {

@@ -26,7 +26,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
- * Created by gxj on 2017/3/28.
+ * Description:主页页面
+ * Created by chenggong on 2017/3/28.
  */
 
 public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHomeView {

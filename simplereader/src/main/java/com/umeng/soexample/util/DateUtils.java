@@ -9,7 +9,8 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * Created by gxj on 2017/4/4.
+ * Description:日期工具类
+ * Created by chenggong on 2017/4/4.
  */
 
 public class DateUtils {

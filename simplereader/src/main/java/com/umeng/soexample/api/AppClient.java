@@ -17,7 +17,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 /**
- * Created by gxj on 2017/3/27.
+ * Description:retrofit网络请求封装
+ * Created by chenggong on 2017/3/27.
  */
 
 public class AppClient {

@@ -1,7 +1,8 @@
 package com.umeng.soexample.model;
 
 /**
- * Created by gxj on 2017/3/28.
+ * Description:通知实体类
+ * Created by chenggong on 2017/3/28.
  */
 
 public class Notice {

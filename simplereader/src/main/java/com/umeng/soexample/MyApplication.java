@@ -11,7 +11,8 @@ import com.umeng.soexample.theme.util.SharedPreferencesMgr;
 import com.umeng.soexample.util.ConstanceValue;
 
 /**
- * Created by gxj on 2017/2/28.
+ * Description:项目Application 初始化首先执行
+ * Created by chenggong on 2017/2/28.
  */
 
 public class MyApplication extends Application {

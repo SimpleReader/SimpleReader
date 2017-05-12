@@ -6,7 +6,8 @@ import com.chad.library.adapter.base.BaseViewHolder;
 import java.util.List;
 
 /**
- * Created by gxj on 2017/4/24.
+ * Description:评论适配器
+ * Created by chenggong on 2017/4/24.
  */
 
 public class CommentAdapter extends BaseQuickAdapter {

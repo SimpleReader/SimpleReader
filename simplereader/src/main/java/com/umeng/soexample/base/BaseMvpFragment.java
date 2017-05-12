@@ -11,7 +11,8 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.umeng.soexample.R;
 
 /**
- * Created by gxj on 2017/3/28.
+ * Description:MVP页面基础抽象类
+ * Created by chenggong on 2017/3/28.
  */
 
 public abstract class BaseMvpFragment<P extends BasePresenter> extends BaseFragment {

@@ -10,7 +10,8 @@ import com.umeng.soexample.theme.ColorUiInterface;
 import com.umeng.soexample.theme.util.ViewAttributeUtil;
 
 /**
- * Created by gxj on 2017/5/10.
+ * Description:相对布局颜色控件
+ * Created by chenggong on 2017/5/10.
  */
 
 public class ColorRelativeLayout extends RelativeLayout implements ColorUiInterface {

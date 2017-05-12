@@ -15,7 +15,8 @@ import com.umeng.soexample.theme.widget.ColorTextView;
 import com.umeng.soexample.theme.widget.ColorView;
 
 /**
- * Created by gxj on 2017/4/10.
+ * Description:皮肤工厂
+ * Created by chenggong on 2017/4/10.
  */
 
 public class SkinFactory implements LayoutInflaterFactory {

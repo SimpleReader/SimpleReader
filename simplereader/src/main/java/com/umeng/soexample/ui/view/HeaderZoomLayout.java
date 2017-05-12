@@ -10,7 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ScrollView;
 
 /**
- * Created by gxj on 2017/4/25.
+ * Description:自定义scrollview
+ * Created by chenggong on 2017/4/25.
  */
 
 public class HeaderZoomLayout extends ScrollView {

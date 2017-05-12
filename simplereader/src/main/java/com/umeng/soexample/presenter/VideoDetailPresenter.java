@@ -3,7 +3,8 @@ package com.umeng.soexample.presenter;
 import com.umeng.soexample.view.IBaseDetailView;
 
 /**
- * Created by gxj on 2017/4/24.
+ * Description:视频详情presenter
+ * Created by chenggong on 2017/4/24.
  */
 
 public class VideoDetailPresenter extends BaseDetailPresenter {

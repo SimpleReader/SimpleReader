@@ -1,7 +1,8 @@
 package com.umeng.soexample.model;
 
 /**
- * Created by gxj on 2017/3/26.
+ * Description:视频信息模型
+ * Created by chenggong on 2017/3/26.
  */
 
 public class VideoModel {
