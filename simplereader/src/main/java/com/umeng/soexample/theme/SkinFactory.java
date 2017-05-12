@@ -15,7 +15,7 @@ import com.umeng.soexample.theme.widget.ColorTextView;
 import com.umeng.soexample.theme.widget.ColorView;
 
 /**
- * Description:皮肤工厂
+ * Description:页面皮肤工厂
  * Created by chenggong on 2017/4/10.
  */
 
