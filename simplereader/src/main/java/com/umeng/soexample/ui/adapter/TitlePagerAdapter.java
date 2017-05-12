@@ -9,7 +9,7 @@ import com.umeng.soexample.base.BaseFragment;
 import java.util.List;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Created by chenggong on 2017/3/29.
  */
 
 public class TitlePagerAdapter extends FragmentPagerAdapter {

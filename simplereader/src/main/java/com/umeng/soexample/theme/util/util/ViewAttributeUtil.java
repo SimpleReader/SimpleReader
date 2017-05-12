@@ -11,7 +11,7 @@ import com.umeng.soexample.theme.util.ColorUiInterface;
 import com.umeng.soexample.util.ConstanceValue;
 
 /**
- * Created by gxj on 2017/4/7.
+ * Created by chenggong on 2017/4/7.
  */
 
 public class ViewAttributeUtil {

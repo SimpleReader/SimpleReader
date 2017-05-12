@@ -5,7 +5,7 @@ import android.text.TextUtils;
 import com.umeng.soexample.util.ToastUtils;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Created by chenggong on 2017/3/29.
  */
 
 public abstract class SubscriberCallBack<T> extends BaseCallBack<ResultResponse<T>> {

@@ -18,7 +18,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by gxj on 2017/4/7.
+ * Created by chenggong on 2017/4/7.
  */
 public abstract class BasePagerFragment extends BaseFragment {
     @BindView(R.id.tab_layout)

@@ -36,7 +36,7 @@ import rx.schedulers.Schedulers;
 import rx.subscriptions.CompositeSubscription;
 
 /**
- * Created by gxj on 2017/4/10.
+ * Created by chenggong on 2017/4/10.
  */
 
 public abstract class BaseActivity extends AppCompatActivity {

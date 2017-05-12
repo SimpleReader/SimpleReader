@@ -3,7 +3,7 @@ package com.umeng.soexample.listener;
 import com.chad.library.adapter.base.BaseViewHolder;
 
 /**
- * Created by gxj on 2017/4/17.
+ * Created by chenggong on 2017/4/17.
  */
 
 public interface OnChannelDragListener {

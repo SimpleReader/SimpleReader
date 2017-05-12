@@ -1,7 +1,7 @@
 package com.umeng.soexample.model;
 
 /**
- * Created by gxj on 2017/3/26.
+ * Created by chenggong on 2017/3/26.
  */
 
 public class Video {

@@ -11,7 +11,7 @@ import com.umeng.soexample.R;
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
 
 /**
- * Created by gxj on 2017/4/11.
+ * Created by chenggong on 2017/4/11.
  */
 
 public class SPVideoPlayer extends JCVideoPlayerStandard {

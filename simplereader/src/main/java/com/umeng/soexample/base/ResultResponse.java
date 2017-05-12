@@ -1,7 +1,7 @@
 package com.umeng.soexample.base;
 
 /**
- * Created by gxj on 2017/3/24.
+ * Created by chenggong on 2017/3/24.
  */
 
 public class ResultResponse<T> {

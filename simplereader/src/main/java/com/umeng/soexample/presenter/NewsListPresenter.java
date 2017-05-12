@@ -11,7 +11,7 @@ import com.umeng.soexample.view.INewsListView;
 import java.util.List;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Created by chenggong on 2017/3/29.
  */
 
 public class NewsListPresenter extends BasePresenter<INewsListView> {

@@ -7,7 +7,8 @@ import rx.subjects.SerializedSubject;
 import rx.subjects.Subject;
 
 /**
- * Created by gxj on 2017/3/28.
+ * Description:事件传递
+ * Created by chenggong on 2017/3/28.
  */
 
 public class RxBus {

@@ -17,7 +17,7 @@ import com.umeng.soexample.util.VideoPathDecoder;
 import java.util.List;
 
 /**
- * Created by gxj on 2017/4/7.
+ * Created by chenggong on 2017/4/7.
  */
 
 public class VideoAdapter extends BaseQuickAdapter<News> {

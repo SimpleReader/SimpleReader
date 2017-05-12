@@ -11,7 +11,8 @@ import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
 
 /**
- * Created by gxj on 2017/2/28.
+ * Description:
+ * Created by chenggong on 2017/2/28.
  */
 
 public class MyApplication extends Application {

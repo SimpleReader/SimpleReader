@@ -5,7 +5,8 @@ import com.umeng.soexample.model.News;
 import java.util.List;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Description:获取新闻列表接口
+ * Created by chenggong on 2017/3/29.
  */
 
 public interface INewsListView {

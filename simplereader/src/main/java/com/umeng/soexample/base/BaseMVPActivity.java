@@ -3,7 +3,7 @@ package com.umeng.soexample.base;
 import android.os.Bundle;
 
 /**
- * Created by gxj on 2017/4/24.
+ * Created by chenggong on 2017/4/24.
  */
 
 public abstract class BaseMVPActivity<P extends BasePresenter> extends BaseActivity {

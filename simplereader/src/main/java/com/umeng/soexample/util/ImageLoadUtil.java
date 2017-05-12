@@ -24,7 +24,8 @@ import java.io.File;
 import java.util.concurrent.ExecutionException;
 
 /**
- * Created by gxj on 2017/4/4.
+ * Description:图片加载工具类
+ * Created by chenggong on 2017/4/4.
  */
 
 public class ImageLoadUtil {

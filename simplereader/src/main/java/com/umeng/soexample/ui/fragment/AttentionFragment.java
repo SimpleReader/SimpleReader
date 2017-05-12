@@ -29,7 +29,7 @@ import butterknife.ButterKnife;
 
 /**
  * Descrtiption: 天气页面
- * Created by gxj on 2017/3/28.
+ * Created by chenggong on 2017/3/28.
  */
 
 public class AttentionFragment extends BaseMvpFragment<HeWeatherPresenter> implements IHeWeatherView {
@@ -167,6 +167,7 @@ public class AttentionFragment extends BaseMvpFragment<HeWeatherPresenter> imple
         if (isVisibleToUser) {
             cityName = SharedPreferencesMgr.getString(ConstanceValue.SP_CITY, ConstanceValue.CITY_DEFAULT);
             Logger.e("cityName1:" + cityName);
+            isLoaded=true;
             mvpPresenter.loadHeWeather(cityName);
         }
     }
@@ -175,8 +176,10 @@ public class AttentionFragment extends BaseMvpFragment<HeWeatherPresenter> imple
     public void onResume() {
         super.onResume();
         Logger.e("weather---onResume");
-        cityName = SharedPreferencesMgr.getString(ConstanceValue.SP_CITY, ConstanceValue.CITY_DEFAULT);
-        mvpPresenter.loadHeWeather(cityName);
+        if(!isLoaded){
+            cityName = SharedPreferencesMgr.getString(ConstanceValue.SP_CITY, ConstanceValue.CITY_DEFAULT);
+            mvpPresenter.loadHeWeather(cityName);
+        }
     }
 
 }

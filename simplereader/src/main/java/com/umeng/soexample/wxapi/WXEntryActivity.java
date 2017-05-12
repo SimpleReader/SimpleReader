@@ -3,7 +3,10 @@ package com.umeng.soexample.wxapi;
 
 import com.umeng.weixin.callback.WXCallbackActivity;
 
-//import com.umeng.socialize.weixin.view.WXCallbackActivity;
+/**
+ * Description:微信分享回调
+ * Created by chenggong on 2017/5/09.
+ */
 
 public class WXEntryActivity extends WXCallbackActivity {
 

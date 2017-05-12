@@ -10,7 +10,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by gxj on 2017/4/24.
+ * Description:网络状态工具类
+ * Created by chenggong on 2017/4/24.
  */
 
 public class NetworkUtil {

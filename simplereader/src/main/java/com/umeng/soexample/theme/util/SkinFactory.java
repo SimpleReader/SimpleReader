@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by gxj on 2017/4/10.
+ * Created by chenggong on 2017/4/10.
  */
 
 public class SkinFactory implements LayoutInflaterFactory {

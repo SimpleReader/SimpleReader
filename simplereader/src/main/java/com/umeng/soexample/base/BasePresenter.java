@@ -10,7 +10,7 @@ import rx.schedulers.Schedulers;
 import rx.subscriptions.CompositeSubscription;
 
 /**
- * Created by gxj on 2017/3/28.
+ * Created by chenggong on 2017/3/28.
  */
 
 public class BasePresenter<V> implements Presenter<V> {

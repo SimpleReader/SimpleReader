@@ -1,7 +1,8 @@
 package com.umeng.soexample.util;
 
 /**
- * Created by gxj on 2017/3/29.
+ * Description:常量定义类
+ * Created by chenggong on 2017/3/29.
  */
 
 public interface ConstanceValue {
