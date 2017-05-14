@@ -27,7 +27,7 @@
                     android:id="@+id/tvTitle"
                     style="@style/new_title"
                     android:layout_width="match_parent"
-                    android:text="景海鹏陈冬踏上回家之路asdasdasdasdasd"
+                    android:text="@string/news_title"
                     android:textColor="?attr/font_color"
                     app:isColorUi="true" />
 
@@ -105,7 +105,7 @@
                             android:drawableLeft="@drawable/picture_group_icon"
                             android:drawablePadding="2dp"
                             android:gravity="center"
-                            android:text="9图"
+                            android:text="@string/news_tvImageCount"
                             android:textColor="?attr/font_color2"
                             android:textSize="8sp" />
                     </LinearLayout>
@@ -122,7 +122,7 @@
                         style="@style/new_info_layout_text_style"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="中新网移动版"
+                        android:text="@string/news_tvAuthorName"
                         android:textColor="?attr/font_color2"
                         android:textSize="@dimen/new_info_layout_line2_text_size"
                         app:isColorUi="true" />
@@ -133,7 +133,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:text="1020评论"
+                        android:text="@string/news_tvCommonCount"
                         android:textColor="?attr/font_color2"
                         android:textSize="@dimen/new_info_layout_line2_text_size"
                         app:isColorUi="true" />
@@ -144,7 +144,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:text="5分钟前"
+                        android:text="@string/news_tvtime"
                         android:textColor="?attr/font_color2"
                         android:textSize="@dimen/new_info_layout_line2_text_size"
                         app:isColorUi="true" />

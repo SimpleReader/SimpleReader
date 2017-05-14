@@ -12,6 +12,7 @@ public interface ConstanceValue {
     String ARTICLE_GENRE_ARTICLE = "article";
     String URL = "url";
     String SP_THEME = "theme";
+    //夜间-白天模式设置
     int THEME_LIGHT = 1;
     int TIME_NIGHT = 2;
     String SP_USER="sp_users"; //用户集合

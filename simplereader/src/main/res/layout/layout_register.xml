@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/icon_nickname"
             android:drawablePadding="20dp"
-            android:hint="请输入用户名"
+            android:hint="@string/mine_input_username"
             style="@style/editText_base"/>
         <View
             style="@style/line_vertical">
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/icon_pwd"
             android:drawablePadding="20dp"
-            android:hint="请输入登录密码"
+            android:hint="@string/mine_input_password"
             style="@style/editText_base"
             android:inputType="textPassword"/>
         <View
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/icon_pwd"
             android:drawablePadding="20dp"
-            android:hint="请再次输入登录密码"
+            android:hint="@string/mine_input_password_repeat"
             style="@style/editText_base"
             android:inputType="textPassword"/>
         <View
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/icon_phone"
             android:drawablePadding="20dp"
-            android:hint="请输入手机号码"
+            android:hint="@string/mine_input_phone"
             style="@style/editText_base"
             android:inputType="textPassword"/>
         <View
@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/icon_nickname"
             android:drawablePadding="20dp"
-            android:hint="请输入用户昵称"
+            android:hint="@string/mine_input_nickname"
             style="@style/editText_base"
             android:inputType="textPassword"/>
 
@@ -108,7 +108,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/bigRedButton"
-        android:text="注册"
+        android:text="@string/mine_button_register"
         android:layout_marginTop="30dp"
         android:layout_margin="20dp"/>
 

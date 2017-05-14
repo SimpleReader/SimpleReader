@@ -34,7 +34,7 @@
             android:gravity="center"
             android:textColor="?attr/font_color"
             app:isColorUi="true"
-            tools:text="简单阅读" />
+            tools:text="@string/app_name" />
 
         <View
             android:layout_width="0dp"
