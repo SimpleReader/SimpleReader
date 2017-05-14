@@ -157,7 +157,7 @@ public class ArticleDetailAvtivity extends BaseActivity {
                                 if(response.status.equals("200")){
                                     btnCollect.setImageResource(R.drawable.icon_uncollect_black);
                                     isCollected=false;
-                                    Toast.makeText(mContext, "取消收藏成功", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(mContext, getResources().getString(R.string.article_cancel_collect_success), Toast.LENGTH_SHORT).show();
                                 }
                             }
                         });
@@ -172,7 +172,7 @@ public class ArticleDetailAvtivity extends BaseActivity {
                                     if(response.status.equals("200")){
                                         btnCollect.setImageResource(R.drawable.icon_collected_black);
                                         isCollected=true;
-                                        Toast.makeText(mContext, "收藏成功", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(mContext, getResources().getString(R.string.article_collect_success), Toast.LENGTH_SHORT).show();
                                     }
                                 }
                             });
@@ -180,7 +180,7 @@ public class ArticleDetailAvtivity extends BaseActivity {
 
                     }
                 }else{
-                    ToastUtils.showToast("请先登录帐号");
+                    ToastUtils.showToast(getResources().getString(R.string.mine_must_login));
                 }
 
             }
@@ -230,17 +230,17 @@ public class ArticleDetailAvtivity extends BaseActivity {
 
         @Override
         public void onResult(SHARE_MEDIA platform) {
-            ToastUtils.showToast("分享成功");
+            ToastUtils.showToast(getResources().getString(R.string.share_success));
         }
 
         @Override
         public void onError(SHARE_MEDIA platform, Throwable t) {
-            ToastUtils.showToast("分享失败");
+            ToastUtils.showToast(getResources().getString(R.string.share_fail));
         }
 
         @Override
         public void onCancel(SHARE_MEDIA platform) {
-            ToastUtils.showToast("分享取消");
+            ToastUtils.showToast(getResources().getString(R.string.share_cancel));
         }
     };
 

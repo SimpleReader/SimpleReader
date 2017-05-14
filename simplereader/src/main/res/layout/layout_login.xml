@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/icon_telphone_32"
             android:drawablePadding="20dp"
-            android:hint="请输入用户名"
+            android:hint="@string/mine_input_username"
             style="@style/editText_base"/>
         <View
             style="@style/line_vertical">
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/icon_lock"
             android:drawablePadding="20dp"
-            android:hint="请输入登录密码"
+            android:hint="@string/mine_input_password"
             style="@style/editText_base"
             android:inputType="textPassword"/>
 
@@ -70,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/bigRedButton"
-        android:text="登录"
+        android:text="@string/mine_button_login"
         android:layout_marginTop="30dp"
         android:layout_margin="20dp"
         />
@@ -87,13 +87,11 @@
             android:id="@+id/txt_toReg"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="注册账号"
+            android:text="@string/mine_textview_register"
             android:layout_weight="1"
             android:textColor="@color/blue"
             android:textSize="12sp"
             />
-
-
     </LinearLayout>
 
 </LinearLayout>

@@ -46,7 +46,6 @@ public class DBManager {
 
 
     public void openDatabase() {
-        //PLog.e(TAG, DB_PATH + "/" + DB_NAME);
         this.database = this.openDatabase(DB_PATH + "/" + DB_NAME);
     }
 

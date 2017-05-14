@@ -27,7 +27,6 @@ public class AppClient {
      * @return
      */
     public static Retrofit retrofit(String baseUrl) {
-        Logger.e("baseUrl："+baseUrl);
         if (mRetrofit == null) {
             OkHttpClient.Builder builder = new OkHttpClient.Builder();
             if (BuildConfig.DEBUG) {

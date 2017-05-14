@@ -40,7 +40,7 @@
                     android:id="@+id/cloth_brief"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="穿衣指数---"
+                    android:text="@string/weather_cloth_brief"
                     android:textColor="?attr/font_color"/>
 
                 <TextView
@@ -75,7 +75,7 @@
                     android:id="@+id/sport_brief"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="运动指数---"
+                    android:text="@string/weather_sport_brief"
                     android:textColor="?attr/font_color"/>
 
                 <TextView
@@ -111,7 +111,7 @@
                     android:id="@+id/travel_brief"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="旅游指数---"
+                    android:text="@string/weather_travel_brief"
                     android:textColor="?attr/font_color"/>
 
                 <TextView
@@ -147,7 +147,7 @@
                     android:id="@+id/flu_brief"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="感冒指数---"
+                    android:text="@string/weather_flu_brief"
                     android:textColor="?attr/font_color"/>
 
                 <TextView

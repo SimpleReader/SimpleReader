@@ -6,7 +6,7 @@ import com.chad.library.adapter.base.BaseViewHolder;
 import java.util.List;
 
 /**
- * Description:评论适配器
+ * Description:适配器封装
  * Created by chenggong on 2017/4/24.
  */
 

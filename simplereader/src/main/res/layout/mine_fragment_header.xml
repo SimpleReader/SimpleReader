@@ -56,7 +56,7 @@
                     android:gravity="center"
                     android:background="@color/red_btn_color_normal"
                     android:maxLines="1"
-                    android:text="退出登录"
+                    android:text="@string/mine_loginout"
                     android:layout_marginTop="5dp"
                     android:textColor="@color/ssxinzi10"
                     android:textSize="16sp" />

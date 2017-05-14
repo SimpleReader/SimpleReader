@@ -31,7 +31,7 @@
                 android:layout_gravity="center"
                 android:textSize="@dimen/weather_city"
                 android:textColor="?attr/font_color"
-                android:text="济南"/>
+                android:text="@string/default_city"/>
 
             <!--天气图标-->
             <ImageView

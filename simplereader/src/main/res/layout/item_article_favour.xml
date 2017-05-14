@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="@dimen/article_author2head"
-                android:text="北方以北"
+                android:text="@string/article_author_hint"
                 android:textSize="@dimen/article_author_textSize"/>
             <TextView
                 android:id="@+id/text_favourData"
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="@dimen/article_author2head"
-                android:text="2017-05-04"
+                android:text="@string/article_favour_date"
                 android:textSize="@dimen/article_author_textSize"/>
 
         </LinearLayout>
@@ -71,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/article_title_title"
-                android:text="读和写，一个都不能少——尹沽城读写训练营有感"/>
+                android:text="@string/article_title_hint"/>
             <TextView
                 android:id="@+id/article_sketch"
                 android:layout_width="match_parent"
@@ -83,7 +83,7 @@
                 android:layout_marginTop="3dp"
                 android:lineSpacingMultiplier="1.5"
                 android:layout_below="@id/article_title"
-                android:text="4月的简书上，我极少更文。懒病犯了吗？不是，我看书去了。 如果说在简书上开始码字，是我重新扬起“写”的热情，那么参加读写训练营则是“读”的起航。如今人人一机在手的时代，谁人不"/>
+                android:text="@string/article_sketch_hint"/>
         </LinearLayout>
 
     </RelativeLayout>

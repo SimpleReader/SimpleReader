@@ -25,9 +25,57 @@
     <string name="mine_item_activity">活 动</string>
     <string name="mine_item_sell">商 城</string>
     <string name="mine_item_sell_introduce">特卖、头彩、电影</string>
+
+    <!--个人相关-->
     <string name="mine_login">用户登录</string>
     <string name="mine_register">用户注册</string>
+    <string name="mine_input_username">请输入用户名</string>
+    <string name="mine_input_password">请输入登录密码</string>
+    <string name="mine_input_phone">请输入手机号码</string>
+    <string name="mine_input_nickname">请输入用户昵称</string>
+    <string name="mine_input_password_repeat">请再次输入登录密码</string>
+    <string name="mine_button_login">登录</string>
+    <string name="mine_textview_register">注册账号</string>
+    <string name="mine_button_register">注册</string>
+    <string name="mine_loginout">退出登录</string>
+    <string name="mine_must_login">请先登录帐号</string>
 
+    <!--新闻相关-->
+    <string name="news_title">景海鹏陈冬踏上回家之路</string>
+    <string name="news_tvImageCount">9图</string>
+    <string name="news_tvAuthorName">中新网移动版</string>
+    <string name="news_tvCommonCount">1020评论</string>
+    <string name="news_tvtime">5分钟前</string>
+
+    <!--天气相关-->
     <string name="select_province">选择省份</string>
     <string name="select_city">选择城市</string>
+    <string name="default_city">济南</string>
+    <string name="weather_today">今天</string>
+    <string name="weather_forcast_temp">5° 13°</string>
+    <string name="weather_forcast_txt">少云。最高12℃。东北风 10 到 15 km/h</string>
+    <string name="weather_cloth_brief">穿衣指数---</string>
+    <string name="weather_sport_brief">运动指数---</string>
+    <string name="weather_travel_brief">旅游指数---</string>
+    <string name="weather_flu_brief">感冒指数---</string>
+
+
+    <!--文章相关-->
+    <string name="article_author_hint">北方以北</string>
+    <string name="article_title_hint">读和写，一个都不能少——尹沽城读写训练营有感</string>
+    <string name="article_sketch_hint">4月的简书上，我极少更文。懒病犯了吗？不是，我看书去了。 如果说在简书上开始码字，是我重新扬起“写”的热情，那么参加读写训练营则是“读”的起航。如今人人一机在手的时代，谁人不</string>
+    <string name="article_favour_date">2017-05-04</string>
+    <string name="article_collect_success">收藏成功</string>
+    <string name="article_cancel_collect_success">收藏成功</string>
+
+    <!--分享相关-->
+    <string name="share_unknown">未知</string>
+    <string name="share_button">分享</string>
+    <string name="share_follow">关注官方微博</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_fail">分享失败</string>
+    <string name="share_cancel">分享取消</string>
+
+    <!--网络相关-->
+    <string name="network_connect_timeout">网络连接超时</string>
 </resources>
