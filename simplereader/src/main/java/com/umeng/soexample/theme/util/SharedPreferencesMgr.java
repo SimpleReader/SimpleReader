@@ -7,7 +7,6 @@ import android.content.SharedPreferences;
  * Description:sp工具类
  * Created by chenggong on 2017/4/7.
  */
-
 public class SharedPreferencesMgr {
     private static Context context;
     private static SharedPreferences sharedPreferences;

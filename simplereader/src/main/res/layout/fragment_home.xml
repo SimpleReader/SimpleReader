@@ -27,7 +27,8 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="10dp"
-            android:src="@drawable/search" />
+            android:src="@drawable/search"
+            android:visibility="gone"/>
 
     </RelativeLayout>
 
@@ -66,6 +67,7 @@
             android:background="@drawable/shadow_add_titlebar_new"
             android:paddingLeft="5dp"
             android:scaleType="center"
+            android:visibility="gone"
             android:src="@drawable/ic_category_expand" />
 
     </RelativeLayout>

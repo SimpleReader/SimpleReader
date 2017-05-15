@@ -8,7 +8,7 @@ import com.umeng.soexample.model.HeWeather;
 import java.util.List;
 
 /**
- * Description:
+ * Description:实时天气预报适配器
  * Created by chenggong on 2017/5/6.
  */
 

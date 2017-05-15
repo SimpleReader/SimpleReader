@@ -81,7 +81,6 @@ public class DateUtils {
      * @return
      */
     public static Date getDate(String dateStr) {
-        String str = "";
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         try {
             Date date = sdf.parse(dateStr);
@@ -92,7 +91,20 @@ public class DateUtils {
         return null;
     }
 
+    public static Date getOnlyDate(String dateStr){
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            Date date = sdf.parse(dateStr);
+            return date;
+        }catch (ParseException e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     /**
+     *
+     * @param date
      * @return
      */
     public static String toDateStr(Date date) {
@@ -142,6 +154,12 @@ public class DateUtils {
         return str;
     }
 
+    /**
+     * 判断是否是同一年
+     * @param targetTime
+     * @param compareTime
+     * @return
+     */
     public static boolean isSameYear(Date targetTime, Date compareTime) {
         Calendar tarCalendar = Calendar.getInstance();
         tarCalendar.setTime(targetTime);
@@ -161,6 +179,24 @@ public class DateUtils {
      * @return
      */
     public static int calculateDayStatus(Date targetTime, Date compareTime) {
+        Calendar tarCalendar = Calendar.getInstance();
+        tarCalendar.setTime(targetTime);
+        int tarDayOfYear = tarCalendar.get(Calendar.DAY_OF_YEAR);
+
+        Calendar compareCalendar = Calendar.getInstance();
+        compareCalendar.setTime(compareTime);
+        int comDayOfYear = compareCalendar.get(Calendar.DAY_OF_YEAR);
+
+        return tarDayOfYear - comDayOfYear;
+    }
+
+    /**
+     * 判断当前日期是今天/明天/后天
+     * @param targetTime
+     * @return
+     */
+    public static int calculateDayStatus(Date targetTime) {
+        Date compareTime = new Date();
         Calendar tarCalendar = Calendar.getInstance();
         tarCalendar.setTime(targetTime);
         int tarDayOfYear = tarCalendar.get(Calendar.DAY_OF_YEAR);
