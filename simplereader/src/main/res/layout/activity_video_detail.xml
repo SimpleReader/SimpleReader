@@ -52,7 +52,8 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <include layout="@layout/new_tool_bar" />
+    <include layout="@layout/new_tool_bar"
+        android:visibility="gone"/>
 </LinearLayout>
 
 

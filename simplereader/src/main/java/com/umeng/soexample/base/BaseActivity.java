@@ -69,6 +69,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         try {
             Field mFactorySet = LayoutInflater.class.getDeclaredField("mFactorySet");
             mFactorySet.setAccessible(true);
+            //利用反射改成false然后在设置上去
             mFactorySet.set(layoutInflater, false);
             LayoutInflaterCompat.setFactory(layoutInflater, new SkinFactory(this));
         } catch (NoSuchFieldException e) {

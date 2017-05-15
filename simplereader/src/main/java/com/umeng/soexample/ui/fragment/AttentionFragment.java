@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.orhanobut.logger.Logger;
@@ -51,7 +52,8 @@ public class AttentionFragment extends BaseMvpFragment<HeWeatherPresenter> imple
     public TextView mTempPm25; //PM2.5
     public TextView mTempQuality; //空气质量
 
-    public TextView mCityName;
+    public TextView mCityName; //城市名称
+    public ScrollView mScrollView; //滚动
 
     private ForcastAdapter mForcastAdapter; //未来天气预报适配器
     private HoursWeatherAdapter mHoursAdapter; //实时天气预报适配器
@@ -72,6 +74,7 @@ public class AttentionFragment extends BaseMvpFragment<HeWeatherPresenter> imple
 
     @Override
     protected View loadViewLayout(LayoutInflater inflater, ViewGroup container) {
+        Logger.d("attention--loadView");
         return inflater.inflate(R.layout.fragment_weather, null);
     }
 
@@ -101,10 +104,13 @@ public class AttentionFragment extends BaseMvpFragment<HeWeatherPresenter> imple
 
         mCity = get(R.id.city);
         mCityName = get(R.id.cityName);
+        mScrollView=get(R.id.weather_scrollview);
     }
 
     @Override
     protected void processLogic() {
+        //设置滚动到top 否则会默认滚到到rv的第一个item
+        mScrollView.scrollTo(0,0);
     }
 
     @Override
@@ -163,18 +169,17 @@ public class AttentionFragment extends BaseMvpFragment<HeWeatherPresenter> imple
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
-        Logger.e("isVisibleToUser---loadHeWeather:" + isVisibleToUser);
+        Logger.d("attention-isVisibleToUser---loadHeWeather:" + isVisibleToUser);
         if (isVisibleToUser) {
             cityName = SharedPreferencesMgr.getString(ConstanceValue.SP_CITY, ConstanceValue.CITY_DEFAULT);
-            Logger.e("cityName1:" + cityName);
             mvpPresenter.loadHeWeather(cityName);
         }
+
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        Logger.e("weather---onResume");
         cityName = SharedPreferencesMgr.getString(ConstanceValue.SP_CITY, ConstanceValue.CITY_DEFAULT);
         mvpPresenter.loadHeWeather(cityName);
     }

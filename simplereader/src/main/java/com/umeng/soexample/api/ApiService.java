@@ -29,7 +29,7 @@ import rx.Observable;
 public interface ApiService {
     String HOST = "http://www.toutiao.com/";    //baseUrl
     String API_SERVICE_URL = HOST + "api/";
-    String ARTICLE_FEED = "article/feed/";
+    String ARTICLE_FEED = "pc/feed/";
     String COMMENT_LIST = "comment/list";
     String HOST_VIDEO = "http://i.snssdk.com";
     String URL_VIDEO = "/video/urls/v/1/toutiao/mp4/%s?r=%s";

@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="?attr/main_bg"
-    tools:context="com.umeng.soexample.ui.fragment.ArticleFragment"
-    app:isColorUi="true">
+    tools:context="com.umeng.soexample.ui.fragment.ArticleFragment">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycleView_article"

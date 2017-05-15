@@ -1,6 +1,5 @@
 package com.umeng.soexample.ui.fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -13,7 +12,6 @@ import com.umeng.soexample.R;
 import com.umeng.soexample.base.BaseFragment;
 import com.umeng.soexample.base.BaseMvpFragment;
 import com.umeng.soexample.presenter.HomePresenter;
-import com.umeng.soexample.ui.activity.ChannelActivity;
 import com.umeng.soexample.ui.adapter.TitlePagerAdapter;
 import com.umeng.soexample.util.ConstanceValue;
 import com.umeng.soexample.view.IHomeView;
@@ -82,10 +80,10 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
     @OnClick({R.id.icon_category})
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.icon_category:
+            /*case R.id.icon_category:
                 Intent intent = new Intent(mContext, ChannelActivity.class);
                 startActivityForResult(intent, REQUEST_CHANNEL);
-                break;
+                break;*/
         }
     }
 }

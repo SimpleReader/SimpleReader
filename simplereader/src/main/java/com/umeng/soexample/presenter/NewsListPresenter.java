@@ -21,6 +21,7 @@ public class NewsListPresenter extends BasePresenter<INewsListView> {
     }
 
     public void getNewsList(String titleCode) {
+        Logger.d("NewsListPresentertitleCode"+titleCode);
         addSubscription(AppClient.getApiService(ApiService.API_SERVICE_URL).getNews(titleCode), new SubscriberCallBack<List<News>>() {
 
             @Override
