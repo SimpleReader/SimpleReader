@@ -61,7 +61,7 @@ public class NewsAdapter extends BaseQuickAdapter<News>{
         }
         baseViewHolder.setText(R.id.tvTitle, news.title)
                 .setText(R.id.tvAuthorName, news.source)
-                .setText(R.id.tvCommentCount, news.comment_counts + "评论")
+                .setText(R.id.tvCommentCount,news.comments_count+"评论")
                 .setText(R.id.tvTime, DateUtils.getShortTime(news.behot_time * 1000));
     }
 

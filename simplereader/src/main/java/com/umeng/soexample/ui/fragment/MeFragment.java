@@ -83,10 +83,12 @@ public class MeFragment extends BaseFragment {
                     getActivity().setTheme(R.style.Theme_Light);
                     mine_fragment_mode_switch.setText("白天");
                 }
+                //获取最顶层的view，也就是根view
                 final View rootView = getActivity().getWindow().getDecorView();
                 if (Build.VERSION.SDK_INT >= 14) {
                     rootView.setDrawingCacheEnabled(true);
                     rootView.buildDrawingCache(true);
+                    //截取view图像
                     final Bitmap localBitmap = Bitmap.createBitmap(rootView.getDrawingCache());
                     rootView.setDrawingCacheEnabled(false);
                     if (localBitmap != null && rootView instanceof ViewGroup) {
@@ -94,6 +96,7 @@ public class MeFragment extends BaseFragment {
                         localView2.setBackgroundDrawable(new BitmapDrawable(getResources(), localBitmap));
                         ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
                         ((ViewGroup) rootView).addView(localView2, params);
+                        //设置切换时候动画效果
                         localView2.animate().alpha(0).setDuration(400).setListener(new Animator.AnimatorListener() {
                             @Override
                             public void onAnimationStart(Animator animation) {

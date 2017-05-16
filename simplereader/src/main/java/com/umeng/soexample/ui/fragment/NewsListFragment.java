@@ -76,13 +76,16 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
         super.lazyLoad();
         Logger.e("processLogic");
         if (TextUtils.isEmpty(mTitleCode)) {
+            //拿到栏目对应的category字段
             mTitleCode = getArguments().getString(ConstanceValue.DATA);
         }
+        //获取新闻数据
         mvpPresenter.getNewsList(mTitleCode);
     }
 
     @Override
     protected void setListener() {
+        //下拉刷新获取新数据
         srl.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -94,9 +97,11 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
             @Override
             public void onItemClick(View view, int i) {
                 News news = mDatas.get(i);
+                //通过字段判断本条新闻是视频还是文章
                 if (TextUtils.equals(news.article_genre, ConstanceValue.ARTICLE_GENRE_VIDEO)) {
                     //视频
                     Intent intent = new Intent(mContext, VideoDetailActivity.class);
+                    //拼接url字符串
                     intent.putExtra(ConstanceValue.URL, "http://m.toutiao.com".concat(news.source_url));
                     startActivity(intent);
                 } else {
@@ -110,6 +115,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
 
     @Override
     public void onGetNewsListSuccess(List<News> response) {
+        //由于最后一条重复 ，删除掉
         if (response.size() > 0) {
             response.remove(response.size() - 1);
         }

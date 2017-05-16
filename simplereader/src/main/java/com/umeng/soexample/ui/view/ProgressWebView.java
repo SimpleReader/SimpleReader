@@ -47,6 +47,7 @@ public class ProgressWebView extends WebView {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 boolean isShould;
+                //检查url是否合法
                 if (NetworkUtil.isNetworkUrl(getUrl())) {
                     view.loadUrl(getUrl());
                     isShould = true;

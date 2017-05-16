@@ -39,7 +39,9 @@ import rx.subscriptions.CompositeSubscription;
  */
 
 public abstract class BaseActivity extends AppCompatActivity {
+
     protected Context mContext;
+    //管理Observables和Subscribers
     private CompositeSubscription mCompositeSubscription;
     protected Subscription mSubscription;
 
@@ -47,15 +49,20 @@ public abstract class BaseActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mContext = this;
+        //判断sp中的字段是白天还是夜晚，查询不到默认白天
         if (SharedPreferencesMgr.getInt(ConstanceValue.SP_THEME, ConstanceValue.THEME_LIGHT) == ConstanceValue.THEME_LIGHT) {
+            //设置主题为白天模式
             setTheme(R.style.Theme_Light);
         } else {
+            //设置主题为夜晚模式
             setTheme(R.style.Theme_Night);
         }
         mSubscription = toObservable().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<Notice>() {
             @Override
             public void call(Notice notice) {
+                //收到修改主题的通知
                 if (notice.type == ConstanceValue.MSG_CHANGE_THEME) {
+                    //更改主题
                     ColorUiUtil.changeTheme(getWindow().getDecorView(), getTheme());
                 }
             }
@@ -67,9 +74,9 @@ public abstract class BaseActivity extends AppCompatActivity {
     private void setLayoutInflaterFactory() {
         LayoutInflater layoutInflater = getLayoutInflater();
         try {
+            //利用反射改成false然后在设置上去 否则系统自动setFactroy为true 报错
             Field mFactorySet = LayoutInflater.class.getDeclaredField("mFactorySet");
             mFactorySet.setAccessible(true);
-            //利用反射改成false然后在设置上去
             mFactorySet.set(layoutInflater, false);
             LayoutInflaterCompat.setFactory(layoutInflater, new SkinFactory(this));
         } catch (NoSuchFieldException e) {
@@ -148,10 +155,16 @@ public abstract class BaseActivity extends AppCompatActivity {
      */
     public void onUnsubscribe() {
         if (mCompositeSubscription != null && mCompositeSubscription.hasSubscriptions()) {
+            //退订所有的订阅
             mCompositeSubscription.unsubscribe();
         }
     }
 
+    /**
+     * 订阅
+     * @param observable
+     * @param subscriber
+     */
     public void addSubscription(Observable observable, Subscriber subscriber) {
         if (mCompositeSubscription == null) {
             mCompositeSubscription = new CompositeSubscription();
@@ -220,9 +233,13 @@ public abstract class BaseActivity extends AppCompatActivity {
         return recyclerView;
     }
 
+    /**
+     * 销毁Activity
+     */
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        //取消订阅 以防内存泄漏
         onUnsubscribe();
         if (mSubscription != null) {
             mSubscription.unsubscribe();

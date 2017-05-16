@@ -2,8 +2,8 @@
 <resources>
     <!--首页tab标题-->
     <string-array name="tab_titles">
-       <!-- <item>推荐</item>
-        <item>视频</item>-->
+       <!-- <item>推荐</item>-->
+        <item>视频</item>
         <item>热点</item>
         <item>社会</item>
         <item>娱乐</item>
@@ -27,9 +27,9 @@
 
     <!--标题对应的id-->
     <string-array name="tab_titles_code">
-        <item>__all__</item>
-        <!--<item>video</item>
-        <item>news_hot</item>-->
+        <!--<item>__all__</item>-->
+        <item>video</item>
+        <item>news_hot</item>
         <item>news_society</item>
         <item>news_entertainment</item>
         <item>news_tech</item>

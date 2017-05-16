@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="jiecaovideoplayer-release-">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/1137769447e60a58be4fb50bb4868fd5822d7754/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/1137769447e60a58be4fb50bb4868fd5822d7754/output/res" />
+      <root url="jar://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/jiecaovideoplayer-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/simplereader/build/intermediates/exploded-aar/jiecaovideoplayer-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

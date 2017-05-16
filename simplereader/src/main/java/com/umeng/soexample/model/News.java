@@ -43,7 +43,7 @@ public class News {
     public String source;
     public boolean more_mode;
     public boolean is_feed_ad;
-    public int comment_counts;
+    public int comments_count;
     public boolean has_gallery;
     public boolean single_mode;
     public String image_url;
@@ -69,7 +69,7 @@ public class News {
                 ", source='" + source + '\'' +
                 ", more_mode=" + more_mode +
                 ", is_feed_ad=" + is_feed_ad +
-                ", comment_counts=" + comment_counts +
+                ", comment_counts=" + comments_count +
                 ", has_gallery=" + has_gallery +
                 ", single_mode=" + single_mode +
                 ", image_url='" + image_url + '\'' +

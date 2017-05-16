@@ -29,8 +29,10 @@ public class SkinFactory implements LayoutInflaterFactory {
     @Override
     public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
         View view = null;
+        //是否需要替换成自定义View
         boolean isColorUi = attrs.getAttributeBooleanValue("http://schemas.android.com/apk/res-auto", "isColorUi", false);
         if (!isColorUi) {
+            //不需要替换 直接走系统的onCreateView()
             return delegateCreateView(parent, name, context, attrs);
         }
         switch (name) {

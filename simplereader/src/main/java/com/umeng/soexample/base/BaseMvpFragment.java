@@ -26,6 +26,9 @@ public abstract class BaseMvpFragment<P extends BasePresenter> extends BaseFragm
         super.onViewCreated(view, savedInstanceState);
     }
 
+    /**
+     * 懒加载
+     */
     @Override
     protected void lazyLoad() {
         if (mvpPresenter == null) {
@@ -44,6 +47,12 @@ public abstract class BaseMvpFragment<P extends BasePresenter> extends BaseFragm
         }*/
     }
 
+    /**
+     * 初始化Recyclerview 设置适配器
+     * @param adapter
+     * @param decoration
+     * @return
+     */
     public RecyclerView initCommonRecyclerView(BaseQuickAdapter adapter, RecyclerView.ItemDecoration decoration) {
         RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recycleView);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));

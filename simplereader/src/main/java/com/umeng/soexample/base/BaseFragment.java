@@ -45,7 +45,6 @@ public abstract class BaseFragment extends Fragment {
         mSubscription = toObservable().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<Notice>() {
             @Override
             public void call(Notice notice) {
-
             }
         });
     }
@@ -79,6 +78,10 @@ public abstract class BaseFragment extends Fragment {
         }
     }
 
+    /**
+     * 是否对用户可见
+     * @param isVisibleToUser
+     */
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);

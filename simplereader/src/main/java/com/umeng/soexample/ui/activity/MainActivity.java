@@ -106,6 +106,10 @@ public class MainActivity extends BaseActivity {
 
     }
 
+    /**
+     * viewpager预加载fragment
+     * @param viewPager
+     */
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new HomeFragment()); //新闻页面
@@ -117,7 +121,7 @@ public class MainActivity extends BaseActivity {
     }
 
     /**
-     * 初始化图标信息
+     * 初始化图标信息-天气
      */
     private void initIcon(){
         SharedPreferencesMgr.setInt("未知", R.mipmap.none);

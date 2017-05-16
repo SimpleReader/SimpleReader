@@ -91,6 +91,11 @@ public class DateUtils {
         return null;
     }
 
+    /**
+     * 仅得到日期
+     * @param dateStr
+     * @return
+     */
     public static Date getOnlyDate(String dateStr){
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         try {

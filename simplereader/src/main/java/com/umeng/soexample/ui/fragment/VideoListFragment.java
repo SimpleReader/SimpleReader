@@ -16,6 +16,7 @@ import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerManager;
  */
 
 public class VideoListFragment extends NewsListFragment {
+
     @Override
     protected BaseQuickAdapter createAdapter() {
         return mAdapter = new VideoAdapter(mDatas);

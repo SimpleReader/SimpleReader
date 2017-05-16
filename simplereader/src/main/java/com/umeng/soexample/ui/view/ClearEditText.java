@@ -83,9 +83,9 @@ public class ClearEditText extends AppCompatEditText implements View.OnTouchList
          * 比如一个view 他的左上坐标是0，0，正常你放个viewchild上去，如果不指定坐标，就是放在了0，0点，
          * 如果设置了paddingleft是20，那么viewchild就会放在20,0的位置，左边就会出现20像素单位的空区域
          */
-        if(mOnTouchListener!=null && x>getWidth() - getPaddingRight() - mClearTextIcon.getIntrinsicWidth()){
+        if(/*mOnTouchListener!=null && */x>getWidth() - getPaddingRight() - mClearTextIcon.getIntrinsicWidth()){
             if(motionEvent.getAction() == MotionEvent.ACTION_UP){//用户抬起了手指
-                setError("null");
+                //setError("null");
                 setText("");
             }
             return true;

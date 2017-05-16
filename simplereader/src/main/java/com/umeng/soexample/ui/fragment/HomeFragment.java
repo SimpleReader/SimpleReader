@@ -56,18 +56,26 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
 
     @Override
     protected void processLogic() {
+        //获取新闻对应的标题
         titles = getResources().getStringArray(R.array.tab_titles);
+        //获取新闻栏目字段
         titlesCode = getResources().getStringArray(R.array.tab_titles_code);
         List<BaseFragment> fragments = new ArrayList<>();
+        //循环添加多个栏目对应的fragment
         for (int i = 0; i < titles.length; i++) {
             NewsListFragment fragment = new NewsListFragment();
+            //fragment利用bundle传递数据
             Bundle bundle = new Bundle();
             bundle.putString(ConstanceValue.DATA, titlesCode[i]);
             fragment.setArguments(bundle);
             fragments.add(fragment);
         }
+        //默认加载当前页面的左右两个页面
+        //当前页面是fragment嵌套fragment，所以要使用getChildFragmentManager()；
         viewPager.setAdapter(new TitlePagerAdapter(getChildFragmentManager(), fragments, titles));
+        //设置预加载全部界面
         viewPager.setOffscreenPageLimit(titles.length);
+        //滚动tabs 不完全显示 fixed是固定宽度
         tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);//tablayout的滑动模式
         tabLayout.setupWithViewPager(viewPager);
     }

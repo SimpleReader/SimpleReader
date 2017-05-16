@@ -32,7 +32,9 @@
                 android:layout_gravity="center"
                 android:textSize="@dimen/weather_city"
                 android:textColor="?attr/font_color"
-                android:text="@string/default_city"/>
+                android:text="@string/default_city"
+                card_view:isColorUi="true"
+                />
 
             <!--天气图标-->
             <ImageView
@@ -60,7 +62,8 @@
                 android:layout_height="wrap_content"
                 android:layout_toLeftOf="@+id/temp_layout"
                 android:textSize="50sp"
-                android:textColor="?attr/font_color"/>
+                android:textColor="?attr/font_color"
+                card_view:isColorUi="true"/>
 
             <LinearLayout
                 android:id="@+id/temp_layout"
@@ -74,7 +77,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
-                    android:textColor="?attr/font_color" />
+                    android:textColor="?attr/font_color"
+                    card_view:isColorUi="true"/>
 
                 <!--最低温度-->
                 <TextView
@@ -83,7 +87,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:textColor="?attr/font_color"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp"
+                    card_view:isColorUi="true"/>
 
             </LinearLayout>
 
@@ -104,7 +109,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="12dp"
                 android:textColor="?attr/font_color"
-                android:textSize="12sp"/>
+                android:textSize="12sp"
+                card_view:isColorUi="true"/>
 
             <!--空气质量-->
             <TextView
@@ -112,7 +118,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="?attr/font_color"
-                android:textSize="12sp"/>
+                android:textSize="12sp"
+                card_view:isColorUi="true"/>
 
         </LinearLayout>
     </RelativeLayout>
